@@ -26,7 +26,7 @@ public class FoodResource extends BaseResource {
 
         FoodItem item = getJdbcTemplate().queryForObject("SELECT * FROM FOOD_DES, FD_GROUP WHERE FOOD_DES.NDB_NO = ? AND FOOD_DES.FDGRP_CD = FD_GROUP.FDGRP_CD", new String[]{ndbNo}, new FoodItemRowMapper());
         if (nutrients) {
-            List<Nutrient> nutrientList = getJdbcTemplate().query("SELECT nutr_desc, nutr_val, units FROM nut_data, nutr_def WHERE nut_data.NUTR_NO = nutr_def.NUTR_NO AND ndb_no = ? ORDER BY sr_order ASC", new String[]{ndbNo}, new RowMapper<Nutrient>() {
+            List<Nutrient> nutrientList = getJdbcTemplate().query("SELECT nutr_desc, nutr_val, units FROM NUT_DATA, NUTR_DEF WHERE nut_data.NUTR_NO = nutr_def.NUTR_NO AND ndb_no = ? ORDER BY sr_order ASC", new String[]{ndbNo}, new RowMapper<Nutrient>() {
                 @Override
                 public Nutrient mapRow(ResultSet resultSet, int i) throws SQLException {
                     Nutrient nutrient = new Nutrient();
