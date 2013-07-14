@@ -3,16 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="d3d0b94e-bbc0-4a3d-b336-9095b56da305" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/glennbech/usda/resource/FoodResource.java" afterPath="$PROJECT_DIR$/src/main/java/com/glennbech/usda/resource/FoodResource.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-config.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="rs22-server.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1373793039247" ignored="false" />
     <file path="/pom.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1373752295680" ignored="false" />
     <file path="/spring-config.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1373753080018" ignored="false" />
-    <file path="/FoodResource.java" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1373794696426" ignored="false" />
+    <file path="/FoodResource.java" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1373795154193" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +87,7 @@
       <file leaf-file-name="FoodResource.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/glennbech/usda/resource/FoodResource.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="133" selection-start="1549" selection-end="1549" vertical-scroll-proportion="0.8105263">
+            <state line="27" column="172" selection-start="867" selection-end="867" vertical-scroll-proportion="0.6052632">
               <folding />
             </state>
           </provider>
@@ -99,7 +96,7 @@
       <file leaf-file-name="spring-config.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-config.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="60" selection-start="587" selection-end="589" vertical-scroll-proportion="-5.2">
+            <state line="13" column="78" selection-start="699" selection-end="699" vertical-scroll-proportion="-6.76">
               <folding />
             </state>
           </provider>
@@ -521,13 +518,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="60" selection-start="587" selection-end="589" vertical-scroll-proportion="-5.2">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="18" selection-start="432" selection-end="432" vertical-scroll-proportion="0.0">
@@ -535,9 +525,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="78" selection-start="699" selection-end="699" vertical-scroll-proportion="-6.76">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/glennbech/usda/resource/FoodResource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="133" selection-start="1549" selection-end="1549" vertical-scroll-proportion="0.8105263">
+        <state line="27" column="172" selection-start="867" selection-end="867" vertical-scroll-proportion="0.6052632">
           <folding />
         </state>
       </provider>
