@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d3d0b94e-bbc0-4a3d-b336-9095b56da305" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/glennbech/usda/MasShapeFilter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_servlet_api_2_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/rs22_server_war.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/rs22_server_war_exploded.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/1" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rs22-server.iml" afterPath="$PROJECT_DIR$/rs22-server.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="rs22-server.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,7 +17,7 @@
     <file path="/WeightData.java" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1373897879383" ignored="false" />
     <file path="/FoodItem.java" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1373903820213" ignored="false" />
     <file path="/MasShapeFilter.java" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1373908306404" ignored="false" />
-    <file path="/web.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1373907777543" ignored="false" />
+    <file path="/web.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1373908483351" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,19 +125,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FoodItem.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="FoodItem.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/glennbech/usda/model/FoodItem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="4" selection-start="981" selection-end="981" vertical-scroll-proportion="0.0">
+            <state line="46" column="4" selection-start="981" selection-end="981" vertical-scroll-proportion="-3.791237">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MasShapeFilter.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="MasShapeFilter.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/glennbech/usda/MasShapeFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="14" selection-start="1098" selection-end="1098" vertical-scroll-proportion="0.73195875">
+            <state line="18" column="33" selection-start="356" selection-end="368" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -175,7 +166,7 @@
       <file leaf-file-name="web.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="48" selection-start="1273" selection-end="1273" vertical-scroll-proportion="0.0">
+            <state line="13" column="37" selection-start="553" selection-end="553" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -218,8 +209,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/glennbech/usda/model/BaseItem.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/glennbech/usda/model/FoodItem.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/glennbech/usda/MasShapeFilter.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
       </list>
     </option>
   </component>
@@ -656,13 +647,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/glennbech/usda/model/FoodItem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="4" selection-start="981" selection-end="981" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_21.jdk/Contents/Home/jre/lib/rt.jar!/com/sun/net/httpserver/HttpExchange.class">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="22" selection-start="174" selection-end="174" vertical-scroll-proportion="0.0">
@@ -677,19 +661,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/glennbech/usda/MasShapeFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="33" selection-start="356" selection-end="368" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="48" selection-start="1273" selection-end="1273" vertical-scroll-proportion="0.0">
+        <state line="13" column="37" selection-start="553" selection-end="553" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/glennbech/usda/MasShapeFilter.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/glennbech/usda/model/FoodItem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="14" selection-start="1098" selection-end="1098" vertical-scroll-proportion="0.73195875">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="46" column="4" selection-start="981" selection-end="981" vertical-scroll-proportion="-3.791237">
+          <folding />
         </state>
       </provider>
     </entry>
