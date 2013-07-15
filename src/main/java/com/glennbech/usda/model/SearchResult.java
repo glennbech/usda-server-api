@@ -16,6 +16,7 @@ public  class SearchResult<T> {
     private int pageSize;
     private List<T> results ;
 
+    private String attribution = "U. S. Department of Agriculture." ;
 
     @JsonInclude(JsonInclude.Include.ALWAYS)
     public int getTotalPages() {
@@ -52,5 +53,13 @@ public  class SearchResult<T> {
 
     public void setResults(List<T> results) {
         this.results = results;
+    }
+
+    public String getAttribution() {
+        return attribution;
+    }
+
+    public void setAttribution(String attribution) {
+        this.attribution = attribution;
     }
 }

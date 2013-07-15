@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d3d0b94e-bbc0-4a3d-b336-9095b56da305" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/glennbech/usda/model/BaseItem.java" afterPath="$PROJECT_DIR$/src/main/java/com/glennbech/usda/model/BaseItem.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/glennbech/usda/model/SearchResult.java" afterPath="$PROJECT_DIR$/src/main/java/com/glennbech/usda/model/SearchResult.java" />
     </list>
     <ignored path="rs22-server.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -102,7 +103,7 @@
       <file leaf-file-name="BaseItem.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/glennbech/usda/model/BaseItem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="4" selection-start="631" selection-end="631" vertical-scroll-proportion="0.8945946">
+            <state line="25" column="0" selection-start="390" selection-end="390" vertical-scroll-proportion="0.7189189">
               <folding />
             </state>
           </provider>
@@ -111,7 +112,7 @@
       <file leaf-file-name="SearchResult.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/glennbech/usda/model/SearchResult.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="71" selection-start="502" selection-end="502" vertical-scroll-proportion="0.0">
+            <state line="17" column="0" selection-start="375" selection-end="375" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -187,8 +188,8 @@
         <option value="$PROJECT_DIR$/src/main/resources/database.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/database_dev.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/glennbech/usda/resource/FoodResource.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/glennbech/usda/model/SearchResult.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-config.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/glennbech/usda/model/SearchResult.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/glennbech/usda/model/BaseItem.java" />
       </list>
     </option>
@@ -631,15 +632,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/glennbech/usda/model/SearchResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="71" selection-start="502" selection-end="502" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-config.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="23" column="37" selection-start="1120" selection-end="1120" vertical-scroll-proportion="-10.08">
@@ -654,9 +646,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/glennbech/usda/model/SearchResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="0" selection-start="375" selection-end="375" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/glennbech/usda/model/BaseItem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="4" selection-start="631" selection-end="631" vertical-scroll-proportion="0.8945946">
+        <state line="25" column="0" selection-start="390" selection-end="390" vertical-scroll-proportion="0.7189189">
           <folding />
         </state>
       </provider>
