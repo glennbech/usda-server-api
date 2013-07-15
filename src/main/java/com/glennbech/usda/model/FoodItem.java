@@ -179,5 +179,11 @@ public class FoodItem extends BaseItem  {
         this.proteinFactor = proteinFactor;
     }
 
+    public List<WeightData> getWeightData() {
+        return weightData;
+    }
 
+    public void setWeightData(List<WeightData> weightData) {
+        this.weightData = weightData;
+    }
 }
