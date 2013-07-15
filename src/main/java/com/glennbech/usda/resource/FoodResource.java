@@ -26,42 +26,47 @@ public class FoodResource extends BaseResource {
     @Path("/{ndb_no}")
     public Response getFoodByIdentifier(@PathParam("ndb_no") final String ndbNo, @QueryParam(value = "nutrients") boolean nutrients, @QueryParam(value = "weight") boolean weight) throws IOException {
 
-        FoodItem item = getJdbcTemplate().queryForObject("SELECT * FROM FOOD_DES, FD_GROUP WHERE FOOD_DES.NDB_NO = ? AND FOOD_DES.FDGRP_CD = FD_GROUP.FDGRP_CD", new String[]{ndbNo}, new FoodItemRowMapper());
-        if (nutrients) {
-            List<Nutrient> nutrientList = getJdbcTemplate().query("SELECT nutr_desc, nutr_val, units FROM NUT_DATA, NUTR_DEF WHERE NUT_DATA.NUTR_NO = NUTR_DEF.NUTR_NO AND ndb_no = ? ORDER BY sr_order ASC", new String[]{ndbNo}, new RowMapper<Nutrient>() {
-                @Override
-                public Nutrient mapRow(ResultSet resultSet, int i) throws SQLException {
-                    Nutrient nutrient = new Nutrient();
-                    nutrient.setDescription(resultSet.getString("nutr_desc"));
-                    nutrient.setUnits(resultSet.getString("units"));
-                    nutrient.setValue(resultSet.getFloat("nutr_val"));
-                    return nutrient;
-                }
-            });
-            item.setNutrients(nutrientList);
-        }
+        Response response;
 
-        if (weight) {
-            List<WeightData> weightData = getJdbcTemplate().query("SELECT * FROM WEIGHT WHERE NDB_NO = ? ", new String[]{ndbNo}, new RowMapper<WeightData>() {
-                @Override
-                public WeightData mapRow(ResultSet resultSet, int i) throws SQLException {
-                    WeightData data = new WeightData();
-                    data.setAmount(resultSet.getFloat("AMOUNT"));
-                    data.setDatapoints(resultSet.getInt("NUM_DATA_PTS"));
-                    data.setGramweight(resultSet.getFloat("GM_WGT"));
-                    data.setMeasureDescription(resultSet.getString("MSRE_DESC"));
-                    data.setSequenceNumber(resultSet.getInt("SEQ"));
-                    data.setStandardDeviation(resultSet.getFloat("STD_DEV"));
-                    return data;
-                }
-            });
-            item.setWeightData(weightData);
-        }
+        List<FoodItem> items = getJdbcTemplate().query("SELECT * FROM FOOD_DES, FD_GROUP WHERE FOOD_DES.NDB_NO = ? AND FOOD_DES.FDGRP_CD = FD_GROUP.FDGRP_CD", new String[]{ndbNo}, new FoodItemRowMapper());
+        if (items.size() == 0) {
+            response = Response.status(Response.Status.NOT_FOUND).entity("No food item with ndbNumber" + ndbNo + " found").build();
 
-        if (item != null)
-            return Response.ok(item).build();
-        else
-            return Response.status(400).build();
+        } else {
+            FoodItem item = items.get(0);
+            if (nutrients) {
+                List<Nutrient> nutrientList = getJdbcTemplate().query("SELECT nutr_desc, nutr_val, units FROM NUT_DATA, NUTR_DEF WHERE NUT_DATA.NUTR_NO = NUTR_DEF.NUTR_NO AND ndb_no = ? ORDER BY sr_order ASC", new String[]{ndbNo}, new RowMapper<Nutrient>() {
+                    @Override
+                    public Nutrient mapRow(ResultSet resultSet, int i) throws SQLException {
+                        Nutrient nutrient = new Nutrient();
+                        nutrient.setDescription(resultSet.getString("nutr_desc"));
+                        nutrient.setUnits(resultSet.getString("units"));
+                        nutrient.setValue(resultSet.getFloat("nutr_val"));
+                        return nutrient;
+                    }
+                });
+                item.setNutrients(nutrientList);
+            }
+
+            if (weight) {
+                List<WeightData> weightData = getJdbcTemplate().query("SELECT * FROM WEIGHT WHERE NDB_NO = ? ", new String[]{ndbNo}, new RowMapper<WeightData>() {
+                    @Override
+                    public WeightData mapRow(ResultSet resultSet, int i) throws SQLException {
+                        WeightData data = new WeightData();
+                        data.setAmount(resultSet.getFloat("AMOUNT"));
+                        data.setDatapoints(resultSet.getInt("NUM_DATA_PTS"));
+                        data.setGramweight(resultSet.getFloat("GM_WGT"));
+                        data.setMeasureDescription(resultSet.getString("MSRE_DESC"));
+                        data.setSequenceNumber(resultSet.getInt("SEQ"));
+                        data.setStandardDeviation(resultSet.getFloat("STD_DEV"));
+                        return data;
+                    }
+                });
+                item.setWeightData(weightData);
+            }
+            response = Response.ok().entity(item).build();
+        }
+        return response;
     }
 
     @GET
@@ -69,10 +74,15 @@ public class FoodResource extends BaseResource {
     @Path("/search/{criteria}")
     public Response search(@PathParam("criteria") String criteria, @QueryParam("page") Integer page, @QueryParam("pagesize") Integer pagesize) {
 
+        Response response;
+
         pagesize = (pagesize == null) ? 10 : pagesize;
         page = (page == null) ? 0 : page;
 
-        Response response;
+        if (pagesize > 50) {
+            return Response.status(Response.Status.BAD_REQUEST).entity("Please use a pagesize of 50 or below").build();
+        }
+
         if (criteria == null || criteria.length() < 3) {
             response = Response.status(400).entity("Search critera must be at least 3 characters").build();
         } else {

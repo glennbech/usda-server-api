@@ -9,7 +9,6 @@ import java.util.List;
  */
 
 @JsonIgnoreProperties(ignoreUnknown = true )
-
 public class FoodItem extends BaseItem  {
 
     private String ndbNumber;
@@ -178,7 +177,7 @@ public class FoodItem extends BaseItem  {
     public void setProteinFactor(Float proteinFactor) {
         this.proteinFactor = proteinFactor;
     }
-
+s
     public List<WeightData> getWeightData() {
         return weightData;
     }
