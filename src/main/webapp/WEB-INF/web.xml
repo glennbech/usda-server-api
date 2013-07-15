@@ -9,6 +9,7 @@
         <welcome-file>/WEB-INF/index.jsp</welcome-file>
     </welcome-file-list>
 
+
     <servlet>
         <servlet-name>JSONApplication</servlet-name>
         <servlet-class>com.sun.jersey.spi.container.servlet.ServletContainer</servlet-class>
@@ -30,6 +31,16 @@
         <servlet-name>JSONApplication</servlet-name>
         <url-pattern>/api/*</url-pattern>
     </servlet-mapping>
+
+    <filter>
+        <filter-name>MashapeFilter</filter-name>
+        <filter-class>com.glennbech.usda.MasShapeFilter</filter-class>
+    </filter>
+
+    <filter-mapping>
+        <filter-name>MashapeFilter</filter-name>
+        <url-pattern>/api/*</url-pattern>
+    </filter-mapping>
 
 
     <context-param>
