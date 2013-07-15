@@ -13,15 +13,4 @@ import java.util.List;
 @JsonInclude (JsonInclude.Include.NON_NULL)
 public class BaseItem {
 
-    private List<URI> links;
-
-
-    public List<URI> getLinks() {
-        return links;
-    }
-
-    public void setLinks(List<URI> links) {
-        this.links = links;
-    }
-
 }

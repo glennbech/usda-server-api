@@ -3,10 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="d3d0b94e-bbc0-4a3d-b336-9095b56da305" name="Default" comment="">
       <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/1" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/glennbech/usda/model/BaseItem.java" afterPath="$PROJECT_DIR$/src/main/java/com/glennbech/usda/model/BaseItem.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/glennbech/usda/model/FoodItem.java" afterPath="$PROJECT_DIR$/src/main/java/com/glennbech/usda/model/FoodItem.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/glennbech/usda/resource/FoodResource.java" afterPath="$PROJECT_DIR$/src/main/java/com/glennbech/usda/resource/FoodResource.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/glennbech/usda/model/WeightData.java" afterPath="$PROJECT_DIR$/src/main/java/com/glennbech/usda/model/WeightData.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-config.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-config.xml" />
     </list>
     <ignored path="rs22-server.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -19,6 +17,7 @@
     <file path="/SearchResult.java" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1373880636825" ignored="false" />
     <file path="/BaseItem.java" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1373882690156" ignored="false" />
     <file path="/WeightData.java" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1373897879383" ignored="false" />
+    <file path="/FoodItem.java" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1373903820213" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,19 +83,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="18" selection-start="432" selection-end="432" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FoodResource.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="FoodResource.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/glennbech/usda/resource/FoodResource.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="57" column="16" selection-start="2652" selection-end="2652" vertical-scroll-proportion="1.3466667">
+            <state line="28" column="49" selection-start="820" selection-end="820" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="e#1927#2633#0" expanded="true" />
                 <element signature="e#2618#2619#0" expanded="true" />
@@ -109,7 +99,7 @@
       <file leaf-file-name="BaseItem.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/glennbech/usda/model/BaseItem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="6" selection-start="389" selection-end="389" vertical-scroll-proportion="0.0">
+            <state line="16" column="76" selection-start="220" selection-end="220" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -126,10 +116,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FoodItem.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="FoodItem.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/glennbech/usda/model/FoodItem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="13" selection-start="216" selection-end="216" vertical-scroll-proportion="0.0">
+            <state line="46" column="4" selection-start="981" selection-end="981" vertical-scroll-proportion="1.4072165">
               <folding />
             </state>
           </provider>
@@ -148,6 +138,15 @@
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-config.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state line="22" column="43" selection-start="1117" selection-end="1117" vertical-scroll-proportion="-9.12">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="web.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="76" selection-start="570" selection-end="586" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -203,11 +202,11 @@
         <option value="$PROJECT_DIR$/src/main/resources/database.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/database_dev.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/glennbech/usda/model/SearchResult.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/glennbech/usda/model/BaseItem.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-config.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/glennbech/usda/model/WeightData.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/glennbech/usda/model/FoodItem.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/glennbech/usda/resource/FoodResource.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/glennbech/usda/model/BaseItem.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/glennbech/usda/model/FoodItem.java" />
       </list>
     </option>
   </component>
@@ -371,6 +370,7 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="options.lastSelected" value="MavenSettings" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+    <property name="GoToClass.includeJavaFiles" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -634,13 +634,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="43" selection-start="1117" selection-end="1117" vertical-scroll-proportion="-9.12">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/glennbech/usda/model/WeightData.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="3" selection-start="41" selection-end="41" vertical-scroll-proportion="0.0">
@@ -664,28 +657,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/glennbech/usda/resource/FoodResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="49" selection-start="820" selection-end="820" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#1927#2633#0" expanded="true" />
+            <element signature="e#2618#2619#0" expanded="true" />
+            <element signature="e#3869#3879#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="43" selection-start="1117" selection-end="1117" vertical-scroll-proportion="-9.12">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="76" selection-start="570" selection-end="586" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/glennbech/usda/model/BaseItem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="6" selection-start="389" selection-end="389" vertical-scroll-proportion="0.0">
+        <state line="16" column="76" selection-start="220" selection-end="220" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/glennbech/usda/model/FoodItem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="13" selection-start="216" selection-end="216" vertical-scroll-proportion="0.0">
+        <state line="46" column="4" selection-start="981" selection-end="981" vertical-scroll-proportion="1.4072165">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/glennbech/usda/resource/FoodResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="16" selection-start="2652" selection-end="2652" vertical-scroll-proportion="1.3466667">
-          <folding>
-            <element signature="e#1927#2633#0" expanded="true" />
-            <element signature="e#2618#2619#0" expanded="true" />
-            <element signature="e#3869#3879#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>

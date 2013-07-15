@@ -2,6 +2,7 @@ package com.glennbech.usda.model;
 
 import org.codehaus.jackson.annotate.JsonIgnoreProperties;
 
+import javax.xml.bind.annotation.XmlElement;
 import java.util.List;
 
 /**
@@ -12,41 +13,53 @@ import java.util.List;
 public class FoodItem extends BaseItem  {
 
     private String ndbNumber;
-    private String foodGroup ;
-    private String foodGroupName ;
 
+    private String foodGroup ;
     private String longDescription ;
     private String shortDescription ;
+
+    @XmlElement(nillable=true)
     private String commonName ;
+
+    @XmlElement(nillable=true)
     private String manufacturerName ;
+
+    @XmlElement(nillable=true)
     private boolean survey ;
+
+    @XmlElement(nillable=true)
     private String refuseDescription ;
+
+    @XmlElement(nillable=true)
     private Float refuse;
+
+    @XmlElement(nillable=true)
     private String scientificName ;
+
+    @XmlElement(nillable=true)
     private Float nitrogenFactor ;
+
+    @XmlElement(nillable=true)
     private Float fatFactor ;
+
+    @XmlElement(nillable=true)
     private Float choFactor;
 
+    @XmlElement(nillable=true)
     private Float proteinFactor ;
 
+    @XmlElement(nillable=true)
     private List<Nutrient> nutrients ;
 
+    @XmlElement(nillable=true)
     private List<FootNote> footNotes ;
 
+    @XmlElement(nillable=true)
     private List<WeightData> weightData ;
-
 
 
     public List<Nutrient> getNutrients() {
         return nutrients;
-    }
-
-    public String getFoodGroupName() {
-        return foodGroupName;
-    }
-
-    public void setFoodGroupName(String foodGroupName) {
-        this.foodGroupName = foodGroupName;
     }
 
     public void setNutrients(List<Nutrient> nutrients) {
@@ -166,11 +179,5 @@ public class FoodItem extends BaseItem  {
         this.proteinFactor = proteinFactor;
     }
 
-    public List<WeightData> getWeightData() {
-        return weightData;
-    }
 
-    public void setWeightData(List<WeightData> weightData) {
-        this.weightData = weightData;
-    }
 }
