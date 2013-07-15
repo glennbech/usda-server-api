@@ -36,6 +36,7 @@ public class FoodItem extends BaseItem  {
     private List<WeightData> weightData ;
 
 
+
     public List<Nutrient> getNutrients() {
         return nutrients;
     }
@@ -165,4 +166,11 @@ public class FoodItem extends BaseItem  {
         this.proteinFactor = proteinFactor;
     }
 
+    public List<WeightData> getWeightData() {
+        return weightData;
+    }
+
+    public void setWeightData(List<WeightData> weightData) {
+        this.weightData = weightData;
+    }
 }

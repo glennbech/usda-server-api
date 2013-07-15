@@ -4,6 +4,7 @@ package com.glennbech.usda.resource;
 import com.glennbech.usda.model.FoodItem;
 import com.glennbech.usda.model.Nutrient;
 import com.glennbech.usda.model.SearchResult;
+import com.glennbech.usda.model.WeightData;
 import org.springframework.jdbc.core.RowMapper;
 
 import javax.ws.rs.*;
@@ -23,7 +24,7 @@ public class FoodResource extends BaseResource {
     @GET
     @Produces("application/json")
     @Path("/{ndb_no}")
-    public Response getFoodByIdentifier(@PathParam("ndb_no") final String ndbNo, @QueryParam(value = "nutrients") boolean nutrients) throws IOException {
+    public Response getFoodByIdentifier(@PathParam("ndb_no") final String ndbNo, @QueryParam(value = "nutrients") boolean nutrients, @QueryParam(value = "weight") boolean weight) throws IOException {
 
         FoodItem item = getJdbcTemplate().queryForObject("SELECT * FROM FOOD_DES, FD_GROUP WHERE FOOD_DES.NDB_NO = ? AND FOOD_DES.FDGRP_CD = FD_GROUP.FDGRP_CD", new String[]{ndbNo}, new FoodItemRowMapper());
         if (nutrients) {
@@ -40,6 +41,23 @@ public class FoodResource extends BaseResource {
             item.setNutrients(nutrientList);
         }
 
+        if (weight) {
+            List<WeightData> weightData = getJdbcTemplate().query("SELECT * FROM WEIGHT WHERE NDB_NO = ? ", new String[]{ndbNo}, new RowMapper<WeightData>() {
+                @Override
+                public WeightData mapRow(ResultSet resultSet, int i) throws SQLException {
+                    WeightData data = new WeightData();
+                    data.setAmount(resultSet.getFloat("AMOUNT"));
+                    data.setDatapoints(resultSet.getInt("NUM_DATA_PTS"));
+                    data.setGramweight(resultSet.getFloat("GM_WGT"));
+                    data.setMeasureDescription(resultSet.getString("MSRE_DESC"));
+                    data.setSequenceNumber(resultSet.getInt("SEQ"));
+                    data.setStandardDeviation(resultSet.getFloat("STD_DEV"));
+                    return data;
+                }
+            });
+            item.setWeightData(weightData);
+        }
+
         if (item != null)
             return Response.ok(item).build();
         else
@@ -49,17 +67,17 @@ public class FoodResource extends BaseResource {
     @GET
     @Produces("application/json")
     @Path("/search/{criteria}")
-    public Response search(@PathParam("criteria") String criteria,@QueryParam("page") Integer page,@QueryParam("pagesize") Integer pagesize) {
+    public Response search(@PathParam("criteria") String criteria, @QueryParam("page") Integer page, @QueryParam("pagesize") Integer pagesize) {
 
-        pagesize = (pagesize == null) ? 10 : pagesize ;
-        page = (page == null) ? 0 : page ;
+        pagesize = (pagesize == null) ? 10 : pagesize;
+        page = (page == null) ? 0 : page;
 
         Response response;
         if (criteria == null || criteria.length() < 3) {
             response = Response.status(400).entity("Search critera must be at least 3 characters").build();
         } else {
-            Integer count  = getJdbcTemplate().queryForInt("SELECT count(*) FROM FOOD_DES WHERE match (long_desc, shrt_desc, comname, SCINAME, MANUFACNAME) against (?) ", new Object[]{criteria});
-            List<FoodItem> foodItems = getJdbcTemplate().query("SELECT * FROM FOOD_DES WHERE match (long_desc, shrt_desc, comname, SCINAME, MANUFACNAME) against (?) LIMIT ?,?", new Object[]{criteria , page*pagesize, pagesize}, new FoodItemRowMapper());
+            Integer count = getJdbcTemplate().queryForInt("SELECT count(*) FROM FOOD_DES WHERE match (long_desc, shrt_desc, comname, SCINAME, MANUFACNAME) against (?) ", new Object[]{criteria});
+            List<FoodItem> foodItems = getJdbcTemplate().query("SELECT * FROM FOOD_DES WHERE match (long_desc, shrt_desc, comname, SCINAME, MANUFACNAME) against (?) LIMIT ?,?", new Object[]{criteria, page * pagesize, pagesize}, new FoodItemRowMapper());
             SearchResult<FoodItem> result = new SearchResult<FoodItem>();
             result.setResults(foodItems);
             result.setTotalResults(count);
