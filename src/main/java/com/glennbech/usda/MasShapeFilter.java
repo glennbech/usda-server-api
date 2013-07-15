@@ -13,11 +13,15 @@ import java.io.IOException;
  */
 public class MasShapeFilter implements Filter {
 
+    public static final String MASHAPE_PROXY_SECRET = "mashapeProxySecret";
     private static String proxySecret;
 
     @Override
     public void init(FilterConfig filterConfig) throws ServletException {
-        proxySecret = filterConfig.getServletContext().getInitParameter("mashapeProxySecret");
+        proxySecret = filterConfig.getServletContext().getInitParameter(MASHAPE_PROXY_SECRET);
+        if (proxySecret == null) {
+            throw new ServletException("No context parameter with the name " + MASHAPE_PROXY_SECRET);
+        }
     }
 
     @Override
