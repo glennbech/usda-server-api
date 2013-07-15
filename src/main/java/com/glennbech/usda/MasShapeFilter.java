@@ -32,7 +32,7 @@ public class MasShapeFilter implements Filter {
 
         final boolean isLocalhost = req.getServerName().equals("localhost");
         if (!isLocalhost && proxySecret.equals(req.getHeader("X-Mashape-Proxy-Secret")) == false) {
-            res.setStatus(HttpStatus.FORBIDDEN.value());
+            res.setStatus(HttpStatus.UNAUTHORIZED.value());
             return;
         }
         filterChain.doFilter(servletRequest, servletResponse);
