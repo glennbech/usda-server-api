@@ -18,7 +18,7 @@ public class MasShapeFilter implements Filter {
 
     @Override
     public void init(FilterConfig filterConfig) throws ServletException {
-        proxySecret = filterConfig.getServletContext().getInitParameter(MASHAPE_PROXY_SECRET);
+        proxySecret = filterConfig.getInitParameter(MASHAPE_PROXY_SECRET);
         if (proxySecret == null) {
             throw new ServletException("No context parameter with the name " + MASHAPE_PROXY_SECRET);
         }

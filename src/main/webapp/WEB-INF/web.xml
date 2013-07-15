@@ -14,7 +14,6 @@
         <param-value>jcovIqJWQO7BoDwJPobOy31IUYqUDd</param-value>
     </context-param>
 
-
     <servlet>
         <servlet-name>JSONApplication</servlet-name>
         <servlet-class>com.sun.jersey.spi.container.servlet.ServletContainer</servlet-class>
@@ -40,6 +39,11 @@
     <filter>
         <filter-name>MashapeFilter</filter-name>
         <filter-class>com.glennbech.usda.MasShapeFilter</filter-class>
+        
+        <init-param>
+            <param-name>mashapeProxySecret</param-name>
+            <param-value>jcovIqJWQO7BoDwJPobOy31IUYqUDd</param-value>
+        </init-param>
     </filter>
 
     <filter-mapping>
