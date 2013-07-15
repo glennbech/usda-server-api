@@ -3,6 +3,7 @@ package com.glennbech.usda.resource;
 
 import com.glennbech.usda.model.FoodItem;
 import com.glennbech.usda.model.Nutrient;
+import com.glennbech.usda.model.SearchResult;
 import org.springframework.jdbc.core.RowMapper;
 
 import javax.ws.rs.*;
@@ -38,6 +39,7 @@ public class FoodResource extends BaseResource {
             });
             item.setNutrients(nutrientList);
         }
+
         if (item != null)
             return Response.ok(item).build();
         else
@@ -47,15 +49,23 @@ public class FoodResource extends BaseResource {
     @GET
     @Produces("application/json")
     @Path("/search/{criteria}")
-    public Response search(@PathParam("criteria") String criteria) {
+    public Response search(@PathParam("criteria") String criteria,@QueryParam("page") Integer page,@QueryParam("pagesize") Integer pagesize) {
+
+        pagesize = (pagesize == null) ? 10 : pagesize ;
+        page = (page == null) ? 0 : page ;
 
         Response response;
-
         if (criteria == null || criteria.length() < 3) {
             response = Response.status(400).entity("Search critera must be at least 3 characters").build();
         } else {
-            List<FoodItem> results = getJdbcTemplate().query("SELECT * FROM FOOD_DES WHERE match (long_desc, shrt_desc, comname, SCINAME, MANUFACNAME) against (?) LIMIT ?", new Object[]{criteria , 10}, new FoodItemRowMapper());
-            response = Response.ok(results).build();
+            Integer count  = getJdbcTemplate().queryForInt("SELECT count(*) FROM FOOD_DES WHERE match (long_desc, shrt_desc, comname, SCINAME, MANUFACNAME) against (?) ", new Object[]{criteria});
+            List<FoodItem> foodItems = getJdbcTemplate().query("SELECT * FROM FOOD_DES WHERE match (long_desc, shrt_desc, comname, SCINAME, MANUFACNAME) against (?) LIMIT ?,?", new Object[]{criteria , page*pagesize, pagesize}, new FoodItemRowMapper());
+            SearchResult<FoodItem> result = new SearchResult<FoodItem>();
+            result.setResults(foodItems);
+            result.setTotalResults(count);
+            result.setCurrentPage(page);
+            result.setPageSize(pagesize);
+            response = Response.ok(result).build();
         }
         return response;
     }
@@ -78,7 +88,6 @@ public class FoodResource extends BaseResource {
             foodItem.setFatFactor(resultSet.getFloat("FAT_FACTOR"));
             foodItem.setChoFactor(resultSet.getFloat("CHO_FACTOR"));
             foodItem.setProteinFactor(resultSet.getFloat("PRO_FACTOR"));
-
             return foodItem;
         }
     }
