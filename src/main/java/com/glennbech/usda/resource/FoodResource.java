@@ -87,7 +87,7 @@ public class FoodResource extends BaseResource {
             response = Response.status(400).entity("Search critera must be at least 3 characters").build();
         } else {
             Integer count = getJdbcTemplate().queryForInt("SELECT count(*) FROM FOOD_DES WHERE match (long_desc, shrt_desc, comname, SCINAME, MANUFACNAME) against (?) ", new Object[]{criteria});
-            List<FoodItem> foodItems = getJdbcTemplate().query("SELECT * FROM FOOD_DES,FD_GROUP WHERE FOOD_DES.FDGRP_CD = FD_GROUP.FDGRP_CD match (long_desc, shrt_desc, comname, SCINAME, MANUFACNAME) against (?) LIMIT ?,?", new Object[]{criteria, page * pagesize, pagesize}, new FoodItemRowMapper());
+            List<FoodItem> foodItems = getJdbcTemplate().query("SELECT * FROM FOOD_DES,FD_GROUP WHERE FOOD_DES.FDGRP_CD = FD_GROUP.FDGRP_CD and match (long_desc, shrt_desc, comname, SCINAME, MANUFACNAME) against (?) LIMIT ?,?", new Object[]{criteria, page * pagesize, pagesize}, new FoodItemRowMapper());
             SearchResult<FoodItem> result = new SearchResult<FoodItem>();
             result.setResults(foodItems);
             result.setTotalResults(count);
