@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d3d0b94e-bbc0-4a3d-b336-9095b56da305" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/.move_db_to_rds.sh.swp" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/glennbech/usda/resource/FoodResource.java" afterPath="$PROJECT_DIR$/src/main/java/com/glennbech/usda/resource/FoodResource.java" />
     </list>
     <ignored path="rs22-server.iws" />
@@ -119,7 +120,7 @@
       <file leaf-file-name="FoodResource.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/glennbech/usda/resource/FoodResource.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="89" column="139" selection-start="4216" selection-end="4216" vertical-scroll-proportion="0.17832957">
+            <state line="115" column="54" selection-start="5796" selection-end="5796" vertical-scroll-proportion="0.5891648">
               <folding />
             </state>
           </provider>
@@ -774,7 +775,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/glennbech/usda/resource/FoodResource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="89" column="139" selection-start="4216" selection-end="4216" vertical-scroll-proportion="0.17832957">
+        <state line="115" column="54" selection-start="5796" selection-end="5796" vertical-scroll-proportion="0.5891648">
           <folding />
         </state>
       </provider>

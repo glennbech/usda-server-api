@@ -113,7 +113,7 @@ public class FoodResource extends BaseResource {
             foodItem.setRefuseDescription(resultSet.getString("REF_DESC"));
             foodItem.setRefuse(resultSet.getFloat("REFUSE"));
             foodItem.setScientificName(resultSet.getString("SCINAME"));
-            foodItem.setNitrogenFactor(resultSet.getFleoat("N_FACTOR"));
+            foodItem.setNitrogenFactor(resultSet.getFloat("N_FACTOR"));
             foodItem.setFatFactor(resultSet.getFloat("FAT_FACTOR"));
             foodItem.setChoFactor(resultSet.getFloat("CHO_FACTOR"));
             foodItem.setProteinFactor(resultSet.getFloat("PRO_FACTOR"));
