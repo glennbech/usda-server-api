@@ -2,7 +2,7 @@ package com.glennbech.usda.resource;
 
 
 import com.glennbech.usda.model.FoodItem;
-import com.glennbech.usda.model.Nutrient;
+import com.glennbech.usda.model.NutrientValue;
 import com.glennbech.usda.model.SearchResult;
 import com.glennbech.usda.model.WeightData;
 import org.springframework.jdbc.core.RowMapper;
@@ -18,7 +18,7 @@ import java.util.List;
  *
  */
 
-@Path("/food")
+@Path("/fooditems")
 public class FoodResource extends BaseResource {
 
     @GET
@@ -35,10 +35,10 @@ public class FoodResource extends BaseResource {
         } else {
             FoodItem item = items.get(0);
             if (nutrients) {
-                List<Nutrient> nutrientList = getJdbcTemplate().query("SELECT nutr_desc, nutr_val, units FROM NUT_DATA, NUTR_DEF WHERE NUT_DATA.NUTR_NO = NUTR_DEF.NUTR_NO AND ndb_no = ? ORDER BY sr_order ASC", new String[]{ndbNo}, new RowMapper<Nutrient>() {
+                List<NutrientValue> nutrientList = getJdbcTemplate().query("SELECT nutr_desc, nutr_val, units FROM NUT_DATA, NUTR_DEF WHERE NUT_DATA.NUTR_NO = NUTR_DEF.NUTR_NO AND ndb_no = ? ORDER BY sr_order ASC", new String[]{ndbNo}, new RowMapper<NutrientValue>() {
                     @Override
-                    public Nutrient mapRow(ResultSet resultSet, int i) throws SQLException {
-                        Nutrient nutrient = new Nutrient();
+                    public NutrientValue mapRow(ResultSet resultSet, int i) throws SQLException {
+                        NutrientValue nutrient = new NutrientValue();
                         nutrient.setDescription(resultSet.getString("nutr_desc"));
                         nutrient.setUnits(resultSet.getString("units"));
                         nutrient.setValue(resultSet.getFloat("nutr_val"));
@@ -103,9 +103,10 @@ public class FoodResource extends BaseResource {
         public FoodItem mapRow(ResultSet resultSet, int i) throws SQLException {
             FoodItem foodItem = new FoodItem();
             foodItem.setNdbNumber(resultSet.getString("NDB_NO"));
-            foodItem.setFoodGroup(resultSet.getString("FDGRP_CD"));
+            foodItem.setFoodGroupNumber(resultSet.getString("FDGRP_CD"));
             foodItem.setShortDescription(resultSet.getString("SHRT_DESC"));
             foodItem.setLongDescription(resultSet.getString("LONG_DESC"));
+            foodItem.setFoodGroupName(resultSet.getString("FD_GROUP.FDGRP_DESC"));
             foodItem.setCommonName(resultSet.getString("COMNAME"));
             foodItem.setSurvey("Y".equals(resultSet.getString("SURVEY")));
             foodItem.setManufacturerName(resultSet.getString("MANUFACNAME"));

@@ -13,7 +13,9 @@ public class FoodItem extends BaseItem  {
 
     private String ndbNumber;
 
-    private String foodGroup ;
+    private String foodGroupNumber;
+    private String foodGroupName;
+
     private String longDescription ;
     private String shortDescription ;
 
@@ -48,7 +50,7 @@ public class FoodItem extends BaseItem  {
     private Float proteinFactor ;
 
     @XmlElement(nillable=true)
-    private List<Nutrient> nutrients ;
+    private List<NutrientValue> nutrients ;
 
     @XmlElement(nillable=true)
     private List<FootNote> footNotes ;
@@ -56,12 +58,19 @@ public class FoodItem extends BaseItem  {
     @XmlElement(nillable=true)
     private List<WeightData> weightData ;
 
+    public String getFoodGroupName() {
+        return foodGroupName;
+    }
 
-    public List<Nutrient> getNutrients() {
+    public void setFoodGroupName(String foodGroupName) {
+        this.foodGroupName = foodGroupName;
+    }
+
+    public List<NutrientValue> getNutrients() {
         return nutrients;
     }
 
-    public void setNutrients(List<Nutrient> nutrients) {
+    public void setNutrients(List<NutrientValue> nutrients) {
         this.nutrients = nutrients;
     }
 
@@ -73,13 +82,13 @@ public class FoodItem extends BaseItem  {
         this.ndbNumber = ndbNumber;
     }
 
-    public String getFoodGroup() {
-        return foodGroup;
+    public String getFoodGroupNumber() {
+        return foodGroupNumber;
     }
 
 
-    public void setFoodGroup(String foodGroup) {
-        this.foodGroup = foodGroup;
+    public void setFoodGroupNumber(String foodGroupNumber) {
+        this.foodGroupNumber = foodGroupNumber;
     }
 
     public String getLongDescription() {

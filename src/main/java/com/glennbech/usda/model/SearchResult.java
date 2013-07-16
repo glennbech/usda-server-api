@@ -11,7 +11,6 @@ import java.util.List;
 @JsonIgnoreProperties(ignoreUnknown = true )
 public  class SearchResult<T> {
 
-    private int totalResults ;
     private int currentPage;
     private int pageSize;
     private List<T> results ;
@@ -20,7 +19,7 @@ public  class SearchResult<T> {
 
     @JsonInclude(JsonInclude.Include.ALWAYS)
     public int getTotalPages() {
-        return totalResults/pageSize +1 ;
+        return getTotalResults()/pageSize +1 ;
     }
 
     public int getPageSize() {
@@ -31,12 +30,12 @@ public  class SearchResult<T> {
         this.pageSize = pageSize;
     }
 
+    @JsonInclude(JsonInclude.Include.ALWAYS)
     public int getTotalResults() {
-        return totalResults;
+        return results  != null ? results.size()  : 0 ;
     }
 
     public void setTotalResults(int totalResults) {
-        this.totalResults = totalResults;
     }
 
     public int getCurrentPage() {

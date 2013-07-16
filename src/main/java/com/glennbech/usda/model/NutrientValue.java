@@ -3,13 +3,13 @@ package com.glennbech.usda.model;
 /**
  *
  */
-public class Nutrient {
+public class NutrientValue {
 
     private String description ;
     private float value ;
     private String units;
 
-    public Nutrient() {
+    public NutrientValue() {
     }
 
 
