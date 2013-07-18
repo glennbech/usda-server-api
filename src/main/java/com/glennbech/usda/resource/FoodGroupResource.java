@@ -22,7 +22,7 @@ public class FoodGroupResource extends BaseResource {
     @Produces("application/json")
     public Response getFoodGroups() throws IOException {
 
-        List<FoodGroup> foodGroups = getJdbcTemplate().query("select fd_group.fdgrp_cd, fdgrp_desc, count(*) as 'count' from food_des, fd_group where food_des.fdgrp_cd = fd_group.fdgrp_cd group by fdgrp_desc order by count desc", new RowMapper<FoodGroup>() {
+        List<FoodGroup> foodGroups = getJdbcTemplate().query("select FD_GROUP.fdgrp_cd, fdgrp_desc, count(*) as 'count' from FOOD_DES, FD_GROUP where FOOD_DES.fdgrp_cd = FD_GROUP.fdgrp_cd group by fdgrp_desc order by count desc", new RowMapper<FoodGroup>() {
             @Override
             public FoodGroup mapRow(ResultSet resultSet, int i) throws SQLException {
 
