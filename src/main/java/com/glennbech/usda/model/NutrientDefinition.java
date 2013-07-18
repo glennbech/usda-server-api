@@ -9,7 +9,6 @@ public class NutrientDefinition extends BaseItem {
     private String units ;
     private String tagName ;
     private String  nutrientDescription ;
-    private Integer  roundedToDecimalPoint;
     private Integer standardReferenceOrder ;
 
     public String getNutrientNumber() {
@@ -42,14 +41,6 @@ public class NutrientDefinition extends BaseItem {
 
     public void setNutrientDescription(String nutrientDescription) {
         this.nutrientDescription = nutrientDescription;
-    }
-
-    public Integer getRoundedToDecimalPoint() {
-        return roundedToDecimalPoint;
-    }
-
-    public void setRoundedToDecimalPoint(Integer roundedToDecimalPoint) {
-        this.roundedToDecimalPoint = roundedToDecimalPoint;
     }
 
     public Integer getStandardReferenceOrder() {

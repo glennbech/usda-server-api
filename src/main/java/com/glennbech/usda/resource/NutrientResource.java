@@ -26,14 +26,13 @@ public class NutrientResource extends BaseResource {
 
         Response response;
 
-        List<NutrientDefinition> items = getJdbcTemplate().query("SELECT NUTR_NO, UNITS, TAGNAME, NUTR_DESC, NUM_DEC, SR_ORDER FROM NUTR_DEF", new RowMapper<NutrientDefinition>() {
+        List<NutrientDefinition> items = getJdbcTemplate().query("SELECT NUTR_NO, UNITS, TAGNAME, NUTR_DESC, SR_ORDER FROM NUTR_DEF", new RowMapper<NutrientDefinition>() {
             @Override
             public NutrientDefinition mapRow(ResultSet resultSet, int i) throws SQLException {
 
                 NutrientDefinition def = new NutrientDefinition() ;
                 def.setNutrientDescription(resultSet.getString("NUTR_DESC"));
                 def.setNutrientNumber(resultSet.getString("Nutr_No"));
-                def.setRoundedToDecimalPoint(resultSet.getInt(resultSet.findColumn("NUM_DEC")));
                 def.setStandardReferenceOrder(resultSet.getInt("SR_Order"));
                 def.setTagName(resultSet.getString("Tagname"));
                 def.setUnits(resultSet.getString("Units"));
