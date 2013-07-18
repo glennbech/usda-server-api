@@ -69,7 +69,7 @@ public class NutrientResource extends BaseResource {
 
         SearchResult<TopNutrientResponse> resultset = new SearchResult<TopNutrientResponse>();
         resultset.setResults(items);
-        resultset.setCurrentPage(0);
+        resultset.setCurrentPage(page);
         resultset.setPageSize(pagesize);
 
         return Response.ok().entity(resultset).build();
