@@ -56,7 +56,8 @@ public class NutrientResource extends BaseResource {
             return Response.status(Response.Status.BAD_REQUEST).entity("Please use a pagesize of 50 or below").build();
         }
 
-        List<TopNutrientResponse> items = getJdbcTemplate().query("select food_des.ndb_no, long_desc, nutr_val from food_des, nutr_def, nut_data where nutr_def.nutr_no = nut_data.nutr_no and nut_data.ndb_no = food_des.ndb_no and nut_data.nutr_no = ? order by nutr_val desc limit ?,?", new Object[] {nutrientNumber, page, pagesize},  new RowMapper<TopNutrientResponse>() {
+        int count =  getJdbcTemplate().queryForInt("select count(*) from food_des, nutr_def, nut_data where nutr_def.nutr_no = nut_data.nutr_no and nut_data.ndb_no = food_des.ndb_no and nut_data.nutr_no = ? order by nutr_val desc", new Object[] {nutrientNumber});
+        List<TopNutrientResponse> items = getJdbcTemplate().query("select food_des.ndb_no, long_desc, nutr_val from food_des, nutr_def, nut_data where nutr_def.nutr_no = nut_data.nutr_no and nut_data.ndb_no = food_des.ndb_no and nut_data.nutr_no = ? order by nutr_val desc limit ?,?", new Object[] {nutrientNumber, page*pagesize, pagesize},  new RowMapper<TopNutrientResponse>() {
             @Override
             public TopNutrientResponse mapRow(ResultSet resultSet, int i) throws SQLException {
                 TopNutrientResponse top = new TopNutrientResponse() ;
@@ -69,6 +70,7 @@ public class NutrientResource extends BaseResource {
 
         SearchResult<TopNutrientResponse> resultset = new SearchResult<TopNutrientResponse>();
         resultset.setResults(items);
+        resultset.setTotalResults(count);
         resultset.setCurrentPage(page);
         resultset.setPageSize(pagesize);
 
