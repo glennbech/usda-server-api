@@ -93,7 +93,7 @@ public class FoodResource extends BaseResource {
 
         if (foodGroup != null) {
             count = getJdbcTemplate().queryForInt("SELECT count(*) FROM FOOD_DES WHERE match (long_desc, shrt_desc, comname, SCINAME, MANUFACNAME) against (?) and fdgrp_cd = ? ", new Object[]{criteria, foodGroup});
-            query = "SELECT * FROM FOOD_DES,FD_GROUP WHERE FOOD_DES.FDGRP_CD = FD_GROUP.FDGRP_CD and match (long_desc, shrt_desc, comname, SCINAME, MANUFACNAME) against (?) and FOOD_DES@.fdgrp_cd = ?  LIMIT ?,?" ;
+            query = "SELECT * FROM FOOD_DES,FD_GROUP WHERE FOOD_DES.FDGRP_CD = FD_GROUP.FDGRP_CD and match (long_desc, shrt_desc, comname, SCINAME, MANUFACNAME) against (?) and FOOD_DES.fdgrp_cd = ?  LIMIT ?,?" ;
             arguments = new Object[]{criteria, foodGroup, page * pagesize, pagesize };
 
         } else {
