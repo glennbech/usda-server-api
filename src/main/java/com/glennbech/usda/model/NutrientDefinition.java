@@ -9,8 +9,8 @@ public class NutrientDefinition extends BaseItem {
     private String units ;
     private String tagName ;
     private String  nutrientDescription ;
-    private int roundedToDecimalPoint;
-    private int standardReferenceOrder ;
+    private Integer  roundedToDecimalPoint;
+    private Integer standardReferenceOrder ;
 
     public String getNutrientNumber() {
         return nutrientNumber;
@@ -44,19 +44,20 @@ public class NutrientDefinition extends BaseItem {
         this.nutrientDescription = nutrientDescription;
     }
 
-    public int getRoundedToDecimalPoint() {
+    public Integer getRoundedToDecimalPoint() {
         return roundedToDecimalPoint;
     }
 
-    public void setRoundedToDecimalPoint(int roundedToDecimalPoint) {
+    public void setRoundedToDecimalPoint(Integer roundedToDecimalPoint) {
         this.roundedToDecimalPoint = roundedToDecimalPoint;
     }
 
-    public int getStandardReferenceOrder() {
+    public Integer getStandardReferenceOrder() {
         return standardReferenceOrder;
     }
 
-    public void setStandardReferenceOrder(int standardReferenceOrder) {
+    public void setStandardReferenceOrder(Integer standardReferenceOrder) {
         this.standardReferenceOrder = standardReferenceOrder;
     }
+
 }
