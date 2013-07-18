@@ -17,7 +17,7 @@ import java.util.List;
  *
  */
 
-@Path("/nutrients")
+@Path("/nutrient")
 public class NutrientResource extends BaseResource {
 
     @GET

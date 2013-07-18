@@ -14,6 +14,8 @@ public  class SearchResult<T> {
     private int currentPage;
     private int pageSize;
     private List<T> results ;
+    private int totalResults;
+
 
     private String attribution = "U. S. Department of Agriculture." ;
 
@@ -26,17 +28,18 @@ public  class SearchResult<T> {
         return pageSize;
     }
 
+    public int getTotalResults() {
+        return totalResults;
+    }
+
+    public void setTotalResults(int totalResults) {
+        this.totalResults = totalResults;
+    }
+
     public void setPageSize(int pageSize) {
         this.pageSize = pageSize;
     }
 
-    @JsonInclude(JsonInclude.Include.ALWAYS)
-    public int getTotalResults() {
-        return results  != null ? results.size()  : 0 ;
-    }
-
-    public void setTotalResults(int totalResults) {
-    }
 
     public int getCurrentPage() {
         return currentPage;

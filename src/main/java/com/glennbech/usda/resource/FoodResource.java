@@ -18,7 +18,7 @@ import java.util.List;
  *
  */
 
-@Path("/fooditems")
+@Path("/fooditem")
 public class FoodResource extends BaseResource {
 
     @GET
@@ -72,7 +72,7 @@ public class FoodResource extends BaseResource {
     @GET
     @Produces("application/json")
     @Path("/search/{criteria}")
-    public Response search(@PathParam("criteria") String criteria, @QueryParam("page") Integer page, @QueryParam("pagesize") Integer pagesize) {
+    public Response search(@PathParam("criteria") String criteria, @QueryParam("page") Integer page, @QueryParam("pagesize") Integer pagesize, @QueryParam("foodgroup") String foodGroup) {
 
         Response response;
 
@@ -84,41 +84,32 @@ public class FoodResource extends BaseResource {
         }
 
         if (criteria == null || criteria.length() < 3) {
-            response = Response.status(400).entity("Search critera must be at least 3 characters").build();
-        } else {
-            Integer count = getJdbcTemplate().queryForInt("SELECT count(*) FROM FOOD_DES WHERE match (long_desc, shrt_desc, comname, SCINAME, MANUFACNAME) against (?) ", new Object[]{criteria});
-            List<FoodItem> foodItems = getJdbcTemplate().query("SELECT * FROM FOOD_DES,FD_GROUP WHERE FOOD_DES.FDGRP_CD = FD_GROUP.FDGRP_CD and match (long_desc, shrt_desc, comname, SCINAME, MANUFACNAME) against (?) LIMIT ?,?", new Object[]{criteria, page * pagesize, pagesize}, new FoodItemRowMapper());
-            SearchResult<FoodItem> result = new SearchResult<FoodItem>();
-            result.setResults(foodItems);
-            result.setTotalResults(count);
-            result.setCurrentPage(page);
-            result.setPageSize(pagesize);
-            response = Response.ok(result).build();
+            return Response.status(400).entity("Search critera must be at least 3 characters").build();
         }
-        return response;
-    }
 
-    private static class FoodItemRowMapper implements RowMapper<FoodItem> {
-        @Override
-        public FoodItem mapRow(ResultSet resultSet, int i) throws SQLException {
-            FoodItem foodItem = new FoodItem();
-            foodItem.setNdbNumber(resultSet.getString("NDB_NO"));
-            foodItem.setFoodGroupNumber(resultSet.getString("FDGRP_CD"));
-            foodItem.setShortDescription(resultSet.getString("SHRT_DESC"));
-            foodItem.setLongDescription(resultSet.getString("LONG_DESC"));
-            foodItem.setFoodGroupName(resultSet.getString("FD_GROUP.FDGRP_DESC"));
-            foodItem.setCommonName(resultSet.getString("COMNAME"));
-            foodItem.setSurvey("Y".equals(resultSet.getString("SURVEY")));
-            foodItem.setManufacturerName(resultSet.getString("MANUFACNAME"));
-            foodItem.setRefuseDescription(resultSet.getString("REF_DESC"));
-            foodItem.setRefuse(resultSet.getFloat("REFUSE"));
-            foodItem.setScientificName(resultSet.getString("SCINAME"));
-            foodItem.setNitrogenFactor(resultSet.getFloat("N_FACTOR"));
-            foodItem.setFatFactor(resultSet.getFloat("FAT_FACTOR"));
-            foodItem.setChoFactor(resultSet.getFloat("CHO_FACTOR"));
-            foodItem.setProteinFactor(resultSet.getFloat("PRO_FACTOR"));
-            return foodItem;
+        Integer count;
+        String query;
+        Object[] arguments;
+
+        if (foodGroup != null) {
+            count = getJdbcTemplate().queryForInt("SELECT count(*) FROM FOOD_DES WHERE match (long_desc, shrt_desc, comname, SCINAME, MANUFACNAME) against (?) and fdgrp_cd = ? ", new Object[]{criteria, foodGroup});
+            query = "SELECT * FROM FOOD_DES,FD_GROUP WHERE FOOD_DES.FDGRP_CD = FD_GROUP.FDGRP_CD and match (long_desc, shrt_desc, comname, SCINAME, MANUFACNAME) against (?) and food_des.fdgrp_cd = ?  LIMIT ?,?" ;
+            arguments = new Object[]{criteria, foodGroup, page * pagesize, pagesize };
+
+        } else {
+            count = getJdbcTemplate().queryForInt("SELECT count(*) FROM FOOD_DES WHERE match (long_desc, shrt_desc, comname, SCINAME, MANUFACNAME) against (?) ", new Object[]{criteria});
+            query = "SELECT * FROM FOOD_DES,FD_GROUP WHERE FOOD_DES.FDGRP_CD = FD_GROUP.FDGRP_CD and match (long_desc, shrt_desc, comname, SCINAME, MANUFACNAME) against (?) LIMIT ?,?"  ;
+            arguments = new Object[]{criteria, page * pagesize, pagesize};
         }
+
+        List<FoodItem> foodItems = getJdbcTemplate().query(query, arguments, new FoodItemRowMapper());
+        SearchResult<FoodItem> result = new SearchResult<FoodItem>();
+        result.setResults(foodItems);
+        result.setTotalResults(count);
+        result.setCurrentPage(page);
+        result.setPageSize(pagesize);
+        response = Response.ok(result).build();
+        return response;
     }
 
 }
