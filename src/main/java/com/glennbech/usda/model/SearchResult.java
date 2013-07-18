@@ -20,8 +20,9 @@ public  class SearchResult<T> {
     private String attribution = "U. S. Department of Agriculture." ;
 
     @JsonInclude(JsonInclude.Include.ALWAYS)
+
     public int getTotalPages() {
-        return getTotalResults()/pageSize +1 ;
+        return (int) Math.ceil(getTotalResults()/(float)pageSize);
     }
 
     public int getPageSize() {
