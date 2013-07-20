@@ -18,9 +18,12 @@
         <property name="password" value="${database_password}"/>
     </bean>
 
-    <bean class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
-        <property name="location">
-            <value>classpath:database_dev.properties</value>
+    <bean class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer" >
+        <property name="locations">
+            <list>
+                <value>classpath:database.properties</value>
+                <value>file:////Users/glennbech/dev/usda-api-server/config/database_dev.properties</value>
+            </list>
         </property>
     </bean>
 
