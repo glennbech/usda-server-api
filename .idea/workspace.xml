@@ -5,30 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d3d0b94e-bbc0-4a3d-b336-9095b56da305" name="Default" comment="paging fix, first stink">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/glennbech/usda/IntegrationTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_restfuse_com_eclipsesource_restfuse_1_0_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_bundle_1_9_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_ws_rs_jsr311_api_1_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mortbay_jetty_jetty_6_1_26.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mortbay_jetty_jetty_j2se6_6_1_26.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mortbay_jetty_jetty_util_6_1_26.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mortbay_jetty_servlet_api_2_5_20081211.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/glennbech/usda/model/FoodItem.java" afterPath="$PROJECT_DIR$/src/main/java/com/glennbech/usda/model/FoodItem.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/glennbech/usda/resource/FoodResource.java" afterPath="$PROJECT_DIR$/src/main/java/com/glennbech/usda/resource/FoodResource.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/com/glennbech/usda/IntegrationTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/glennbech/usda/RestIT.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rs22-server.iml" afterPath="$PROJECT_DIR$/rs22-server.iml" />
-    </list>
-    <list id="6992c1f2-fd3a-4010-982d-28b721731b77" name="ignore" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scripts/Aggregate Report.jmx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scripts/AggregateReport.jmx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-config.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-config.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
+    <list id="6992c1f2-fd3a-4010-982d-28b721731b77" name="ignore" comment="" />
     <ignored path="rs22-server.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1374190398819" ignored="false" />
-    <file path="/pom.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1374188686389" ignored="false" />
+    <file path="/pom.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1374312217462" ignored="false" />
     <file path="/spring-config.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1374156346700" ignored="false" />
     <file path="/FoodResource.java" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1374156476451" ignored="false" />
     <file path="/database.properties" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1373878783303" ignored="false" />
@@ -48,7 +33,6 @@
     <file path="/FoodItemRowMapperImpl.java" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1374145050936" ignored="false" />
     <file path="/BaseResource.java" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1374154081774" ignored="false" />
     <file path="/a.dummy" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1374156243663" ignored="false" />
-    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1374158892940" ignored="false" />
     <file path="/IntegrationTests.java" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1374257819840" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -115,10 +99,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="pom.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="23" selection-start="971" selection-end="971" vertical-scroll-proportion="0.0">
+            <state line="195" column="66" selection-start="6558" selection-end="6558" vertical-scroll-proportion="0.37625754">
               <folding />
             </state>
           </provider>
@@ -139,10 +123,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IntegrationTest.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/glennbech/usda/IntegrationTest.java">
+      <file leaf-file-name="RestIT.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/glennbech/usda/RestIT.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="83" column="47" selection-start="3120" selection-end="3120" vertical-scroll-proportion="0.14750542">
+            <state line="34" column="91" selection-start="1228" selection-end="1228" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -245,12 +229,12 @@
         <option value="$PROJECT_DIR$/src/main/java/com/glennbech/usda/resource/FoodGroupResource.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/glennbech/usda/model/NutrientDefinition.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/glennbech/usda/MasShapeFilter.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/glennbech/usda/resource/NutrientResource.java" />
         <option value="$PROJECT_DIR$/src/test/java/IntegrationTests.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/glennbech/usda/model/FoodItem.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/glennbech/usda/IntegrationTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/glennbech/usda/IntegrationTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -434,14 +418,14 @@
       <recent name="com.glennbech.usda" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.IntegrationTest">
-    <configuration default="false" name="IntegrationTest" type="JUnit" factoryName="JUnit" temporary="true">
+  <component name="RunManager" selected="JUnit.RestIT">
+    <configuration default="false" name="RestIT" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="rs22-server" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.glennbech.usda" />
-      <option name="MAIN_CLASS_NAME" value="com.glennbech.usda.IntegrationTest" />
+      <option name="MAIN_CLASS_NAME" value="com.glennbech.usda.RestIT" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -565,11 +549,11 @@
     </configuration>
     <list size="2">
       <item index="0" class="java.lang.String" itemvalue="Remote.Unnamed" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.IntegrationTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.RestIT" />
     </list>
     <recent_temporary>
       <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.IntegrationTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.RestIT" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -661,7 +645,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33428982" sideWeight="0.64089775" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24964131" sideWeight="0.7267904" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24964131" sideWeight="0.7267904" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27320954" sideWeight="0.4856528" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30901858" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
@@ -796,41 +780,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/glennbech/usda/resource/FoodGroupResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="77" selection-start="842" selection-end="842" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#1145#1146#0" expanded="true" />
-            <element signature="e#1645#2087#0" expanded="true" />
-            <element signature="e#2076#2077#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/glennbech/usda/MasShapeFilter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="38" column="11" selection-start="1379" selection-end="1379" vertical-scroll-proportion="0.0">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="23" selection-start="971" selection-end="971" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/glennbech/usda/resource/NutrientResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="328" selection-start="2587" selection-end="2587" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#751#1376#0" expanded="true" />
-            <element signature="e#1365#1366#0" expanded="true" />
-            <element signature="e#2601#3076#0" expanded="true" />
-            <element signature="e#3065#3066#0" expanded="true" />
-            <element signature="e#3150#3171#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -869,12 +822,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/glennbech/usda/IntegrationTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/glennbech/usda/resource/NutrientResource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="83" column="47" selection-start="3120" selection-end="3120" vertical-scroll-proportion="0.14750542">
+        <state line="59" column="328" selection-start="2587" selection-end="2587" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#751#1376#0" expanded="true" />
+            <element signature="e#1365#1366#0" expanded="true" />
+            <element signature="e#2601#3076#0" expanded="true" />
+            <element signature="e#3065#3066#0" expanded="true" />
+            <element signature="e#3150#3171#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/glennbech/usda/resource/FoodGroupResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="77" selection-start="842" selection-end="842" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#1145#1146#0" expanded="true" />
+            <element signature="e#1645#2087#0" expanded="true" />
+            <element signature="e#2076#2077#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/glennbech/usda/RestIT.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="91" selection-start="1228" selection-end="1228" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="195" column="66" selection-start="6558" selection-end="6558" vertical-scroll-proportion="0.37625754">
+          <folding />
         </state>
       </provider>
     </entry>

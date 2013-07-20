@@ -20,10 +20,10 @@ import static junit.framework.Assert.assertTrue;
  *
  */
 @RunWith(HttpJUnitRunner.class)
-public class IntegrationTest {
+public class RestIT {
 
     @Rule
-    public Destination restfuse = new Destination("https://glennbech-foodfacts.p.mashape.com");
+    public Destination restfuse = new Destination("http://localhost:8080/api");
 
     @Context
     private Response response;
