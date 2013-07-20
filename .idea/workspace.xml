@@ -1,30 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/main/java/com/glennbech/usda/resource/FoodResource.java" line="91" mnemonic="9" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="d3d0b94e-bbc0-4a3d-b336-9095b56da305" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/.move_db_to_rds.sh.swp" afterPath="" />
+    <list default="true" id="d3d0b94e-bbc0-4a3d-b336-9095b56da305" name="Default" comment="paging fix, first stink">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/glennbech/usda/IntegrationTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_restfuse_com_eclipsesource_restfuse_1_0_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_bundle_1_9_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_ws_rs_jsr311_api_1_1_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mortbay_jetty_jetty_6_1_26.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mortbay_jetty_jetty_j2se6_6_1_26.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mortbay_jetty_jetty_util_6_1_26.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mortbay_jetty_servlet_api_2_5_20081211.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/glennbech/usda/model/FoodItem.java" afterPath="$PROJECT_DIR$/src/main/java/com/glennbech/usda/model/FoodItem.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/glennbech/usda/resource/FoodResource.java" afterPath="$PROJECT_DIR$/src/main/java/com/glennbech/usda/resource/FoodResource.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rs22-server.iml" afterPath="$PROJECT_DIR$/rs22-server.iml" />
+    </list>
+    <list id="6992c1f2-fd3a-4010-982d-28b721731b77" name="ignore" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scripts/Aggregate Report.jmx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scripts/AggregateReport.jmx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-config.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-config.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="rs22-server.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1373923399378" ignored="false" />
-    <file path="/pom.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1373907555519" ignored="false" />
-    <file path="/spring-config.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1374138900682" ignored="false" />
-    <file path="/FoodResource.java" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1373979157584" ignored="false" />
+    <file path="/Dummy.txt" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1374190398819" ignored="false" />
+    <file path="/pom.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1374188686389" ignored="false" />
+    <file path="/spring-config.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1374156346700" ignored="false" />
+    <file path="/FoodResource.java" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1374156476451" ignored="false" />
     <file path="/database.properties" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1373878783303" ignored="false" />
     <file path="/database_dev.properties" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1373879406900" ignored="false" />
-    <file path="/SearchResult.java" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1373968747059" ignored="false" />
+    <file path="/SearchResult.java" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1374157766047" ignored="false" />
     <file path="/BaseItem.java" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1373882690156" ignored="false" />
     <file path="/WeightData.java" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1373897879383" ignored="false" />
-    <file path="/FoodItem.java" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1373977026041" ignored="false" />
+    <file path="/FoodItem.java" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1374257206540" ignored="false" />
     <file path="/MasShapeFilter.java" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1373911123751" ignored="false" />
     <file path="/web.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1373910920959" ignored="false" />
-    <file path="/fragment.java" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1373970239011" ignored="false" />
-    <file path="/NutrientResource.java" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1373981038747" ignored="false" />
+    <file path="/fragment.java" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1374257164593" ignored="false" />
+    <file path="/NutrientResource.java" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1374160574392" ignored="false" />
     <file path="/NutrientDefinition.java" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1373979885950" ignored="false" />
     <file path="/TopNutrientResponse.java" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1373968261012" ignored="false" />
     <file path="/FoodGroup.java" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1373976399262" ignored="false" />
-    <file path="/FoodGroupResource.java" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1373976901502" ignored="false" />
+    <file path="/FoodGroupResource.java" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1374158115198" ignored="false" />
+    <file path="/FoodItemRowMapperImpl.java" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1374145050936" ignored="false" />
+    <file path="/BaseResource.java" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1374154081774" ignored="false" />
+    <file path="/a.dummy" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1374156243663" ignored="false" />
+    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1374158892940" ignored="false" />
+    <file path="/IntegrationTests.java" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1374257819840" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +66,7 @@
   <component name="DatabaseView">
     <flatten value="false" />
     <groupTables value="false" />
-    <sortChildren value="false" />
+    <sortChildren value="true" />
   </component>
   <component name="DebuggerManager">
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
@@ -90,37 +115,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="spring-config.xml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-config.xml">
+      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="37" selection-start="1111" selection-end="1111" vertical-scroll-proportion="0.62857145">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="database_dev.properties" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/database_dev.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="database.properties" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/database.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="72" selection-start="72" selection-end="72" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FoodResource.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/glennbech/usda/resource/FoodResource.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="109" selection-start="2007" selection-end="2007" vertical-scroll-proportion="0.0">
+            <state line="25" column="23" selection-start="971" selection-end="971" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -129,52 +127,33 @@
       <file leaf-file-name="NutrientResource.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/glennbech/usda/resource/NutrientResource.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="120" selection-start="738" selection-end="738" vertical-scroll-proportion="0.0">
+            <state line="59" column="328" selection-start="2587" selection-end="2587" vertical-scroll-proportion="0.0">
               <folding>
-                <element signature="e#761#1483#0" expanded="true" />
-                <element signature="e#1472#1473#0" expanded="true" />
-                <element signature="e#2435#2910#0" expanded="true" />
-                <element signature="e#2899#2900#0" expanded="true" />
-                <element signature="e#2984#3005#0" expanded="true" />
+                <element signature="e#751#1376#0" expanded="true" />
+                <element signature="e#1365#1366#0" expanded="true" />
+                <element signature="e#2601#3076#0" expanded="true" />
+                <element signature="e#3065#3066#0" expanded="true" />
+                <element signature="e#3150#3171#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NutrientDefinition.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/glennbech/usda/model/NutrientDefinition.java">
+      <file leaf-file-name="IntegrationTest.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/glennbech/usda/IntegrationTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="16" selection-start="1125" selection-end="1125" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FoodGroupResource.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/glennbech/usda/resource/FoodGroupResource.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="13" selection-start="342" selection-end="342" vertical-scroll-proportion="0.0">
+            <state line="83" column="47" selection-start="3120" selection-end="3120" vertical-scroll-proportion="0.14750542">
               <folding>
-                <element signature="e#715#1157#0" expanded="true" />
-                <element signature="e#1146#1147#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FoodGroup.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/glennbech/usda/model/FoodGroup.java">
+      <file leaf-file-name="NutrientValue.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/glennbech/usda/model/NutrientValue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="0" selection-start="433" selection-end="433" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SearchResult.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/glennbech/usda/model/SearchResult.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="37" selection-start="531" selection-end="531" vertical-scroll-proportion="0.0">
+            <state line="5" column="13" selection-start="59" selection-end="59" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -183,8 +162,57 @@
       <file leaf-file-name="FoodItem.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/glennbech/usda/model/FoodItem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="62" column="0" selection-start="1377" selection-end="1377" vertical-scroll-proportion="0.0">
+            <state line="192" column="0" selection-start="4236" selection-end="4236" vertical-scroll-proportion="0.0">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Context.class" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/restfuse/com.eclipsesource.restfuse/1.0.0/com.eclipsesource.restfuse-1.0.0.jar!/com/eclipsesource/restfuse/annotation/Context.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="18" selection-start="334" selection-end="334" vertical-scroll-proportion="-3.64">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Assert.class" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/restfuse/com.eclipsesource.restfuse/1.0.0/com.eclipsesource.restfuse-1.0.0.jar!/com/eclipsesource/restfuse/Assert.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="0" selection-start="1060" selection-end="1060" vertical-scroll-proportion="-2.92">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MasShapeFilter.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/glennbech/usda/MasShapeFilter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="38" column="11" selection-start="1379" selection-end="1379" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NutrientDefinition.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/glennbech/usda/model/NutrientDefinition.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="44" column="0" selection-start="971" selection-end="971" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FoodGroupResource.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/glennbech/usda/resource/FoodGroupResource.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="26" column="77" selection-start="842" selection-end="842" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#1145#1146#0" expanded="true" />
+                <element signature="e#1645#2087#0" expanded="true" />
+                <element signature="e#2076#2077#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -207,22 +235,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/resources/database.properties" />
-        <option value="$PROJECT_DIR$/src/main/resources/database_dev.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/com/glennbech/usda/model/WeightData.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/glennbech/usda/model/BaseItem.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/glennbech/usda/MasShapeFilter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/glennbech/usda/model/TopNutrientResponse.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/glennbech/usda/model/SearchResult.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/glennbech/usda/model/FoodGroup.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/glennbech/usda/resource/FoodGroupResource.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/glennbech/usda/model/FoodItem.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/glennbech/usda/resource/FoodResource.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/glennbech/usda/model/NutrientDefinition.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/glennbech/usda/resource/NutrientResource.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/glennbech/usda/resource/FoodItemRowMapperImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/glennbech/usda/resource/BaseResource.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/glennbech/usda/resource/FoodItemRowMapper.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-config.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/glennbech/usda/resource/FoodResource.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/glennbech/usda/model/SearchResult.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/glennbech/usda/resource/FoodGroupResource.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/glennbech/usda/model/NutrientDefinition.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/glennbech/usda/MasShapeFilter.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/glennbech/usda/resource/NutrientResource.java" />
+        <option value="$PROJECT_DIR$/src/test/java/IntegrationTests.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/glennbech/usda/model/FoodItem.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/glennbech/usda/IntegrationTests.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/glennbech/usda/IntegrationTest.java" />
       </list>
     </option>
   </component>
@@ -292,55 +320,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rs22-server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="usda-api-server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rs22-server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="usda-api-server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
+              <option name="myItemId" value="test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -369,18 +349,6 @@
               <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="usda" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resource" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -405,10 +373,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="usda" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="model" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -418,10 +382,13 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="50" />
+    <property name="project.structure.proportion" value="0.0" />
     <property name="OverrideImplement.combined" value="true" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="51" />
     <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="50" />
@@ -447,7 +414,10 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
     <property name="options.lastSelected" value="MavenSettings" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="restartRequiresConfirmation" value="true" />
+    <property name="dynamic.classpath" value="false" />
     <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
@@ -460,8 +430,34 @@
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.glennbech.usda.model" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.glennbech.usda" />
+    </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.IntegrationTest">
+    <configuration default="false" name="IntegrationTest" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="rs22-server" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.glennbech.usda" />
+      <option name="MAIN_CLASS_NAME" value="com.glennbech.usda.IntegrationTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
@@ -553,7 +549,29 @@
       <patterns />
       <method />
     </configuration>
-    <list size="0" />
+    <configuration default="false" name="Unnamed" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="4000" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="4000" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="false" />
+      </RunnerSettings>
+      <ConfigurationWrapper RunnerId="Debug" />
+      <method />
+    </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Remote.Unnamed" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.IntegrationTest" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.IntegrationTest" />
+      </list>
+    </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
       <Port>5050</Port>
@@ -580,9 +598,43 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="d3d0b94e-bbc0-4a3d-b336-9095b56da305" name="Default" comment="" />
+      <changelist id="6992c1f2-fd3a-4010-982d-28b721731b77" name="ignore" comment="" />
       <created>1373751587239</created>
       <updated>1373751587239</updated>
     </task>
+    <task id="LOCAL-00001" summary="Foodgroup filter in search&#10;">
+      <created>1374156323125</created>
+      <updated>1374156323125</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Darn&#10;">
+      <created>1374156505348</created>
+      <updated>1374156505348</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Darn&#10;">
+      <created>1374156905631</created>
+      <updated>1374156905631</updated>
+    </task>
+    <task id="LOCAL-00004" summary="PageSize fixed">
+      <created>1374157801637</created>
+      <updated>1374157801637</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Case fuck">
+      <created>1374158128548</created>
+      <updated>1374158128548</updated>
+    </task>
+    <task id="LOCAL-00006" summary="removed silly column">
+      <created>1374159425037</created>
+      <updated>1374159425037</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Bugfux paging nutrients&#10;">
+      <created>1374160137912</created>
+      <updated>1374160137912</updated>
+    </task>
+    <task id="LOCAL-00008" summary="paging fix, first stink">
+      <created>1374160593255</created>
+      <updated>1374160593255</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -592,14 +644,16 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3275862" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22022955" sideWeight="0.6710875" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32891247" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22022955" sideWeight="0.7267904" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39920425" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32891247" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27320954" sideWeight="0.5143472" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32891247" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34748012" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33023873" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998565" sideWeight="0.6508728" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -607,14 +661,12 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33428982" sideWeight="0.64089775" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24964131" sideWeight="0.6710875" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16445623" sideWeight="0.4856528" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24964131" sideWeight="0.7267904" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27320954" sideWeight="0.4856528" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30901858" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32978722" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33027524" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -660,7 +712,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" />
+    <option name="LAST_COMMIT_MESSAGE" value="paging fix, first stink" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -674,6 +726,13 @@
     <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+    <MESSAGE value="Foodgroup filter in search&#10;" />
+    <MESSAGE value="Darn&#10;" />
+    <MESSAGE value="PageSize fixed" />
+    <MESSAGE value="Case fuck" />
+    <MESSAGE value="removed silly column" />
+    <MESSAGE value="Bugfux paging nutrients&#10;" />
+    <MESSAGE value="paging fix, first stink" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -683,118 +742,13 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_21.jdk/Contents/Home/jre/lib/rt.jar!/com/sun/net/httpserver/HttpExchange.class">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="22" selection-start="174" selection-end="174" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="24" selection-start="959" selection-end="959" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/glennbech/usda/MasShapeFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="19" selection-start="1294" selection-end="1294" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
-        <state />
-      </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
-        <state />
-      </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="55" selection-start="1597" selection-end="1597" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/glennbech/usda/model/NutrientValue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="13" selection-start="59" selection-end="59" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/glennbech/usda/model/TopNutrientResponse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="169" selection-end="169" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/glennbech/usda/model/SearchResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="37" selection-start="531" selection-end="531" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/glennbech/usda/model/FoodGroup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="0" selection-start="433" selection-end="433" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/glennbech/usda/model/FoodItem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="0" selection-start="1377" selection-end="1377" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/database.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="72" selection-start="72" selection-end="72" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/glennbech/usda/resource/FoodGroupResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="13" selection-start="342" selection-end="342" vertical-scroll-proportion="0.0">
+        <state line="27" column="70" selection-start="1177" selection-end="1177" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="e#715#1157#0" expanded="true" />
-            <element signature="e#1146#1147#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/glennbech/usda/resource/FoodResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="109" selection-start="2007" selection-end="2007" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/glennbech/usda/model/NutrientDefinition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="16" selection-start="1125" selection-end="1125" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/glennbech/usda/resource/NutrientResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="120" selection-start="738" selection-end="738" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#761#1483#0" expanded="true" />
-            <element signature="e#1472#1473#0" expanded="true" />
-            <element signature="e#2435#2910#0" expanded="true" />
-            <element signature="e#2899#2900#0" expanded="true" />
-            <element signature="e#2984#3005#0" expanded="true" />
+            <element signature="e#786#803#0" expanded="true" />
+            <element signature="e#846#868#0" expanded="true" />
+            <element signature="e#911#933#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -806,13 +760,214 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-config.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/glennbech/usda/model/SearchResult.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="37" selection-start="1111" selection-end="1111" vertical-scroll-proportion="0.62857145">
+        <state line="18" column="74" selection-start="375" selection-end="375" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/glennbech/usda/model/FoodGroup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="31" selection-start="310" selection-end="310" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/glennbech/usda/resource/FoodItemRowMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="187" selection-end="187" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/glennbech/usda/resource/FoodResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="34" selection-start="613" selection-end="613" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1504#2046#0" expanded="false" />
+            <element signature="e#2027#2028#0" expanded="false" />
+            <element signature="e#2272#3026#0" expanded="false" />
+            <element signature="e#3007#3008#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/glennbech/usda/resource/FoodGroupResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="77" selection-start="842" selection-end="842" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#1145#1146#0" expanded="true" />
+            <element signature="e#1645#2087#0" expanded="true" />
+            <element signature="e#2076#2077#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/glennbech/usda/MasShapeFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="11" selection-start="1379" selection-end="1379" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="23" selection-start="971" selection-end="971" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/glennbech/usda/resource/NutrientResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="59" column="328" selection-start="2587" selection-end="2587" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#751#1376#0" expanded="true" />
+            <element signature="e#1365#1366#0" expanded="true" />
+            <element signature="e#2601#3076#0" expanded="true" />
+            <element signature="e#3065#3066#0" expanded="true" />
+            <element signature="e#3150#3171#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/restfuse/com.eclipsesource.restfuse/1.0.0/com.eclipsesource.restfuse-1.0.0.jar!/com/eclipsesource/restfuse/Assert.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="0" selection-start="1060" selection-end="1060" vertical-scroll-proportion="-2.92">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/restfuse/com.eclipsesource.restfuse/1.0.0/com.eclipsesource.restfuse-1.0.0.jar!/com/eclipsesource/restfuse/annotation/Context.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="18" selection-start="334" selection-end="334" vertical-scroll-proportion="-3.64">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/glennbech/usda/model/NutrientValue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="13" selection-start="59" selection-end="59" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/glennbech/usda/model/NutrientDefinition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="0" selection-start="971" selection-end="971" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/glennbech/usda/model/FoodItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="192" column="0" selection-start="4236" selection-end="4236" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/glennbech/usda/IntegrationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="83" column="47" selection-start="3120" selection-end="3120" vertical-scroll-proportion="0.14750542">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>rs22-server:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>rs22-server</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: aopalliance:aopalliance:1.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
 

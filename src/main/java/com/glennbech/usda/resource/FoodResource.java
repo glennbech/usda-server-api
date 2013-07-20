@@ -62,7 +62,7 @@ public class FoodResource extends BaseResource {
                         return data;
                     }
                 });
-                item.setWeightData(weightData);
+                item.setWeight(weightData);
             }
             response = Response.ok().entity(item).build();
         }

@@ -56,7 +56,7 @@ public class FoodItem extends BaseItem  {
     private List<FootNote> footNotes ;
 
     @XmlElement(nillable=true)
-    private List<WeightData> weightData ;
+    private List<WeightData> weights;
 
     public String getFoodGroupName() {
         return foodGroupName;
@@ -187,11 +187,11 @@ public class FoodItem extends BaseItem  {
         this.proteinFactor = proteinFactor;
     }
 
-    public List<WeightData> getWeightData() {
-        return weightData;
+    public List<WeightData> getWeight() {
+        return weights;
     }
 
-    public void setWeightData(List<WeightData> weightData) {
-        this.weightData = weightData;
+    public void setWeight(List<WeightData> weights) {
+        this.weights = weights;
     }
 }
