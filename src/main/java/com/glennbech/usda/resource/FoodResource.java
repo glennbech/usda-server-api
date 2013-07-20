@@ -23,8 +23,8 @@ public class FoodResource extends BaseResource {
 
     @GET
     @Produces("application/json")
-    @Path("/{ndb_no}")
-    public Response getFoodByIdentifier(@PathParam("ndb_no") final String ndbNo, @QueryParam(value = "nutrients") boolean nutrients, @QueryParam(value = "weight") boolean weight) throws IOException {
+    @Path("/{ndbNumber}")
+    public Response getFoodByIdentifier(@PathParam("ndbNumber") final String ndbNo, @QueryParam(value = "nutrients") boolean nutrients, @QueryParam(value = "weight") boolean weight) throws IOException {
 
         Response response;
 
@@ -72,7 +72,7 @@ public class FoodResource extends BaseResource {
     @GET
     @Produces("application/json")
     @Path("/search/{criteria}")
-    public Response search(@PathParam("criteria") String criteria, @QueryParam("page") Integer page, @QueryParam("pagesize") Integer pagesize, @QueryParam("foodgroup") String foodGroup) {
+    public Response search(@PathParam("criteria") String criteria, @QueryParam("page") Integer page, @QueryParam("pageSize") Integer pagesize, @QueryParam("foodGroup") String foodGroup) {
 
         Response response;
 

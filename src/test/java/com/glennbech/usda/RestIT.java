@@ -89,6 +89,16 @@ public class RestIT {
         assertTrue(o.length() != 0);
     }
 
+    @HttpTest(method = Method.GET, path = "/foodgroup/0200", headers = { @Header(name = "X-Mashape-Authorization", value = "ix1apuk2jl00oktejn7spp7v4i6vtw") })
+    public void getFoodGroupDetails() throws JSONException {
+        assertOk(response);
+        String body = response.getBody(String.class);
+        JSONObject o = new JSONObject(body);
+        JSONArray a = o .getJSONArray("results");
+
+        System.out.println("----------------------->>>>> " + a.length());
+        assertTrue(a.length() == 10);
+    }
 
 
     public Response getResponse() {

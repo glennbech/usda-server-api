@@ -45,7 +45,7 @@ public class NutrientResource extends BaseResource {
     @GET
     @Path("/top/{nutrient_no}")
     @Produces("application/json")
-    public Response getTopFoodsBuyNutrient(@PathParam("nutrient_no") final String nutrientNumber, @QueryParam("page") Integer page, @QueryParam("pagesize") Integer pagesize) throws IOException {
+    public Response getTopFoodsBuyNutrient(@PathParam("nutrient_no") final String nutrientNumber, @QueryParam("page") Integer page, @QueryParam("pageSize") Integer pagesize) throws IOException {
 
         Response response;
 
@@ -76,19 +76,5 @@ public class NutrientResource extends BaseResource {
 
         return Response.ok().entity(resultset).build();
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 }

@@ -22,7 +22,6 @@ public class BaseResource {
 
     JdbcTemplate getJdbcTemplate() {
         if (jdbcTemplate == null) {
-            System.out.println("datasource is " + dataSource);
             ApplicationContext context = ContextLoader.getCurrentWebApplicationContext();
             DataSource dataSource = (DataSource) context.getBean("dataSource");
             jdbcTemplate = new JdbcTemplate(dataSource);
