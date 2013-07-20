@@ -25,7 +25,7 @@
                 <value>file:////Users/glennbech/dev/usda-api-server/config/database_dev.properties</value>
             </list>
         </property>
-        <property name="ignoreUnresolvablePlaceholders" value="true" />
+        <property name="ignoreResourceNotFound" value="true" />
     </bean>
 
 </beans>

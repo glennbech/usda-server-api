@@ -4,7 +4,9 @@
     <bookmark url="file://$PROJECT_DIR$/src/main/java/com/glennbech/usda/resource/FoodResource.java" line="91" mnemonic="9" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d3d0b94e-bbc0-4a3d-b336-9095b56da305" name="Default" comment="paging fix, first stink" />
+    <list default="true" id="d3d0b94e-bbc0-4a3d-b336-9095b56da305" name="Default" comment="paging fix, first stink">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-config.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-config.xml" />
+    </list>
     <list id="6992c1f2-fd3a-4010-982d-28b721731b77" name="ignore" comment="" />
     <ignored path="rs22-server.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -107,7 +109,7 @@
       <file leaf-file-name="spring-config.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-config.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="57" selection-start="1360" selection-end="1360" vertical-scroll-proportion="0.74050635">
+            <state line="27" column="46" selection-start="1349" selection-end="1349" vertical-scroll-proportion="0.74050635">
               <folding>
                 <element signature="e#786#803#0" expanded="true" />
                 <element signature="e#846#868#0" expanded="true" />
@@ -900,7 +902,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="57" selection-start="1360" selection-end="1360" vertical-scroll-proportion="0.74050635">
+        <state line="27" column="46" selection-start="1349" selection-end="1349" vertical-scroll-proportion="0.74050635">
           <folding>
             <element signature="e#786#803#0" expanded="true" />
             <element signature="e#846#868#0" expanded="true" />
