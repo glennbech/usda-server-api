@@ -32,6 +32,5 @@ public class FoodGroup extends BaseItem {
     public void setName(String name) {
         this.name = name;
     }
-2
 
 }
