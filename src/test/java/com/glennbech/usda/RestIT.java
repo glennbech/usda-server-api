@@ -14,6 +14,8 @@ import org.junit.Rule;
 import org.junit.runner.RunWith;
 
 import static com.eclipsesource.restfuse.Assert.assertOk;
+import static junit.framework.Assert.assertEquals;
+import static junit.framework.Assert.assertNotNull;
 import static junit.framework.Assert.assertTrue;
 
 /**
@@ -39,17 +41,36 @@ public class RestIT {
 
     @HttpTest(method = Method.GET, path = "/fooditem/01001", headers = { @Header(name = "X-Mashape-Authorization", value = "ix1apuk2jl00oktejn7spp7v4i6vtw") })
     public void checkfoodItem() throws JSONException {
+        JSONObject o = assertOkAndGetJsonObjectFromBody();
+        assertNotNull(o.get("longDescription"));
+    }
+
+    @HttpTest(method = Method.GET, path = "/fooditem/search/apple", headers = { @Header(name = "X-Mashape-Authorization", value = "ix1apuk2jl00oktejn7spp7v4i6vtw") })
+    public void searchForApple() throws JSONException {
+        JSONObject o = assertOkAndGetJsonObjectFromBody();
+        assertEquals(o.getInt("pageSize"), 10);
+        assertEquals(o.getInt("currentPage"), 0);
+        assertEquals(o.getInt("totalResults"), 83);
+    }
+
+    @HttpTest(method = Method.GET, path = "/fooditem/search/apple?pageSize=50", headers = { @Header(name = "X-Mashape-Authorization", value = "ix1apuk2jl00oktejn7spp7v4i6vtw") })
+    public void searchForAppleWithPageSize() throws JSONException {
+        JSONObject o = assertOkAndGetJsonObjectFromBody();
+        assertEquals(o.getInt("pageSize"), 50);
+        assertEquals(o.getInt("currentPage"), 0);
+        assertEquals(o.getInt("totalResults"), 83);
+    }
+
+    private JSONObject assertOkAndGetJsonObjectFromBody() throws JSONException {
         assertOk(response);
         String body = response.getBody(String.class);
-        JSONObject o = new JSONObject(body);
+        return new JSONObject(body);
     }
 
 
     @HttpTest(method = Method.GET, path = "/fooditem/01001?nutrients=true", headers = { @Header(name = "X-Mashape-Authorization", value = "ix1apuk2jl00oktejn7spp7v4i6vtw") })
     public void checkfoodItemWithNutrients() throws JSONException {
-        assertOk(response);
-        String body = response.getBody(String.class);
-        JSONObject o = new JSONObject(body);
+        JSONObject o = assertOkAndGetJsonObjectFromBody();
         JSONArray a = o.getJSONArray("nutrients");
         assertTrue(a.length() != 0);
     }
@@ -57,10 +78,7 @@ public class RestIT {
 
     @HttpTest(method = Method.GET, path = "/fooditem/01001?nutrients=true&weight=true", headers = { @Header(name = "X-Mashape-Authorization", value = "ix1apuk2jl00oktejn7spp7v4i6vtw") })
     public void checkfoodItemWithNutrientsAndWeights() throws JSONException {
-        assertOk(response);
-
-        String body = response.getBody(String.class);
-        JSONObject o = new JSONObject(body);
+        JSONObject o = assertOkAndGetJsonObjectFromBody();
 
         JSONArray a = o.getJSONArray("nutrients");
         assertTrue(a.length() != 0);
@@ -83,17 +101,13 @@ public class RestIT {
 
     @HttpTest(method = Method.GET, path = "/nutrient/top/0203", headers = { @Header(name = "X-Mashape-Authorization", value = "ix1apuk2jl00oktejn7spp7v4i6vtw") })
     public void checkNutrientsTopList() throws JSONException {
-        assertOk(response);
-        String body = response.getBody(String.class);
-        JSONObject o = new JSONObject(body);
+        JSONObject o = assertOkAndGetJsonObjectFromBody();
         assertTrue(o.length() != 0);
     }
 
     @HttpTest(method = Method.GET, path = "/foodgroup/0200", headers = { @Header(name = "X-Mashape-Authorization", value = "ix1apuk2jl00oktejn7spp7v4i6vtw") })
     public void getFoodGroupDetails() throws JSONException {
-        assertOk(response);
-        String body = response.getBody(String.class);
-        JSONObject o = new JSONObject(body);
+        JSONObject o = assertOkAndGetJsonObjectFromBody();
         JSONArray a = o .getJSONArray("results");
 
         System.out.println("----------------------->>>>> " + a.length());

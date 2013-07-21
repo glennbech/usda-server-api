@@ -5,15 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d3d0b94e-bbc0-4a3d-b336-9095b56da305" name="Default" comment="paging fix, first stink">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/glennbech/usda/Constants.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/glennbech/usda/resource/PagedQuery.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/glennbech/usda/resource/BaseResource.java" afterPath="$PROJECT_DIR$/src/main/java/com/glennbech/usda/resource/BaseResource.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/glennbech/usda/resource/FoodGroupResource.java" afterPath="$PROJECT_DIR$/src/main/java/com/glennbech/usda/resource/FoodGroupResource.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/glennbech/usda/resource/FoodResource.java" afterPath="$PROJECT_DIR$/src/main/java/com/glennbech/usda/resource/FoodResource.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/glennbech/usda/resource/NutrientResource.java" afterPath="$PROJECT_DIR$/src/main/java/com/glennbech/usda/resource/NutrientResource.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/glennbech/usda/RestIT.java" afterPath="$PROJECT_DIR$/src/test/java/com/glennbech/usda/RestIT.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="6992c1f2-fd3a-4010-982d-28b721731b77" name="ignore" comment="" />
     <ignored path="rs22-server.iws" />
@@ -30,7 +22,7 @@
     <file path="/FoodItem.java" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1374257206540" ignored="false" />
     <file path="/MasShapeFilter.java" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1373911123751" ignored="false" />
     <file path="/web.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1373910920959" ignored="false" />
-    <file path="/fragment.java" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1374358434749" ignored="false" />
+    <file path="/fragment.java" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1374415081392" ignored="false" />
     <file path="/NutrientResource.java" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1374160574392" ignored="false" />
     <file path="/NutrientDefinition.java" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1373979885950" ignored="false" />
     <file path="/TopNutrientResponse.java" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1373968261012" ignored="false" />
@@ -42,7 +34,7 @@
     <file path="/IntegrationTests.java" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1374257819840" ignored="false" />
     <file path="/dataSource" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1374352963712" ignored="false" />
     <file path="/PagedQuery.java" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1374358453646" ignored="false" />
-    <file path="/RestIT.java" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1374359262942" ignored="false" />
+    <file path="/RestIT.java" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1374415056002" ignored="false" />
     <file path="/Constants.java" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1374357509819" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -100,23 +92,6 @@
       </breakpoint>
     </breakpoint_any>
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
-    <line_breakpoints>
-      <breakpoint url="file://$PROJECT_DIR$/src/test/java/com/glennbech/usda/RestIT.java" line="95" class="com.glennbech.usda.RestIT" package="com.glennbech.usda">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-    </line_breakpoints>
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -184,7 +159,7 @@
       <file leaf-file-name="RestIT.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/glennbech/usda/RestIT.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="99" column="0" selection-start="3918" selection-end="3918" vertical-scroll-proportion="0.5165289">
+            <state line="58" column="39" selection-start="2500" selection-end="2500" vertical-scroll-proportion="0.9436009">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -795,7 +770,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33428982" sideWeight="0.64089775" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24964131" sideWeight="0.7267904" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24964131" sideWeight="0.7267904" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27320954" sideWeight="0.8938307" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -998,7 +973,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/glennbech/usda/RestIT.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="99" column="0" selection-start="3918" selection-end="3918" vertical-scroll-proportion="0.5165289">
+        <state line="58" column="39" selection-start="2500" selection-end="2500" vertical-scroll-proportion="0.9436009">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
