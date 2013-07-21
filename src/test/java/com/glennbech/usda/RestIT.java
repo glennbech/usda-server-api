@@ -83,7 +83,7 @@ public class RestIT {
         JSONArray a = o.getJSONArray("nutrients");
         assertTrue(a.length() != 0);
 
-        a = o.getJSONArray("weights");
+        a = o.getJSONArray("weight");
         assertTrue(a.length() != 0);
 
     }

@@ -1,6 +1,7 @@
 package com.glennbech.usda.model;
 
 import org.codehaus.jackson.annotate.JsonIgnoreProperties;
+import org.codehaus.jackson.map.annotate.JsonSerialize;
 
 import javax.xml.bind.annotation.XmlElement;
 import java.util.List;
@@ -9,6 +10,7 @@ import java.util.List;
  */
 
 @JsonIgnoreProperties(ignoreUnknown = true )
+@JsonSerialize(include=JsonSerialize.Inclusion.NON_NULL)
 public class FoodItem extends BaseItem  {
 
     private String ndbNumber;
@@ -19,43 +21,30 @@ public class FoodItem extends BaseItem  {
     private String longDescription ;
     private String shortDescription ;
 
-    @XmlElement(nillable=true)
     private String commonName ;
 
-    @XmlElement(nillable=true)
     private String manufacturerName ;
 
-    @XmlElement(nillable=true)
     private boolean survey ;
 
-    @XmlElement(nillable=true)
     private String refuseDescription ;
 
-    @XmlElement(nillable=true)
     private Float refuse;
 
-    @XmlElement(nillable=true)
     private String scientificName ;
 
-    @XmlElement(nillable=true)
     private Float nitrogenFactor ;
 
-    @XmlElement(nillable=true)
     private Float fatFactor ;
 
-    @XmlElement(nillable=true)
     private Float choFactor;
 
-    @XmlElement(nillable=true)
     private Float proteinFactor ;
 
-    @XmlElement(nillable=true)
     private List<NutrientValue> nutrients ;
 
-    @XmlElement(nillable=true)
     private List<FootNote> footNotes ;
 
-    @XmlElement(nillable=true)
     private List<WeightData> weights;
 
     public String getFoodGroupName() {

@@ -2,6 +2,7 @@ package com.glennbech.usda.model;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import org.codehaus.jackson.annotate.JsonIgnoreProperties;
+import org.codehaus.jackson.map.annotate.JsonSerialize;
 
 import java.util.List;
 
@@ -9,6 +10,8 @@ import java.util.List;
 
  */
 @JsonIgnoreProperties(ignoreUnknown = true )
+@JsonSerialize(include=JsonSerialize.Inclusion.NON_NULL)
+
 public  class SearchResult<T> {
 
     private int currentPage;

@@ -1,8 +1,11 @@
 package com.glennbech.usda.model;
 
+import org.codehaus.jackson.map.annotate.JsonSerialize;
+
 /**
  *
  */
+@JsonSerialize(include=JsonSerialize.Inclusion.NON_NULL)
 public class NutrientValue {
 
     private String description ;
