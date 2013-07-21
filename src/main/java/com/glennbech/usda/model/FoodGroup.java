@@ -1,7 +1,5 @@
 package com.glennbech.usda.model;
 
-import java.util.List;
-
 /**
  *
  */
@@ -9,7 +7,6 @@ public class FoodGroup extends BaseItem {
 
     private String foodGroupNumber;
     private String name ;
-    private List<String> ndbNumbers ;
     private int count ;
 
     public String getFoodGroupNumber() {
@@ -35,17 +32,6 @@ public class FoodGroup extends BaseItem {
     public void setName(String name) {
         this.name = name;
     }
-
-    public List<String> getNdbNumbers() {
-        return ndbNumbers;
-    }
-
-    public void setNdbNumbers(List<String> ndbNumbers) {
-        this.ndbNumbers = ndbNumbers;
-    }
-
-    public int count() {
-        return ndbNumbers.size();
-    }
+2
 
 }
