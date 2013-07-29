@@ -13,6 +13,9 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.List;
 
+import static com.glennbech.usda.Constants.DEFAULT_PAGE_SIZE;
+import static com.glennbech.usda.Constants.MAX_PAGE_SIZE;
+
 /**
  *
  */
@@ -25,7 +28,6 @@ public class NutrientResource extends BaseResource {
     public Response getNutrients() throws IOException {
 
         Response response;
-
         List<NutrientDefinition> items = getJdbcTemplate().query("SELECT NUTR_NO, UNITS, TAGNAME, NUTR_DESC, SR_ORDER FROM NUTR_DEF", new RowMapper<NutrientDefinition>() {
             @Override
             public NutrientDefinition mapRow(ResultSet resultSet, int i) throws SQLException {
@@ -49,18 +51,18 @@ public class NutrientResource extends BaseResource {
 
         Response response;
 
-        pagesize = (pagesize == null) ? 10 : pagesize;
+        pagesize = (pagesize == null) ? DEFAULT_PAGE_SIZE : pagesize;
         page = (page == null) ? 0 : page;
 
-        if (pagesize > 50) {
+        if (pagesize > MAX_PAGE_SIZE) {
             return Response.status(Response.Status.BAD_REQUEST).entity("Please use a pagesize of 50 or below").build();
         }
 
         int count =  getJdbcTemplate().queryForInt("select count(*) from food_des, nutr_def, nut_data where nutr_def.nutr_no = nut_data.nutr_no and nut_data.ndb_no = food_des.ndb_no and nut_data.nutr_no = ? order by nutr_val desc", new Object[] {nutrientNumber});
-        List<TopNutrientResponse> items = getJdbcTemplate().query("select food_des.ndb_no, long_desc, nutr_val from food_des, nutr_def, nut_data where nutr_def.nutr_no = nut_data.nutr_no and nut_data.ndb_no = food_des.ndb_no and nut_data.nutr_no = ? order by nutr_val desc limit ?,?", new Object[] {nutrientNumber, page*pagesize, pagesize},  new RowMapper<TopNutrientResponse>() {
+        List<TopNutrientResponse> items = getJdbcTemplate().query("select food_des.ndb_no, long_desc, nutr_val from food_des, nutr_def, nut_data where nutr_def.nutr_no = nut_data.nutr_no and nut_data.ndb_no = food_des.ndb_no and nut_data.nutr_no = ? order by nutr_val desc limit ?,?", new Object[]{nutrientNumber, page * pagesize, pagesize}, new RowMapper<TopNutrientResponse>() {
             @Override
             public TopNutrientResponse mapRow(ResultSet resultSet, int i) throws SQLException {
-                TopNutrientResponse top = new TopNutrientResponse() ;
+                  TopNutrientResponse top = new TopNutrientResponse();
                 top.setLongDescription(resultSet.getString("LONG_DESC"));
                 top.setNdbNo(resultSet.getString("NDB_NO"));
                 top.setValue(resultSet.getFloat("NUTR_VAL"));
@@ -73,7 +75,6 @@ public class NutrientResource extends BaseResource {
         resultset.setTotalResults(count);
         resultset.setCurrentPage(page);
         resultset.setPageSize(pagesize);
-
         return Response.ok().entity(resultset).build();
     }
 

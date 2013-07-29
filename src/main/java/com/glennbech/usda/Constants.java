@@ -1,13 +1,12 @@
 package com.glennbech.usda;
 
 /**
- * Created with IntelliJ IDEA.
- * User: glennbech
- * Date: 7/20/13
- * Time: 11:58 PM
- * To change this template use File | Settings | File Templates.
+ *
  */
 public class Constants {
 
-    public static final int DEFAULT_PAGE_SIZE = 10 ;
+    public static final int DEFAULT_PAGE_SIZE = 10;
+    public static final Integer MAX_PAGE_SIZE = 50;
+    public static final int MIN_SEARCH_CHARS = 3;
+
 }

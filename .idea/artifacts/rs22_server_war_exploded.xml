@@ -37,6 +37,7 @@
           <element id="library" level="project" name="Maven: org.springframework:spring-web:3.2.3.RELEASE" />
           <element id="library" level="project" name="Maven: mysql:mysql-connector-java:5.1.6" />
           <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.1.2" />
+          <element id="library" level="project" name="Maven: emma:emma:2.1.5320" />
         </element>
       </element>
     </root>

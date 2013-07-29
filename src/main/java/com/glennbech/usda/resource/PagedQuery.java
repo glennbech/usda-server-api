@@ -34,13 +34,4 @@ public class PagedQuery<T extends BaseItem> {
     public PagedQuery(JdbcTemplate template) {
         this.template = template;
     }
-
-    public JdbcTemplate getTemplate() {
-        return template;
-    }
-
-    public void setTemplate(JdbcTemplate template) {
-        this.template = template;
-    }
-
 }

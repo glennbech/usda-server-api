@@ -1,6 +1,7 @@
 package com.glennbech.usda.resource;
 
 
+import com.glennbech.usda.Constants;
 import com.glennbech.usda.model.FoodGroup;
 import com.glennbech.usda.model.FoodItem;
 import com.glennbech.usda.model.SearchResult;
@@ -27,7 +28,6 @@ public class FoodGroupResource extends BaseResource {
         List<FoodGroup> foodGroups = getJdbcTemplate().query("select FD_GROUP.fdgrp_cd, fdgrp_desc, count(*) as 'count' from FOOD_DES, FD_GROUP where FOOD_DES.fdgrp_cd = FD_GROUP.fdgrp_cd group by fdgrp_desc order by count desc", new RowMapper<FoodGroup>() {
             @Override
             public FoodGroup mapRow(ResultSet resultSet, int i) throws SQLException {
-
                 FoodGroup group = new FoodGroup();
                 group.setFoodGroupNumber(resultSet.getString("FDGRP_CD"));
                 group.setName(resultSet.getString("FDGRP_DESC"));
@@ -43,10 +43,10 @@ public class FoodGroupResource extends BaseResource {
     @Path("/{foodGroupNumber}")
     public Response getFoodsByFoodGroup(@PathParam("foodGroupNumber") String foodGroupNumber, @QueryParam("page") Integer page, @QueryParam("pageSize") Integer pageSize) throws IOException {
 
-        pageSize = (pageSize == null) ? 10 : pageSize;
+        pageSize = (pageSize == null) ? Constants.DEFAULT_PAGE_SIZE : pageSize;
         page = (page == null) ? 0 : page;
 
-        if (pageSize > 50) {
+        if (pageSize > Constants.MAX_PAGE_SIZE) {
             return Response.status(Response.Status.BAD_REQUEST).entity("Please use a pagesize of 50 or below").build();
         }
 

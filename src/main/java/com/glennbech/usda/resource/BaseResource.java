@@ -28,15 +28,4 @@ public class BaseResource {
         }
         return jdbcTemplate;
     }
-
-
-    public DataSource getDataSource() {
-        return dataSource;
-    }
-
-    public void setDataSource(DataSource dataSource) {
-        this.dataSource = dataSource;
-    }
-
-
 }

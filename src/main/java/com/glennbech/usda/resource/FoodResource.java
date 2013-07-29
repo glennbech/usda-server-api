@@ -1,6 +1,7 @@
 package com.glennbech.usda.resource;
 
 
+import com.glennbech.usda.Constants;
 import com.glennbech.usda.model.FoodItem;
 import com.glennbech.usda.model.NutrientValue;
 import com.glennbech.usda.model.SearchResult;
@@ -13,6 +14,9 @@ import java.io.IOException;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.List;
+
+import static com.glennbech.usda.Constants.MAX_PAGE_SIZE;
+import static com.glennbech.usda.Constants.MIN_SEARCH_CHARS;
 
 /**
  *
@@ -76,14 +80,14 @@ public class FoodResource extends BaseResource {
 
         Response response;
 
-        pagesize = (pagesize == null) ? 10 : pagesize;
+        pagesize = (pagesize == null) ? Constants.DEFAULT_PAGE_SIZE : pagesize;
         page = (page == null) ? 0 : page;
 
-        if (pagesize > 50) {
+        if (pagesize > MAX_PAGE_SIZE) {
             return Response.status(Response.Status.BAD_REQUEST).entity("Please use a pagesize of 50 or below").build();
         }
 
-        if (criteria == null || criteria.length() < 3) {
+        if (criteria == null || criteria.length() < MIN_SEARCH_CHARS) {
             return Response.status(400).entity("Search critera must be at least 3 characters").build();
         }
 
