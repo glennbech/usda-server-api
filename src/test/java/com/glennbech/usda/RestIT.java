@@ -154,13 +154,6 @@ public class RestIT {
         assertBadRequest(response);
     }
 
-    @HttpTest(method = Method.GET, path = "/fooditem/42171/similar_key_vitamin_minerals", headers = {@Header(name = "X-Mashape-Authorization", value = "ix1apuk2jl00oktejn7spp7v4i6vtw")})
-    public void getSimilarFoodItems() throws JSONException {
-        JSONObject res = assertOkAndGetJsonObjectFromBody() ;
-        JSONArray items = res.getJSONArray("result");
-        assertTrue(items.length() == 20);
-        assertOk(response);
-    }
 
     public Response getResponse() {
         return response;

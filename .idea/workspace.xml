@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d3d0b94e-bbc0-4a3d-b336-9095b56da305" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/glennbech/usda/resource/FoodResource.java" afterPath="$PROJECT_DIR$/src/main/java/com/glennbech/usda/resource/FoodResource.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/glennbech/usda/RestIT.java" afterPath="$PROJECT_DIR$/src/test/java/com/glennbech/usda/RestIT.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/glennbech/usda/model/SimilarFoods.java" afterPath="$PROJECT_DIR$/src/main/java/com/glennbech/usda/model/SimilarFoods.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/distances.csv" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/distances.csv" />
     </list>
     <list id="6992c1f2-fd3a-4010-982d-28b721731b77" name="ignore" comment="" />
     <ignored path="rs22-server.iws" />
@@ -308,7 +305,7 @@
       <file leaf-file-name="RestIT.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/glennbech/usda/RestIT.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="162" column="17" selection-start="7645" selection-end="7645" vertical-scroll-proportion="0.63037974">
+            <state line="155" column="0" selection-start="7205" selection-end="7205" vertical-scroll-proportion="0.63037974">
               <folding />
             </state>
           </provider>
@@ -434,9 +431,9 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/glennbech/usda/RelatedFoodsInitServlet.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/glennbech/usda/model/SimilarFoodsResult.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/glennbech/usda/RestIT.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/glennbech/usda/resource/FoodResource.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/glennbech/usda/model/SimilarFoods.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/glennbech/usda/RestIT.java" />
       </list>
     </option>
   </component>
@@ -1228,7 +1225,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/glennbech/usda/RestIT.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="162" column="17" selection-start="7645" selection-end="7645" vertical-scroll-proportion="0.63037974">
+        <state line="155" column="0" selection-start="7205" selection-end="7205" vertical-scroll-proportion="0.63037974">
           <folding />
         </state>
       </provider>
