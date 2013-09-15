@@ -1,20 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/main/java/com/glennbech/usda/resource/FoodResource.java" line="95" mnemonic="9" />
+    <bookmark url="file://$PROJECT_DIR$/src/main/java/com/glennbech/usda/resource/FoodResource.java" line="105" mnemonic="9" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d3d0b94e-bbc0-4a3d-b336-9095b56da305" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/glennbech/usda/MasShapeFilter.java" afterPath="$PROJECT_DIR$/src/main/java/com/glennbech/usda/MasShapeFilter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/glennbech/usda/ItemsIT.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/glennbech/usda/resource/ListResource.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/glennbech/usda/model/NPoint.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/glennbech/usda/RelatedFoodsInitServlet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/glennbech/usda/model/SimilarFoods.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/glennbech/usda/model/SimilarFoodsResult.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/distances.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/glennbech/usda/resource/FoodResource.java" afterPath="$PROJECT_DIR$/src/main/java/com/glennbech/usda/resource/FoodResource.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Procfile" afterPath="$PROJECT_DIR$/Procfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/glennbech/usda/RestIT.java" afterPath="$PROJECT_DIR$/src/test/java/com/glennbech/usda/RestIT.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="6992c1f2-fd3a-4010-982d-28b721731b77" name="ignore" comment="" />
     <ignored path="rs22-server.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1375168104086" ignored="false" />
+    <file path="/Dummy.txt" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1379282581982" ignored="false" />
     <file path="/pom.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1374525090406" ignored="false" />
-    <file path="/spring-config.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1374351552934" ignored="false" />
-    <file path="/FoodResource.java" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1374524481267" ignored="false" />
+    <file path="/spring-config.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1376051224652" ignored="false" />
+    <file path="/FoodResource.java" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1379282429000" ignored="false" />
     <file path="/database.properties" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1373878783303" ignored="false" />
     <file path="/database_dev.properties" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1373879406900" ignored="false" />
     <file path="/SearchResult.java" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1374157766047" ignored="false" />
@@ -22,8 +34,8 @@
     <file path="/WeightData.java" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1373897879383" ignored="false" />
     <file path="/FoodItem.java" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1374417895561" ignored="false" />
     <file path="/MasShapeFilter.java" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1375168181728" ignored="false" />
-    <file path="/web.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1373910920959" ignored="false" />
-    <file path="/fragment.java" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1375089050477" ignored="false" />
+    <file path="/web.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1379277324572" ignored="false" />
+    <file path="/fragment.java" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1379276745431" ignored="false" />
     <file path="/NutrientResource.java" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1374524568343" ignored="false" />
     <file path="/NutrientDefinition.java" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1373979885950" ignored="false" />
     <file path="/TopNutrientResponse.java" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1373968261012" ignored="false" />
@@ -31,12 +43,12 @@
     <file path="/FoodGroupResource.java" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1374524458998" ignored="false" />
     <file path="/FoodItemRowMapperImpl.java" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1374145050936" ignored="false" />
     <file path="/BaseResource.java" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1374154081774" ignored="false" />
-    <file path="/a.dummy" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1375035509308" ignored="false" />
+    <file path="/a.dummy" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1375723098377" ignored="false" />
     <file path="/IntegrationTests.java" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1374257819840" ignored="false" />
     <file path="/dataSource" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1374352963712" ignored="false" />
     <file path="/PagedQuery.java" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1374358453646" ignored="false" />
-    <file path="/RestIT.java" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1374527158413" ignored="false" />
-    <file path="/Constants.java" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1374357509819" ignored="false" />
+    <file path="/RestIT.java" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1379280586710" ignored="false" />
+    <file path="/Constants.java" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1375742825927" ignored="false" />
     <file path="$PROJECT_DIR$/../foodfacts-pro/res/values/strings.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1374663828367" ignored="false" />
     <file path="$PROJECT_DIR$/../foodfacts-pro/AndroidManifest.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1374663907082" ignored="false" />
     <file path="$PROJECT_DIR$/../foodfacts-pro/res/layout/main.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1374663829460" ignored="false" />
@@ -63,17 +75,17 @@
     <file path="/activity_food_group.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1374867200917" ignored="false" />
     <file path="$PROJECT_DIR$/../Food-Facts/Matvarer/AndroidManifest.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1374960416117" ignored="false" />
     <file path="$PROJECT_DIR$/../Food-Facts/Matvarer/gen/com/glennbech/nutrinfo/BuildConfig.java" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1374968295681" ignored="false" />
-    <file path="/AndroidManifest.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1375089071082" ignored="false" />
+    <file path="/AndroidManifest.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1375750191447" ignored="false" />
     <file path="$PROJECT_DIR$/../Food-Facts-Pro/Matvarer/AndroidManifest.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1374869123136" ignored="false" />
     <file path="$PROJECT_DIR$/../Food-Facts-Pro/Matvarer/src/com/glennbech/nutrinfo/StartActivity.java" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1374879257381" ignored="false" />
-    <file path="/StartActivity.java" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1375047576878" ignored="false" />
+    <file path="/StartActivity.java" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1375710770143" ignored="false" />
     <file path="$PROJECT_DIR$/../Food-Facts/Matvarer/res/layout/main.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1375035162900" ignored="false" />
-    <file path="/main.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1375035277962" ignored="false" />
+    <file path="/main.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1375742581351" ignored="false" />
     <file path="$PROJECT_DIR$/../Food-Facts/Matvarer/src/com/glennbech/nutrinfo/IngredientOpenhelper.java" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1374955838756" ignored="false" />
     <file path="/IngredientOpenhelper.java" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1374928956737" ignored="false" />
     <file path="$PROJECT_DIR$/../Food-Facts/Matvarer/src/com/glennbech/nutrinfo/StartActivity.java" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1375048412739" ignored="false" />
     <file path="$PROJECT_DIR$/../Food-Facts/Matvarer/res/values/strings.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1375045641769" ignored="false" />
-    <file path="/strings.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1375045634619" ignored="false" />
+    <file path="/strings.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1375749954556" ignored="false" />
     <file path="$PROJECT_DIR$/../JakeWharton-ActionBarSherlock-071a61c/actionbarsherlock/src/com/actionbarsherlock/internal/ActionBarSherlockNative.java" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1374956060196" ignored="false" />
     <file path="$PROJECT_DIR$/../Food-Facts/Matvarer/res/layout-land/main.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1375035334034" ignored="false" />
     <file path="/FeaturedFoodFragment.java" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1374958058421" ignored="false" />
@@ -81,7 +93,7 @@
     <file path="$PROJECT_DIR$/../Food-Facts/Matvarer/res/values-large-mdpi/dimen.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1374959768394" ignored="false" />
     <file path="/dimen.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1374959768394" ignored="false" />
     <file path="$PROJECT_DIR$/../Food-Facts/Matvarer/res/drawable/background.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1374960128316" ignored="false" />
-    <file path="/background.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1374960126878" ignored="false" />
+    <file path="/background.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1375542554617" ignored="false" />
     <file path="$PROJECT_DIR$/../Food-Facts/Matvarer/res/drawable/repeat_background.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1374960200117" ignored="false" />
     <file path="/repeat_background.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1374960198633" ignored="false" />
     <file path="$PROJECT_DIR$/../Food-Facts/Matvarer/res/layout-small/main.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1374968295681" ignored="false" />
@@ -112,6 +124,131 @@
     <file path="$PROJECT_DIR$/../Actionbartest/build.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1375089047799" ignored="false" />
     <file path="$PROJECT_DIR$/../Actionbartest/src/com/example/Actionbartest/MyActivity.java" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1375089135625" ignored="false" />
     <file path="$PROJECT_DIR$/../Actionbartest/res/menu/menu.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1375089114754" ignored="false" />
+    <file path="/ListResource.java" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1375192097058" ignored="false" />
+    <file path="/ItemsIT.java" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1379276377233" ignored="false" />
+    <file path="/a.sql" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1375204113429" ignored="false" />
+    <file path="/dummy.sql" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1375204109395" ignored="false" />
+    <file path="$PROJECT_DIR$/../Find-my-phone/AndroidManifest.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1375286801836" ignored="false" />
+    <file path="$PROJECT_DIR$/../Find-my-phone/src/com/findmyphone/ConfigActivity.java" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1375286801835" ignored="false" />
+    <file path="$PROJECT_DIR$/../Find-my-phone/src/com/findmyphone/AlarmActivity.java" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1375286801836" ignored="false" />
+    <file path="$PROJECT_DIR$/../Find-my-phone/res/layout/thanku.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1375286801835" ignored="false" />
+    <file path="/thanku.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1375286047773" ignored="false" />
+    <file path="$PROJECT_DIR$/../Find-my-phone/res/values/strings.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1375286801836" ignored="false" />
+    <file path="$PROJECT_DIR$/../Find-my-phone/res/layout/config.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1375286801835" ignored="false" />
+    <file path="/config.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1375286500570" ignored="false" />
+    <file path="$PROJECT_DIR$/../Find-my-phone/gen/com/findmyphone/R.java" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1375286803866" ignored="false" />
+    <file path="$PROJECT_DIR$/../Konsertkalender/res/layout/main.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1375304653465" ignored="false" />
+    <file path="$PROJECT_DIR$/../Konsertkalender/src/com/glennbech/konsertkalender/eventlist/HTTPEventList.java" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1375305433750" ignored="false" />
+    <file path="$PROJECT_DIR$/../Konsertkalender/res/layout/favorites.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1375304657413" ignored="false" />
+    <file path="$PROJECT_DIR$/../android18/ui/actionbarcompat/Styled/Styled/src/main/.idea/workspace.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1375313920499" ignored="false" />
+    <file path="$PROJECT_DIR$/../android18/ui/actionbarcompat/Styled/Styled/src/main/.idea/modules.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1375311528952" ignored="false" />
+    <file path="$PROJECT_DIR$/../Konsertkalender/src/com/glennbech/konsertkalender/MainActivity.java" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1375312327064" ignored="false" />
+    <file path="$PROJECT_DIR$/../Konsertkalender/AndroidManifest.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1375317994641" ignored="false" />
+    <file path="$PROJECT_DIR$/../Konsertkalender/firebasetest.html" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1375351267541" ignored="false" />
+    <file path="$PROJECT_DIR$/../FindMyFamily/res/values/strings.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1375750196584" ignored="false" />
+    <file path="$PROJECT_DIR$/../FindMyFamily/AndroidManifest.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1375750191447" ignored="false" />
+    <file path="$PROJECT_DIR$/../FindMyFamily/res/layout/main.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1375564936912" ignored="false" />
+    <file path="$PROJECT_DIR$/../FindMyFamily/build.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1375388096250" ignored="false" />
+    <file path="$PROJECT_DIR$/../FindMyFamily/src/com/glennbech/findmyfamily/MyActivity.java" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1375441076172" ignored="false" />
+    <file path="$PROJECT_DIR$/../FindMyFamily/.idea/workspace.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1375643880187" ignored="false" />
+    <file path="$PROJECT_DIR$/../FindMyFamily/project.properties" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1375389257318" ignored="false" />
+    <file path="/MyActivity.java" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1375440724382" ignored="false" />
+    <file path="$PROJECT_DIR$/../Badetemp/src/com/glennbech/badetemp/BadeTempMap.java" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1375389286149" ignored="false" />
+    <file path="$PROJECT_DIR$/../FindMyFamily/src/com/glennbech/findmyfamily/FamilyMapFragment.java" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1375392695535" ignored="false" />
+    <file path="/FamilyMapFragment.java" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1375392669464" ignored="false" />
+    <file path="$PROJECT_DIR$/../FindMyFamily/res/drawable/background.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1375396286220" ignored="false" />
+    <file path="$PROJECT_DIR$/../FindMyFamily/res/drawable-land-hdpi/d.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1375397526706" ignored="false" />
+    <file path="$PROJECT_DIR$/../FindMyFamily/res/drawable-hdpi/background.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1375542556332" ignored="false" />
+    <file path="$PROJECT_DIR$/../FindMyFamily/res/values/styles.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1375655887420" ignored="false" />
+    <file path="/styles.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1375655887036" ignored="false" />
+    <file path="$PROJECT_DIR$/../FindMyFamily/src/com/glennbech/findmyfamily/Family.java" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1375474798053" ignored="false" />
+    <file path="/Family.java" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1375483965607" ignored="false" />
+    <file path="$PROJECT_DIR$/../FindMyFamily/src/com/glennbech/findmyfamily/FamilyMember.java" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1375444752862" ignored="false" />
+    <file path="/FamilyMember.java" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1375428520594" ignored="false" />
+    <file path="$PROJECT_DIR$/../FindMyFamily/src/com/glennbech/findmyfamily/enableOrDisableGetStartedButton.java" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1375435515749" ignored="false" />
+    <file path="$PROJECT_DIR$/../FindMyFamily/src/com/glennbech/findmyfamily/MainActivity.java" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1375746800918" ignored="false" />
+    <file path="$PROJECT_DIR$/../FindMyFamily/gen/com/glennbech/findmyfamily/R.java" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1375750199739" ignored="false" />
+    <file path="$PROJECT_DIR$/../FindMyFamily/gen/com/glennbech/findmyfamily/Manifest.java" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1375750199739" ignored="false" />
+    <file path="$PROJECT_DIR$/../FindMyFamily/src/com/glennbech/findmyfamily/StartActivity.java" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1375723126052" ignored="false" />
+    <file path="$PROJECT_DIR$/../FindMyFamily/src/com/glennbech/findmyfamily/UserListFragment.java" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1375446582250" ignored="false" />
+    <file path="/UserListFragment.java" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1375446569161" ignored="false" />
+    <file path="$PROJECT_DIR$/../FindMyFamily/res/layout/fragment_user_list.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1375447109120" ignored="false" />
+    <file path="/fragment_user_list.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1375445393821" ignored="false" />
+    <file path="/MainActivity.java" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1375746794263" ignored="false" />
+    <file path="$PROJECT_DIR$/../FindMyFamily/src/com/glennbech/findmyfamily/EventFragment.java" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1375448771466" ignored="false" />
+    <file path="$PROJECT_DIR$/../FindMyFamily/src/com/glennbech/findmyfamily/ChatFragment.java" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1375685273809" ignored="false" />
+    <file path="$PROJECT_DIR$/../FindMyFamily/src/com/glennbech/findmyfamily/Service.java" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1375464772904" ignored="false" />
+    <file path="/Service.java" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1375465069494" ignored="false" />
+    <file path="$PROJECT_DIR$/../FindMyFamily/src/com/glennbech/findmyfamily/LocationSyncService.java" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1375742281472" ignored="false" />
+    <file path="/LocationSyncService.java" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1375723351962" ignored="false" />
+    <file path="$PROJECT_DIR$/../FindMyFamily/src/com/glennbech/findmyfamily/Constants.java" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1375747507333" ignored="false" />
+    <file path="$USER_HOME$/Downloads/LocationUpdates/src/com/example/android/location/MainActivity.java" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1375556857515" ignored="false" />
+    <file path="$PROJECT_DIR$/../FindMyFamily/src/com/glennbech/findmyfamily/model/Family.java" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1375483990920" ignored="false" />
+    <file path="$PROJECT_DIR$/../FindMyFamily/src/com/glennbech/findmyfamily/FirebaseFamily.java" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1375723533286" ignored="false" />
+    <file path="$PROJECT_DIR$/../FindMyFamily/src/com/glennbech/findmyfamily/model/FamilyMember.java" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1375723126052" ignored="false" />
+    <file path="$PROJECT_DIR$/../FindMyFamily/src/com/glennbech/findmyfamily/model/Location.java" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1375533152148" ignored="false" />
+    <file path="/Location.java" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1375533152148" ignored="false" />
+    <file path="$PROJECT_DIR$/../FindMyFamily/src/com/glennbech/findmyfamily/model/ChatMessage.java" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1375644549325" ignored="false" />
+    <file path="/ChatMessage.java" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1375644529457" ignored="false" />
+    <file path="$PROJECT_DIR$/../FindMyFamily/src/com/glennbech/findmyfamily/model/Place.java" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1375482027167" ignored="false" />
+    <file path="/Place.java" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1375482018702" ignored="false" />
+    <file path="$PROJECT_DIR$/../FindMyFamily/src/com/glennbech/findmyfamily/model/Event.java" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1375482108310" ignored="false" />
+    <file path="/Event.java" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1375482090969" ignored="false" />
+    <file path="/FirebaseFamily.java" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1375723311003" ignored="false" />
+    <file path="$PROJECT_DIR$/../FindMyFamily/src/com/glennbech/findmyfamily/model/GsonTest.java" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1375490176652" ignored="false" />
+    <file path="/GsonTest.java" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1375490164898" ignored="false" />
+    <file path="$PROJECT_DIR$/../FindMyFamily/res/layout/register.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1375723835061" ignored="false" />
+    <file path="/register.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1375723745319" ignored="false" />
+    <file path="$PROJECT_DIR$/../FindMyFamily/src/com/glennbech/findmyfamily/MapViewFragment.java" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1375746519848" ignored="false" />
+    <file path="/MapViewFragment.java" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1375746004212" ignored="false" />
+    <file path="$PROJECT_DIR$/../FindMyFamily/res/layout/fragment_mapview.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1375744618786" ignored="false" />
+    <file path="/fragment_mapview.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1375744617440" ignored="false" />
+    <file path="$PROJECT_DIR$/../FindMyFamily/res/layout-land/fragment_mapview.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1375560157854" ignored="false" />
+    <file path="$PROJECT_DIR$/../FindMyFamily/src/com/glennbech/findmyfamily/model/LastKnownLocation.java" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1375544244861" ignored="false" />
+    <file path="$PROJECT_DIR$/../FindMyFamily/res/layout-land/register.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1375558823098" ignored="false" />
+    <file path="$PROJECT_DIR$/../FindMyFamily/src/com/glennbech/findmyfamily/Prefutils.java" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1375549133253" ignored="false" />
+    <file path="/Prefutils.java" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1375549132395" ignored="false" />
+    <file path="$PROJECT_DIR$/../FindMyFamily/src/com/glennbech/findmyfamily/ApplicationPreferences.java" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1375717300152" ignored="false" />
+    <file path="$PROJECT_DIR$/../FindMyFamily/src/com/glennbech/findmyfamily/MySupportMapFragment.java" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1375566424512" ignored="false" />
+    <file path="/MySupportMapFragment.java" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1375562813739" ignored="false" />
+    <file path="$PROJECT_DIR$/../FindMyFamily/res/drawable/background_drawer.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1375567279985" ignored="false" />
+    <file path="/background_drawer.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1375567278819" ignored="false" />
+    <file path="$PROJECT_DIR$/../FindMyFamily/res/layout/list_main.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1375568400813" ignored="false" />
+    <file path="$PROJECT_DIR$/../FindMyFamily/res/layout/list_header.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1375570523592" ignored="false" />
+    <file path="$PROJECT_DIR$/../FindMyFamily/src/com/glennbech/findmyfamily/sectionedadapter/SectionedAdapter.java" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1375566247064" ignored="false" />
+    <file path="/SectionedAdapter.java" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1375565703280" ignored="false" />
+    <file path="$PROJECT_DIR$/../FindMyFamily/src/com/glennbech/findmyfamily/sectionedadapter/Selection.java" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1375566238755" ignored="false" />
+    <file path="/list_header.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1375570519614" ignored="false" />
+    <file path="/list_main.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1375568399580" ignored="false" />
+    <file path="$PROJECT_DIR$/../FindMyFamily/src/com/glennbech/findmyfamily/model/GeoFence.java" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1375622500080" ignored="false" />
+    <file path="/GeoFence.java" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1375622500080" ignored="false" />
+    <file path="/ChatFragment.java" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1375654710955" ignored="false" />
+    <file path="$PROJECT_DIR$/../FindMyFamily/res/layout/fragment_chat.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1375653127876" ignored="false" />
+    <file path="/fragment_chat.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1375653127876" ignored="false" />
+    <file path="$PROJECT_DIR$/../Food-Facts/Matvarer/src/com/glennbech/nutrinfo/fragments/FavoriteFragment.java" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1375643843666" ignored="false" />
+    <file path="$PROJECT_DIR$/../Food-Facts/Matvarer/gen/com/glennbech/nutrinfo/R.java" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1375643987337" ignored="false" />
+    <file path="$PROJECT_DIR$/../FindMyFamily/gen/com/glennbech/findmyfamily/BuildConfig.java" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1375643991878" ignored="false" />
+    <file path="$PROJECT_DIR$/../FindMyFamily/src/com/glennbech/findmyfamily/tvMessageHeader.java" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1375644606433" ignored="false" />
+    <file path="$PROJECT_DIR$/../FindMyFamily/res/layout/chat_message_mine.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1375655893579" ignored="false" />
+    <file path="/chat_message_mine.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1375655893579" ignored="false" />
+    <file path="$PROJECT_DIR$/../FindMyFamily/res/layout/chat_message_theirs.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1375655981249" ignored="false" />
+    <file path="/chat_message_theirs.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1375655947041" ignored="false" />
+    <file path="/ApplicationPreferences.java" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1375717299801" ignored="false" />
+    <file path="$PROJECT_DIR$/../FindMyFamily/src/com/glennbech/findmyfamily/DisconnectedFragment.java" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1375717336983" ignored="false" />
+    <file path="/DisconnectedFragment.java" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1375717279698" ignored="false" />
+    <file path="$PROJECT_DIR$/../FindMyFamily/src/com/glennbech/findmyfamily/CreateNewZoneActvity.java" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1375750016339" ignored="false" />
+    <file path="/CreateNewZoneActvity.java" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1375749764432" ignored="false" />
+    <file path="$PROJECT_DIR$/../FindMyFamily/res/layout/activity_create_zone.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1375747837155" ignored="false" />
+    <file path="/activity_create_zone.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1375747837155" ignored="false" />
+    <file path="$PROJECT_DIR$/../FindMyFamily/res/menu/context_menu.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1375748644630" ignored="false" />
+    <file path="/context_menu.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1375749923172" ignored="false" />
+    <file path="$PROJECT_DIR$/../FindMyFamily/src/com/glennbech/findmyfamily/actionmode_add_fence_menu.java" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1375748756466" ignored="false" />
+    <file path="$PROJECT_DIR$/../FindMyFamily/res/menu/menu_action_mode_fence.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1375749924467" ignored="false" />
+    <file path="$PROJECT_DIR$/../Food-Facts/Matvarer/res/menu/context_menu.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1375748805152" ignored="false" />
+    <file path="/RelatedFoodsInitServlet.java" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1379278184230" ignored="false" />
+    <file path="/SimilarFoods.java" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1379282402108" ignored="false" />
+    <file path="$PROJECT_DIR$/../similarfood/src/main/java/com/glennbech/fooddistance/model/Main.java" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1379277016321" ignored="false" />
+    <file path="/SimilarFoodsResult.java" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1379279596341" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -168,6 +305,23 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <line_breakpoints>
+      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/glennbech/usda/resource/FoodResource.java" line="31" class="com.glennbech.usda.resource.FoodResource" package="com.glennbech.usda.resource">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </line_breakpoints>
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -177,64 +331,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="FoodResource.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/glennbech/usda/resource/FoodResource.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="83" column="41" selection-start="3764" selection-end="3764" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NutrientResource.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/glennbech/usda/resource/NutrientResource.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="64" column="12" selection-start="2916" selection-end="2916" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="RestIT.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/glennbech/usda/RestIT.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="22" selection-start="537" selection-end="537" vertical-scroll-proportion="0.0">
+            <state line="156" column="93" selection-start="7299" selection-end="7299" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FoodItem.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/glennbech/usda/model/FoodItem.java">
+      <file leaf-file-name="FoodGroup.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/glennbech/usda/model/FoodGroup.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="23" selection-start="817" selection-end="817" vertical-scroll-proportion="0.0">
+            <state line="5" column="13" selection-start="59" selection-end="59" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MasShapeFilter.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/glennbech/usda/MasShapeFilter.java">
+      <file leaf-file-name="FoodResource.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/glennbech/usda/resource/FoodResource.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="2" selection-start="984" selection-end="984" vertical-scroll-proportion="0.41544884">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="web.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
-            <state />
-          </provider>
-          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
-            <state />
-          </provider>
-          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="13" selection-start="631" selection-end="631" vertical-scroll-proportion="0.0">
+            <state line="30" column="32" selection-start="798" selection-end="798" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -243,26 +361,68 @@
       <file leaf-file-name="SearchResult.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/glennbech/usda/model/SearchResult.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="14" selection-start="354" selection-end="354" vertical-scroll-proportion="0.0">
+            <state line="11" column="0" selection-start="237" selection-end="338" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PagedQuery.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/glennbech/usda/resource/PagedQuery.java">
+      <file leaf-file-name="RelatedFoodsInitServlet.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/glennbech/usda/RelatedFoodsInitServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="0" selection-start="1115" selection-end="1115" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="24" column="36" selection-start="664" selection-end="664" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BaseResource.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/glennbech/usda/resource/BaseResource.java">
+      <file leaf-file-name="web.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="5" selection-start="837" selection-end="837" vertical-scroll-proportion="0.0">
+            <state line="38" column="0" selection-start="1392" selection-end="1392" vertical-scroll-proportion="-9.555555">
               <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
+            <state />
+          </provider>
+          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
+            <state />
+          </provider>
+          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SimilarFoods.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/glennbech/usda/model/SimilarFoods.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="13" selection-start="98" selection-end="98" vertical-scroll-proportion="0.032911394">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1269#1277#0" expanded="true" />
+                <element signature="e#1557#1565#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="distances.csv" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/distances.csv">
+          <provider selected="true" editor-type-id="LargeFileEditor">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SimilarFoodsResult.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/glennbech/usda/model/SimilarFoodsResult.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="0" selection-start="355" selection-end="355" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -270,7 +430,7 @@
       <file leaf-file-name="FoodGroupResource.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/glennbech/usda/resource/FoodGroupResource.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="59" column="46" selection-start="2623" selection-end="2623" vertical-scroll-proportion="0.0">
+            <state line="42" column="31" selection-start="1421" selection-end="1421" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -294,22 +454,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/glennbech/usda/model/SearchResult.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/glennbech/usda/model/FoodItem.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/glennbech/usda/model/NutrientDefinition.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/glennbech/usda/model/NutrientValue.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/glennbech/usda/model/TopNutrientResponse.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/glennbech/usda/model/WeightData.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/glennbech/usda/model/FoodGroup.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/glennbech/usda/Constants.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/glennbech/usda/resource/FoodGroupResource.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/glennbech/usda/resource/FoodResource.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/glennbech/usda/resource/NutrientResource.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/glennbech/usda/resource/PagedQuery.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/glennbech/usda/resource/BaseResource.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/glennbech/usda/RestIT.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/glennbech/usda/MasShapeFilter.java" />
+        <option value="$PROJECT_DIR$/Procfile" />
+        <option value="$PROJECT_DIR$/src/main/java/com/glennbech/usda/resource/ListResource.java" />
+        <option value="dbtable:/fd4aba91/eeb37500-441c-4317-80df-730b07626501/usda_rs22..LIST" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-config.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/glennbech/usda/ItemsIT.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/glennbech/usda/model/NPoint.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/glennbech/usda/RelatedFoodsInitServlet.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/glennbech/usda/RestIT.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/glennbech/usda/model/SimilarFoodsResult.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/glennbech/usda/resource/FoodResource.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/glennbech/usda/model/SimilarFoods.java" />
       </list>
     </option>
   </component>
@@ -353,17 +513,12 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="rs22-server" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -417,6 +572,14 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -528,8 +691,23 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rs22-server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="usda-api-server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -573,6 +751,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.glennbech.usda.model" />
       <recent name="com.glennbech.usda.resource" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -582,13 +761,15 @@
       <recent name="com.glennbech.usda.model" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
       <recent name="$PROJECT_DIR$/config" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.glennbech.usda" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.RestIT.getFoodGroupDetails">
+  <component name="RunManager" selected="Remote.Unnamed">
     <configuration default="false" name="RestIT" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="rs22-server" />
@@ -768,6 +949,18 @@
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="StatisticProjectComponent">
+    <option name="excludeCompilerOutput" value="true" />
+    <option name="excludeIdea9ArtifactDirectory" value="true" />
+    <option name="excludeTargetDirectories" value="true" />
+    <option name="activateWhenOpenProject" value="true" />
+    <option name="excludedDirectories">
+      <value>
+        <list size="0" />
+      </value>
+    </option>
+    <option name="fileTypes" value="class;svn-base;svn-work;Extra;gif;png;jpg;jpeg;bmp;tga;tiff;ear;war;zip;jar;iml;iws;ipr;bz2;gz;" />
+  </component>
   <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="sslv3">
     <option name="USER" value="" />
     <option name="PASSWORD" value="" />
@@ -836,16 +1029,19 @@
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3275862" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Statistic" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22022955" sideWeight="0.67537314" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32891247" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22022955" sideWeight="0.6009975" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39920425" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3990025" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32462686" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3990025" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34748012" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32917705" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998565" sideWeight="0.6508728" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -853,14 +1049,12 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33428982" sideWeight="0.64089775" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29913917" sideWeight="0.67537314" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27320954" sideWeight="0.8938307" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29913917" sideWeight="0.6009975" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27306733" sideWeight="0.8938307" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30901858" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32891247" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32917705" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -937,124 +1131,130 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/glennbech/usda/model/WeightData.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/restfuse/com.eclipsesource.restfuse/1.0.0/com.eclipsesource.restfuse-1.0.0.jar!/com/eclipsesource/restfuse/HttpJUnitRunner.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="56" selection-start="159" selection-end="159" vertical-scroll-proportion="0.0">
+        <state line="5" column="15" selection-start="155" selection-end="155" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/glennbech/usda/model/FoodGroup.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/restfuse/com.eclipsesource.restfuse/1.0.0/com.eclipsesource.restfuse-1.0.0.jar!/com/eclipsesource/restfuse/annotation/HttpTest.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="0" selection-start="631" selection-end="631" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/glennbech/usda/Constants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="223" selection-end="223" vertical-scroll-proportion="0.0">
+        <state line="8" column="18" selection-start="335" selection-end="335" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="129" column="0" selection-start="4007" selection-end="4007" vertical-scroll-proportion="0.0">
+        <state line="142" column="50" selection-start="4393" selection-end="4393" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/glennbech/usda/resource/FoodItemRowMapper.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="16" selection-start="586" selection-end="586" vertical-scroll-proportion="0.0">
+        <state line="29" column="33" selection-start="1379" selection-end="1379" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/glennbech/usda/model/TopNutrientResponse.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/glennbech/usda/ItemsIT.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="56" selection-start="156" selection-end="156" vertical-scroll-proportion="0.0">
+        <state line="23" column="7" selection-start="770" selection-end="770" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/glennbech/usda/resource/NutrientResource.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/glennbech/usda/model/NPoint.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="12" selection-start="2916" selection-end="2916" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/glennbech/usda/resource/PagedQuery.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="0" selection-start="1115" selection-end="1115" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/glennbech/usda/resource/BaseResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="5" selection-start="837" selection-end="837" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/glennbech/usda/model/SearchResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="14" selection-start="354" selection-end="354" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/glennbech/usda/resource/FoodGroupResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="46" selection-start="2623" selection-end="2623" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/glennbech/usda/resource/FoodResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="83" column="41" selection-start="3764" selection-end="3764" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/glennbech/usda/RestIT.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="22" selection-start="537" selection-end="537" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/glennbech/usda/model/FoodItem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="23" selection-start="817" selection-end="817" vertical-scroll-proportion="0.0">
+        <state line="7" column="0" selection-start="112" selection-end="112" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="0" selection-start="1392" selection-end="1392" vertical-scroll-proportion="-9.555555">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
+        <state />
+      </provider>
       <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
         <state />
       </provider>
       <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
         <state />
       </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
-        <state />
-      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/glennbech/usda/model/SearchResult.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="13" selection-start="631" selection-end="631" vertical-scroll-proportion="0.0">
+        <state line="11" column="0" selection-start="237" selection-end="338" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/glennbech/usda/MasShapeFilter.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/distances.csv">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/glennbech/usda/model/FoodGroup.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="2" selection-start="984" selection-end="984" vertical-scroll-proportion="0.41544884">
+        <state line="5" column="13" selection-start="59" selection-end="59" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/glennbech/usda/resource/FoodGroupResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="31" selection-start="1421" selection-end="1421" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/glennbech/usda/RelatedFoodsInitServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="36" selection-start="664" selection-end="664" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/glennbech/usda/RestIT.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="156" column="93" selection-start="7299" selection-end="7299" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/glennbech/usda/model/SimilarFoodsResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="0" selection-start="355" selection-end="355" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/glennbech/usda/resource/FoodResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="32" selection-start="798" selection-end="798" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/glennbech/usda/model/SimilarFoods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="13" selection-start="98" selection-end="98" vertical-scroll-proportion="0.032911394">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1269#1277#0" expanded="true" />
+            <element signature="e#1557#1565#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -2,10 +2,7 @@ package com.glennbech.usda.resource;
 
 
 import com.glennbech.usda.Constants;
-import com.glennbech.usda.model.FoodItem;
-import com.glennbech.usda.model.NutrientValue;
-import com.glennbech.usda.model.SearchResult;
-import com.glennbech.usda.model.WeightData;
+import com.glennbech.usda.model.*;
 import org.springframework.jdbc.core.RowMapper;
 
 import javax.ws.rs.*;
@@ -14,6 +11,7 @@ import java.io.IOException;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.List;
+import java.util.Map;
 
 import static com.glennbech.usda.Constants.MAX_PAGE_SIZE;
 import static com.glennbech.usda.Constants.MIN_SEARCH_CHARS;
@@ -24,6 +22,18 @@ import static com.glennbech.usda.Constants.MIN_SEARCH_CHARS;
 
 @Path("/fooditem")
 public class FoodResource extends BaseResource {
+
+
+    @GET
+    @Produces("application/json")
+    @Path("{ndbNumber}/similar_key_vitamin_minerals")
+    public Response getSimilarFoods(@PathParam("ndbNumber") final String ndbNo, @QueryParam("limit") final int limit) {
+        SimilarFoods foods = SimilarFoods.instance();
+        List<String> similar = foods.getSimilarItems(ndbNo, limit);
+
+        SimilarFoodsResult result = new SimilarFoodsResult(similar);
+        return Response.ok().entity(result).build();
+    }
 
     @GET
     @Produces("application/json")
@@ -97,12 +107,12 @@ public class FoodResource extends BaseResource {
 
         if (foodGroup != null) {
             count = getJdbcTemplate().queryForInt("SELECT count(*) FROM FOOD_DES WHERE match (long_desc, shrt_desc, comname, SCINAME, MANUFACNAME) against (?) and fdgrp_cd = ? ", new Object[]{criteria, foodGroup});
-            query = "SELECT * FROM FOOD_DES,FD_GROUP WHERE FOOD_DES.FDGRP_CD = FD_GROUP.FDGRP_CD and match (long_desc, shrt_desc, comname, SCINAME, MANUFACNAME) against (?) and FOOD_DES.fdgrp_cd = ?  LIMIT ?,?" ;
-            arguments = new Object[]{criteria, foodGroup, page * pagesize, pagesize };
+            query = "SELECT * FROM FOOD_DES,FD_GROUP WHERE FOOD_DES.FDGRP_CD = FD_GROUP.FDGRP_CD and match (long_desc, shrt_desc, comname, SCINAME, MANUFACNAME) against (?) and FOOD_DES.fdgrp_cd = ?  LIMIT ?,?";
+            arguments = new Object[]{criteria, foodGroup, page * pagesize, pagesize};
 
         } else {
             count = getJdbcTemplate().queryForInt("SELECT count(*) FROM FOOD_DES WHERE match (long_desc, shrt_desc, comname, SCINAME, MANUFACNAME) against (?) ", new Object[]{criteria});
-            query = "SELECT * FROM FOOD_DES,FD_GROUP WHERE FOOD_DES.FDGRP_CD = FD_GROUP.FDGRP_CD and match (long_desc, shrt_desc, comname, SCINAME, MANUFACNAME) against (?) LIMIT ?,?"  ;
+            query = "SELECT * FROM FOOD_DES,FD_GROUP WHERE FOOD_DES.FDGRP_CD = FD_GROUP.FDGRP_CD and match (long_desc, shrt_desc, comname, SCINAME, MANUFACNAME) against (?) LIMIT ?,?";
             arguments = new Object[]{criteria, page * pagesize, pagesize};
         }
 

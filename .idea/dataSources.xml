@@ -1,11 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DataSourceManagerImpl" format="xml" hash="2307064942">
+  <component name="DataSourceManagerImpl" format="xml" hash="1851123731">
     <data-source source="LOCAL" name="dataSource" product="" version="" jdbc-version="" driver-name="" driver-version="" uuid="34d16910-e318-408d-b08a-2c96b416dae5">
       <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://usda.c1ptqadr2lyp.us-east-1.rds.amazonaws.com:3306/rs22</jdbc-url>
       <user-name>dbadmin</user-name>
       <user-password>dfd2dfdadf92dfccdfcedfcbdfcfdfc6df9b</user-password>
+      <libraries>
+        <library>
+          <url>jar://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/5.1.6/mysql-connector-java-5.1.6.jar!/</url>
+        </library>
+      </libraries>
+    </data-source>
+    <data-source source="LOCAL" name="Local Mysql" product="MySQL" version="5.6.12" jdbc-version="3.0" driver-name="MySQL-AB JDBC Driver" driver-version="mysql-connector-java-5.1.6 ( Revision: ${svn.Revision} )" uuid="eeb37500-441c-4317-80df-730b07626501">
+      <extra-name-characters>#@</extra-name-characters>
+      <identifier-quote-string>`</identifier-quote-string>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/usda_rs22</jdbc-url>
+      <user-name>root</user-name>
       <libraries>
         <library>
           <url>jar://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/5.1.6/mysql-connector-java-5.1.6.jar!/</url>
