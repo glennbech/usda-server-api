@@ -11,7 +11,6 @@ import java.io.IOException;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.List;
-import java.util.Map;
 
 import static com.glennbech.usda.Constants.MAX_PAGE_SIZE;
 import static com.glennbech.usda.Constants.MIN_SEARCH_CHARS;
@@ -27,9 +26,9 @@ public class FoodResource extends BaseResource {
     @GET
     @Produces("application/json")
     @Path("{ndbNumber}/similar_key_vitamin_minerals")
-    public Response getSimilarFoods(@PathParam("ndbNumber") final String ndbNo, @QueryParam("limit") final int limit) {
+    public Response getSimilarFoods(@PathParam("ndbNumber") final String ndbNo) {
         SimilarFoods foods = SimilarFoods.instance();
-        List<String> similar = foods.getSimilarItems(ndbNo, limit);
+        List<String> similar = foods.getSimilarItems(ndbNo);
 
         SimilarFoodsResult result = new SimilarFoodsResult(similar);
         return Response.ok().entity(result).build();

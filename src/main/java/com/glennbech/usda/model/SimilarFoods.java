@@ -10,7 +10,7 @@ public class SimilarFoods {
 
     private static SimilarFoods instance;
 
-    private Map<String, List<String>> similarItems;
+    private Map<String, List<String>> similarItems = new HashMap<String, List<String>>();
 
     private SimilarFoods(InputStream is) throws IOException {
         loadData(is);
@@ -52,16 +52,5 @@ public class SimilarFoods {
                 fooditems.add(tz.nextToken());
             }
         }
-    }
-
-    public List<String> getSimilarItems(String ndbNo, int limit) {
-        List<String> list = new ArrayList<String>();
-        if (similarItems.get(ndbNo) == null) {
-            return list;
-        }
-        for (int i = 0; i < limit; i++) {
-            list.add(similarItems.get(ndbNo).get(i));
-        }
-        return list;
     }
 }
