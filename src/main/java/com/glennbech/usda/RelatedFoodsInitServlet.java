@@ -23,8 +23,7 @@ public class RelatedFoodsInitServlet extends HttpServlet {
         }
         try {
             long now = System.currentTimeMillis();
-            SimilarFoods.initialize(is);
-            System.out.println("--- LOADED " + (System.currentTimeMillis() - now) + "ms");
+//            SimilarFoods.initialize(is);
         } catch (IOException e) {
             throw new ServletException(e);
         }
