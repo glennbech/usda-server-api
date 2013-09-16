@@ -341,7 +341,7 @@
       <file leaf-file-name="RelatedFoodsInitServlet.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/glennbech/usda/RelatedFoodsInitServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="2" selection-start="681" selection-end="681" vertical-scroll-proportion="0.79656863">
+            <state line="23" column="0" selection-start="614" selection-end="614" vertical-scroll-proportion="0.73284316">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -1223,7 +1223,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/glennbech/usda/RelatedFoodsInitServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="2" selection-start="681" selection-end="681" vertical-scroll-proportion="0.79656863">
+        <state line="23" column="0" selection-start="614" selection-end="614" vertical-scroll-proportion="0.73284316">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

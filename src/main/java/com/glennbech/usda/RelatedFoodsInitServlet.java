@@ -21,11 +21,7 @@ public class RelatedFoodsInitServlet extends HttpServlet {
         if (is == null ) {
             throw new IllegalArgumentException();
         }
-        try {
             long now = System.currentTimeMillis();
 //            SimilarFoods.initialize(is);
-        } catch (IOException e) {
-            throw new ServletException(e);
-        }
     }
 }
