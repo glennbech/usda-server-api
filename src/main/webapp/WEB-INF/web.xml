@@ -31,12 +31,6 @@
         <load-on-startup>1</load-on-startup>
     </servlet>
 
-    <servlet>
-        <servlet-name>SimilarFoodsList</servlet-name>
-        <servlet-class>com.glennbech.usda.RelatedFoodsInitServlet</servlet-class>
-        <load-on-startup>1</load-on-startup>
-    </servlet>
-
     <servlet-mapping>
         <servlet-name>JSONApplication</servlet-name>
         <url-pattern>/api/*</url-pattern>
