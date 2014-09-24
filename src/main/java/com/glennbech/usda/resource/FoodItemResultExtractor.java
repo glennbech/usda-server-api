@@ -20,7 +20,6 @@ import java.util.List;
  */
 class FoodItemResultExtractor implements ResultSetExtractor<List<FoodItem>> {
 
-
     @Override
     public List<FoodItem> extractData(ResultSet resultSet) throws SQLException, DataAccessException {
         HashMap<String, FoodItem> foodItemMap = new HashMap<String, FoodItem>();
@@ -33,11 +32,11 @@ class FoodItemResultExtractor implements ResultSetExtractor<List<FoodItem>> {
                 foodItemMap.put(ndbNo, item);
             }
 
-            String nutrientNo = resultSet.getString("NUTR_NO");
             NutrientValue n = new NutrientValue();
-
-            n.setNutrNumber(nutrientNo);
+            String nutrientNo = resultSet.getString("NUTR_NO");
+            n.setNutrientNo(nutrientNo);
             n.setDescription(resultSet.getString("NUTR_DESC"));
+            n.setOrder(resultSet.getString("SR_ORDER"));
             n.setUnits(resultSet.getString("UNITS"));
             n.setValue(resultSet.getFloat("NUTR_VAL"));
             if (item.getNutrients() == null) {

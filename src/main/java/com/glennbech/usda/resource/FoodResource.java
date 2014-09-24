@@ -125,4 +125,20 @@ public class FoodResource extends BaseResource {
         return response;
     }
 
+
+    @GET
+    @Produces("application/json")
+    @Path("/searchWithNutrients/{criteria}")
+    public Response searchWithNutrients(@PathParam("criteria") String criteria) {
+        Response response;
+        String query = "select food_des.ndb_no, nutr_def.nutr_no, nutr_def.nutr_desc, nut_data.nutr_val, nutr_def.units \n" +
+                "          from food_des,nutr_def, nut_data \n" +
+                "          where food_des.ndb_no = nut_data.ndb_no and \n" +
+                "                nutr_def.nutr_no = nut_data.nutr_no and food_des.ndb_no and \n" +
+                "                food_des.ndb_no IN (SELECT NDB_NO FROM FOOD_DES WHERE match (long_desc, shrt_desc, comname, SCINAME, MANUFACNAME) against ('?')) ";
+
+        List<FoodItem> foodItems = getJdbcTemplate().query(query, new String[] {criteria},  new FoodItemResultExtractor());
+        response = Response.ok(foodItems).build();
+        return response;
+    }
 }
