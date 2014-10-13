@@ -1,22 +1,87 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/main/java/com/glennbech/usda/resource/FoodResource.java" line="104" mnemonic="9" />
-  </component>
   <component name="ChangeListManager">
     <list default="true" id="d3d0b94e-bbc0-4a3d-b336-9095b56da305" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/glennbech/usda/resource/CSVTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/database.properties" afterPath="$PROJECT_DIR$/src/main/resources/database.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/glennbech/usda/resource/FoodItemResultExtractor.java" afterPath="$PROJECT_DIR$/src/main/java/com/glennbech/usda/resource/FoodItemResultExtractor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/glennbech/usda/resource/FoodResource.java" afterPath="$PROJECT_DIR$/src/main/java/com/glennbech/usda/resource/FoodResource.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/usda-model/pom.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Procfile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/config/database_dev.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/_files/0.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/_files/1.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/_files/10.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/_files/11.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/_files/12.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/_files/13.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/_files/2.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/_files/3.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/_files/4.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/_files/5.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/_files/6.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/_files/7.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/_files/8.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/_files/9.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/_files/a.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/_files/b.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/_files/c.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/_files/d.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/_files/e.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/_files/f.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pricing.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/.move_db_to_rds.sh.swp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/Aggregate Report.jmx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/AggregateReport.jmx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/copy_local_to_rds.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/mysql.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/mysql_local.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/glennbech/usda/Constants.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/glennbech/usda/MasShapeFilter.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/glennbech/usda/RelatedFoodsInitServlet.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/glennbech/usda/model/BaseItem.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/glennbech/usda/model/FoodGroup.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/glennbech/usda/model/FoodItem.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/glennbech/usda/model/FootNote.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/glennbech/usda/model/NPoint.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/glennbech/usda/model/NutrientDefinition.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/glennbech/usda/model/NutrientValue.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/glennbech/usda/model/SearchResult.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/glennbech/usda/model/SimilarFoods.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/glennbech/usda/model/SimilarFoodsResult.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/glennbech/usda/model/TopNutrientResponse.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/glennbech/usda/model/WeightData.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/glennbech/usda/resource/BaseResource.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/glennbech/usda/resource/FoodGroupResource.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/glennbech/usda/resource/FoodItemResultExtractor.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/glennbech/usda/resource/FoodItemRowMapper.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/glennbech/usda/resource/FoodResource.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/glennbech/usda/resource/ListResource.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/glennbech/usda/resource/NutrientResource.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/glennbech/usda/resource/PagedQuery.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/database.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/distances.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-config.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/com/glennbech/usda/ItemsIT.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/com/glennbech/usda/RestIT.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/com/glennbech/usda/resource/CSVTest.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rs22-server.iml" afterPath="$PROJECT_DIR$/rs22-server.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/glennbech/usda/model/NutrientValue.java" afterPath="$PROJECT_DIR$/src/main/java/com/glennbech/usda/model/NutrientValue.java" />
     </list>
     <list id="6992c1f2-fd3a-4010-982d-28b721731b77" name="ignore" comment="" />
     <ignored path="rs22-server.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1411280421772" ignored="false" />
-    <file path="/pom.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1374525090406" ignored="false" />
+    <file path="/Dummy.txt" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1413230909089" ignored="false" />
+    <file path="/pom.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1413231689675" ignored="false" />
     <file path="/spring-config.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1410589408571" ignored="false" />
     <file path="/FoodResource.java" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1410589209803" ignored="false" />
     <file path="/database.properties" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1410589456507" ignored="false" />
@@ -286,6 +351,118 @@
     <file path="$PROJECT_DIR$/../Food-Facts/Matvarer/src/com/glennbech/KeyValueList/KeyValueAdapter.java" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1411235610156" ignored="false" />
     <file path="$PROJECT_DIR$/../Food-Facts/Matvarer/src/com/glennbech/nutrinfo/SpiderGraph.java" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1411254580238" ignored="false" />
     <file path="/SpiderGraph.java" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1411253581002" ignored="false" />
+    <file path="$PROJECT_DIR$/rest-api/target/rs22-server-1.0-SNAPSHOT/WEB-INF/web.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1413231391668" ignored="false" />
+    <file path="$PROJECT_DIR$/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/pom.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1413231391668" ignored="false" />
+    <file path="$PROJECT_DIR$/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/pom.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1413231391668" ignored="false" />
+    <file path="$PROJECT_DIR$/rest-api/src/main/webapp/WEB-INF/web.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1413231391668" ignored="false" />
+    <file path="$PROJECT_DIR$/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/pom.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1413231391668" ignored="false" />
+    <file path="$PROJECT_DIR$/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/pom.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1413231391668" ignored="false" />
+    <file path="$PROJECT_DIR$/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/pom.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1413231391668" ignored="false" />
+    <file path="$PROJECT_DIR$/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/pom.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1413231391668" ignored="false" />
+    <file path="$PROJECT_DIR$/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/pom.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1413231391668" ignored="false" />
+    <file path="$PROJECT_DIR$/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/pom.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1413231391668" ignored="false" />
+    <file path="$PROJECT_DIR$/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/pom.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1413231391668" ignored="false" />
+    <file path="$PROJECT_DIR$/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/pom.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1413231391668" ignored="false" />
+    <file path="$PROJECT_DIR$/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/pom.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1413231391668" ignored="false" />
+    <file path="$PROJECT_DIR$/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/pom.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1413231391668" ignored="false" />
+    <file path="$PROJECT_DIR$/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/pom.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1413231391668" ignored="false" />
+    <file path="$PROJECT_DIR$/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/pom.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1413231391668" ignored="false" />
+    <file path="$PROJECT_DIR$/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/pom.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1413231391668" ignored="false" />
+    <file path="$PROJECT_DIR$/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/pom.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1413231391668" ignored="false" />
+    <file path="$PROJECT_DIR$/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/pom.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1413231391668" ignored="false" />
+    <file path="$PROJECT_DIR$/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/pom.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1413231391668" ignored="false" />
+    <file path="$PROJECT_DIR$/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/pom.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1413231391668" ignored="false" />
+    <file path="$PROJECT_DIR$/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/pom.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1413231391668" ignored="false" />
+    <file path="$PROJECT_DIR$/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/pom.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1413231391668" ignored="false" />
+    <file path="$PROJECT_DIR$/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/pom.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1413231391668" ignored="false" />
+    <file path="$PROJECT_DIR$/rest-api/target/failsafe-reports/TEST-com.glennbech.usda.ItemsIT.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1413231391668" ignored="false" />
+    <file path="$PROJECT_DIR$/rest-api/target/failsafe-reports/failsafe-summary.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1413231391668" ignored="false" />
+    <file path="$PROJECT_DIR$/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/pom.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1413231391668" ignored="false" />
+    <file path="$PROJECT_DIR$/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/pom.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1413231391668" ignored="false" />
+    <file path="$PROJECT_DIR$/rest-api/target/failsafe-reports/TEST-com.glennbech.usda.RestIT.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1413231391668" ignored="false" />
+    <file path="$PROJECT_DIR$/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/pom.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1413231391668" ignored="false" />
+    <file path="$PROJECT_DIR$/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/pom.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1413231391668" ignored="false" />
+    <file path="$PROJECT_DIR$/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/pom.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1413231391668" ignored="false" />
+    <file path="$PROJECT_DIR$/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/pom.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1413231391668" ignored="false" />
+    <file path="$PROJECT_DIR$/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/pom.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1413231391668" ignored="false" />
+    <file path="$PROJECT_DIR$/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/pom.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1413231391668" ignored="false" />
+    <file path="$PROJECT_DIR$/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/pom.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1413231391668" ignored="false" />
+    <file path="$PROJECT_DIR$/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/pom.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1413231391668" ignored="false" />
+    <file path="$PROJECT_DIR$/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/pom.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1413231391668" ignored="false" />
+    <file path="$PROJECT_DIR$/rest-api/rest-api/rest-api/rest-api/rest-api/pom.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1413231391668" ignored="false" />
+    <file path="$PROJECT_DIR$/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/pom.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1413231391668" ignored="false" />
+    <file path="$PROJECT_DIR$/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/pom.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1413231391668" ignored="false" />
+    <file path="$PROJECT_DIR$/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/pom.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1413231391668" ignored="false" />
+    <file path="$PROJECT_DIR$/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/pom.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1413231391668" ignored="false" />
+    <file path="$PROJECT_DIR$/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/pom.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1413231391668" ignored="false" />
+    <file path="$PROJECT_DIR$/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/pom.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1413231391668" ignored="false" />
+    <file path="$PROJECT_DIR$/rest-api/target/rs22-server-1.0-SNAPSHOT/WEB-INF/spring-config.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1413231391668" ignored="false" />
+    <file path="$PROJECT_DIR$/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/pom.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1413231391668" ignored="false" />
+    <file path="$PROJECT_DIR$/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/pom.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1413231391668" ignored="false" />
+    <file path="$PROJECT_DIR$/rest-api/rest-api/rest-api/rest-api/pom.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1413231391668" ignored="false" />
+    <file path="$PROJECT_DIR$/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/pom.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1413231391668" ignored="false" />
+    <file path="$PROJECT_DIR$/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/pom.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1413231391668" ignored="false" />
+    <file path="$PROJECT_DIR$/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/pom.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1413231391668" ignored="false" />
+    <file path="$PROJECT_DIR$/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/pom.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1413231391668" ignored="false" />
+    <file path="$PROJECT_DIR$/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/pom.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1413231391668" ignored="false" />
+    <file path="$PROJECT_DIR$/rest-api/src/main/webapp/WEB-INF/spring-config.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1413231391668" ignored="false" />
+    <file path="$PROJECT_DIR$/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/pom.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1413231391669" ignored="false" />
+    <file path="$PROJECT_DIR$/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/pom.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1413231391669" ignored="false" />
+    <file path="$PROJECT_DIR$/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/pom.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1413231391669" ignored="false" />
+    <file path="$PROJECT_DIR$/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/pom.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1413231391669" ignored="false" />
+    <file path="$PROJECT_DIR$/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/pom.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1413231391669" ignored="false" />
+    <file path="$PROJECT_DIR$/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/pom.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1413231391669" ignored="false" />
+    <file path="$PROJECT_DIR$/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/pom.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1413231391669" ignored="false" />
+    <file path="$PROJECT_DIR$/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/pom.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1413231391669" ignored="false" />
+    <file path="$PROJECT_DIR$/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/pom.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1413231391669" ignored="false" />
+    <file path="$PROJECT_DIR$/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/pom.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1413231391669" ignored="false" />
+    <file path="$PROJECT_DIR$/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/pom.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1413231391669" ignored="false" />
+    <file path="$PROJECT_DIR$/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/pom.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1413231391669" ignored="false" />
+    <file path="$PROJECT_DIR$/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/pom.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1413231391669" ignored="false" />
+    <file path="$PROJECT_DIR$/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/pom.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1413231391669" ignored="false" />
+    <file path="$PROJECT_DIR$/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/pom.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1413231391669" ignored="false" />
+    <file path="$PROJECT_DIR$/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/pom.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1413231391669" ignored="false" />
+    <file path="$PROJECT_DIR$/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/pom.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1413231391669" ignored="false" />
+    <file path="$PROJECT_DIR$/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/pom.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1413231391669" ignored="false" />
+    <file path="$PROJECT_DIR$/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/pom.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1413231391669" ignored="false" />
+    <file path="$PROJECT_DIR$/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/pom.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1413231391669" ignored="false" />
+    <file path="$PROJECT_DIR$/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/pom.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1413231391669" ignored="false" />
+    <file path="$PROJECT_DIR$/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/pom.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1413231391669" ignored="false" />
+    <file path="$PROJECT_DIR$/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/pom.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1413231391669" ignored="false" />
+    <file path="$PROJECT_DIR$/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/pom.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1413231391669" ignored="false" />
+    <file path="$PROJECT_DIR$/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/pom.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1413231391669" ignored="false" />
+    <file path="$PROJECT_DIR$/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/pom.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1413231391669" ignored="false" />
+    <file path="$PROJECT_DIR$/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/pom.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1413231391669" ignored="false" />
+    <file path="$PROJECT_DIR$/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/pom.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1413231391669" ignored="false" />
+    <file path="$PROJECT_DIR$/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/pom.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1413231391669" ignored="false" />
+    <file path="$PROJECT_DIR$/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/pom.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1413231391669" ignored="false" />
+    <file path="$PROJECT_DIR$/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/pom.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1413231391669" ignored="false" />
+    <file path="$PROJECT_DIR$/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/pom.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1413231391669" ignored="false" />
+    <file path="$PROJECT_DIR$/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/pom.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1413231391669" ignored="false" />
+    <file path="$PROJECT_DIR$/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/pom.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1413231391669" ignored="false" />
+    <file path="$PROJECT_DIR$/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/pom.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1413231391669" ignored="false" />
+    <file path="$PROJECT_DIR$/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/pom.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1413231391669" ignored="false" />
+    <file path="$PROJECT_DIR$/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/pom.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1413231391669" ignored="false" />
+    <file path="$PROJECT_DIR$/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/pom.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1413231391669" ignored="false" />
+    <file path="$PROJECT_DIR$/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/pom.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1413231391669" ignored="false" />
+    <file path="$PROJECT_DIR$/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/pom.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1413231391669" ignored="false" />
+    <file path="$PROJECT_DIR$/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/pom.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1413231391669" ignored="false" />
+    <file path="$PROJECT_DIR$/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/pom.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1413231391669" ignored="false" />
+    <file path="$PROJECT_DIR$/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/pom.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1413231391669" ignored="false" />
+    <file path="$PROJECT_DIR$/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/pom.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1413231391669" ignored="false" />
+    <file path="$PROJECT_DIR$/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/pom.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1413231391669" ignored="false" />
+    <file path="$PROJECT_DIR$/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/pom.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1413231391669" ignored="false" />
+    <file path="$PROJECT_DIR$/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/pom.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1413231391669" ignored="false" />
+    <file path="$PROJECT_DIR$/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/pom.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1413231391669" ignored="false" />
+    <file path="$PROJECT_DIR$/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/pom.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1413231391669" ignored="false" />
+    <file path="$PROJECT_DIR$/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/pom.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1413231391669" ignored="false" />
+    <file path="$PROJECT_DIR$/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/pom.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1413231391669" ignored="false" />
+    <file path="$PROJECT_DIR$/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/pom.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1413231391669" ignored="false" />
+    <file path="$PROJECT_DIR$/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/pom.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1413231391669" ignored="false" />
+    <file path="$PROJECT_DIR$/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/pom.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1413231391669" ignored="false" />
+    <file path="$PROJECT_DIR$/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/pom.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1413231391669" ignored="false" />
+    <file path="$PROJECT_DIR$/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/pom.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1413231391669" ignored="false" />
+    <file path="$PROJECT_DIR$/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/rest-api/pom.xml" changelist="d3d0b94e-bbc0-4a3d-b336-9095b56da305" time="1413231391669" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -351,100 +528,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="FoodResource.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/glennbech/usda/resource/FoodResource.java">
+      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="111" column="16" selection-start="5042" selection-end="5042" vertical-scroll-proportion="0.2884903">
+            <state line="13" column="24" selection-start="520" selection-end="520" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CSVTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/glennbech/usda/resource/CSVTest.java">
+      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/usda-model/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="20" selection-start="214" selection-end="214" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="spring-config.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-config.xml">
+      <file leaf-file-name="pom.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/rest-api/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="38" selection-start="1131" selection-end="1131" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="database.properties" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/database.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="0" selection-start="233" selection-end="233" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="web.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
-            <state />
-          </provider>
-          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
-            <state />
-          </provider>
-          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="59" column="0" selection-start="2003" selection-end="2003" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FoodItemResultExtractor.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/glennbech/usda/resource/FoodItemResultExtractor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="6" selection-start="534" selection-end="534" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FoodGroupResource.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/glennbech/usda/resource/FoodGroupResource.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="10" selection-start="1928" selection-end="1928" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NutrientValue.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/glennbech/usda/model/NutrientValue.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="13" selection-start="175" selection-end="175" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FoodItem.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/glennbech/usda/model/FoodItem.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="13" selection-start="344" selection-end="344" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NutrientDefinition.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/glennbech/usda/model/NutrientDefinition.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="13" selection-start="173" selection-end="173" vertical-scroll-proportion="0.0">
+            <state line="26" column="0" selection-start="983" selection-end="983" vertical-scroll-proportion="0.5531915">
               <folding />
             </state>
           </provider>
@@ -468,8 +573,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/glennbech/usda/MasShapeFilter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/glennbech/usda/resource/ListResource.java" />
         <option value="dbtable:/fd4aba91/eeb37500-441c-4317-80df-730b07626501/usda_rs22..LIST" />
         <option value="$PROJECT_DIR$/src/test/java/com/glennbech/usda/ItemsIT.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/glennbech/usda/model/NPoint.java" />
@@ -484,6 +587,8 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-config.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/database.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/glennbech/usda/resource/FoodResource.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/rest-api/pom.xml" />
       </list>
     </option>
   </component>
@@ -544,210 +649,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rs22-server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="usda-api-server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="usda" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rs22-server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="usda-api-server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="usda" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resource" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rs22-server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="usda-api-server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rs22-server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="usda-api-server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rs22-server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="usda-api-server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="usda" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rs22-server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="usda-api-server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="usda" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resource" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rs22-server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="usda-api-server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="usda" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rs22-server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="usda-api-server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -757,14 +658,14 @@
   <component name="PropertiesComponent">
     <property name="project.structure.last.edited" value="Modules" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="50" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="51" />
-    <property name="OverrideImplement.combined" value="true" />
     <property name="project.structure.proportion" value="0.0" />
+    <property name="OverrideImplement.combined" value="true" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="51" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="50" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
-    <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="50" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../usda-Hierarchy-output" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="53" />
@@ -781,8 +682,8 @@
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
     <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
@@ -790,8 +691,8 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="options.searchVisible" value="true" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -879,19 +780,6 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -918,6 +806,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -1080,6 +981,7 @@
       <window_info id="Statistic" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3283582" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.09612626" sideWeight="0.91169155" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39782345" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1101,7 +1003,6 @@
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30901858" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32891247" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32917705" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -1179,117 +1080,23 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Procfile">
+    <entry file="file://$PROJECT_DIR$/usda-model/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="10" selection-start="10" selection-end="10" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/glennbech/usda/model/SimilarFoods.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="59" selection-start="1316" selection-end="1316" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/glennbech/usda/RelatedFoodsInitServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="0" selection-start="679" selection-end="679" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/distances.csv">
-      <provider editor-type-id="LargeFileEditor">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/database_dev.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/glennbech/usda/MasShapeFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="13" selection-start="1303" selection-end="1303" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/glennbech/usda/resource/CSVTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="20" selection-start="214" selection-end="214" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-config.xml">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="38" selection-start="1131" selection-end="1131" vertical-scroll-proportion="0.0">
+        <state line="13" column="24" selection-start="520" selection-end="520" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/database.properties">
+    <entry file="file://$PROJECT_DIR$/rest-api/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="233" selection-end="233" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
-        <state />
-      </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
-        <state />
-      </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="0" selection-start="2003" selection-end="2003" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/glennbech/usda/resource/FoodItemResultExtractor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="6" selection-start="534" selection-end="534" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/glennbech/usda/resource/FoodGroupResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="10" selection-start="1928" selection-end="1928" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/glennbech/usda/model/NutrientValue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="13" selection-start="175" selection-end="175" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/glennbech/usda/model/FoodItem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="13" selection-start="344" selection-end="344" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/glennbech/usda/model/NutrientDefinition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="13" selection-start="173" selection-end="173" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/glennbech/usda/resource/FoodResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="111" column="16" selection-start="5042" selection-end="5042" vertical-scroll-proportion="0.2884903">
+        <state line="26" column="0" selection-start="983" selection-end="983" vertical-scroll-proportion="0.5531915">
           <folding />
         </state>
       </provider>

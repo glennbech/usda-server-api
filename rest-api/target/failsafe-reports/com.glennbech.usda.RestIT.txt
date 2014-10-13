@@ -1,0 +1,59 @@
+-------------------------------------------------------------------------------
+Test set: com.glennbech.usda.RestIT
+-------------------------------------------------------------------------------
+Tests run: 16, Failures: 4, Errors: 3, Skipped: 0, Time elapsed: 2.273 sec <<< FAILURE! - in com.glennbech.usda.RestIT
+checkfoodItem(com.glennbech.usda.RestIT)  Time elapsed: 0.21 sec  <<< ERROR!
+org.codehaus.jettison.json.JSONException: JSONObject["longDescription"] not found.
+	at org.codehaus.jettison.json.JSONObject.get(JSONObject.java:360)
+	at com.glennbech.usda.RestIT.checkfoodItem(RestIT.java:56)
+
+searchForApple(com.glennbech.usda.RestIT)  Time elapsed: 0.117 sec  <<< FAILURE!
+junit.framework.AssertionFailedError: expected:<66> but was:<83>
+	at junit.framework.Assert.fail(Assert.java:47)
+	at junit.framework.Assert.failNotEquals(Assert.java:283)
+	at junit.framework.Assert.assertEquals(Assert.java:64)
+	at junit.framework.Assert.assertEquals(Assert.java:195)
+	at junit.framework.Assert.assertEquals(Assert.java:201)
+	at com.glennbech.usda.RestIT.searchForApple(RestIT.java:64)
+
+searchForAppleWithPageSize(com.glennbech.usda.RestIT)  Time elapsed: 0.12 sec  <<< FAILURE!
+junit.framework.AssertionFailedError: expected:<66> but was:<83>
+	at junit.framework.Assert.fail(Assert.java:47)
+	at junit.framework.Assert.failNotEquals(Assert.java:283)
+	at junit.framework.Assert.assertEquals(Assert.java:64)
+	at junit.framework.Assert.assertEquals(Assert.java:195)
+	at junit.framework.Assert.assertEquals(Assert.java:201)
+	at com.glennbech.usda.RestIT.searchForAppleWithPageSize(RestIT.java:72)
+
+searchForAppleWithPageSizePageTwo(com.glennbech.usda.RestIT)  Time elapsed: 0.081 sec  <<< FAILURE!
+junit.framework.AssertionFailedError: expected:<66> but was:<83>
+	at junit.framework.Assert.fail(Assert.java:47)
+	at junit.framework.Assert.failNotEquals(Assert.java:283)
+	at junit.framework.Assert.assertEquals(Assert.java:64)
+	at junit.framework.Assert.assertEquals(Assert.java:195)
+	at junit.framework.Assert.assertEquals(Assert.java:201)
+	at com.glennbech.usda.RestIT.searchForAppleWithPageSizePageTwo(RestIT.java:87)
+
+checkfoodItemWithNutrients(com.glennbech.usda.RestIT)  Time elapsed: 0.086 sec  <<< ERROR!
+org.codehaus.jettison.json.JSONException: JSONObject["nutrients"] not found.
+	at org.codehaus.jettison.json.JSONObject.get(JSONObject.java:360)
+	at org.codehaus.jettison.json.JSONObject.getJSONArray(JSONObject.java:436)
+	at com.glennbech.usda.RestIT.checkfoodItemWithNutrients(RestIT.java:99)
+
+checkfoodItemWithNutrientsAndWeights(com.glennbech.usda.RestIT)  Time elapsed: 0.099 sec  <<< ERROR!
+org.codehaus.jettison.json.JSONException: JSONObject["nutrients"] not found.
+	at org.codehaus.jettison.json.JSONObject.get(JSONObject.java:360)
+	at org.codehaus.jettison.json.JSONObject.getJSONArray(JSONObject.java:436)
+	at com.glennbech.usda.RestIT.checkfoodItemWithNutrientsAndWeights(RestIT.java:108)
+
+checkNutrients(com.glennbech.usda.RestIT)  Time elapsed: 0.142 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<200> but was:<500>
+	at org.junit.Assert.fail(Assert.java:91)
+	at org.junit.Assert.failNotEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:126)
+	at org.junit.Assert.assertEquals(Assert.java:470)
+	at org.junit.Assert.assertEquals(Assert.java:454)
+	at com.eclipsesource.restfuse.Assert.doCheckStatus(Assert.java:99)
+	at com.eclipsesource.restfuse.Assert.assertOk(Assert.java:23)
+	at com.glennbech.usda.RestIT.checkNutrients(RestIT.java:117)
+

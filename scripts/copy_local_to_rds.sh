@@ -1,1 +1,0 @@
-/usr/local/mysql-5.6.12-osx10.7-x86_64/bin/mysqldump -u root usda_rs22 | /usr/local/mysql-5.6.12-osx10.7-x86_64/bin/mysql --host=usda.c1ptqadr2lyp.us-east-1.rds.amazonaws.com --user=dbadmin --password rs22

@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/usda-model/rs22-jooq-db-layer.iml" filepath="$PROJECT_DIR$/usda-model/rs22-jooq-db-layer.iml" />
       <module fileurl="file://$PROJECT_DIR$/rs22-server.iml" filepath="$PROJECT_DIR$/rs22-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rest-api/rs22-server (1).iml" filepath="$PROJECT_DIR$/rest-api/rs22-server (1).iml" />
     </modules>
   </component>
 </project>

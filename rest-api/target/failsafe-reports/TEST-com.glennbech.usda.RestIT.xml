@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.glennbech.usda.RestIT" time="2.233" tests="16" errors="3" skipped="0" failures="4">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Libraries"/>
+    <property name="java.vm.version" value="20.65-b04-462"/>
+    <property name="awt.nativeDoubleBuffering" value="true"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="mrj.build" value="11M4609"/>
+    <property name="java.vm.vendor" value="Apple Inc."/>
+    <property name="java.vendor.url" value="http://www.apple.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/glennbech/dev/usda-api-server"/>
+    <property name="java.runtime.version" value="1.6.0_65-b14-462-11M4609"/>
+    <property name="java.awt.graphicsenv" value="apple.awt.CGraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/9r/k3jxw07n65s6tlq_66sspnym0000gn/T/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Sun Microsystems Inc."/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/Users/glennbech/dev/apache-maven-3.1.1/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="MacRoman"/>
+    <property name="java.library.path" value=".:/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="50.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.9.4"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/glennbech"/>
+    <property name="user.timezone" value="Europe/Oslo"/>
+    <property name="java.awt.printerjob" value="apple.awt.CPrinterJob"/>
+    <property name="java.specification.version" value="1.6"/>
+    <property name="file.encoding" value="MacRoman"/>
+    <property name="user.name" value="glennbech"/>
+    <property name="java.class.path" value="/Users/glennbech/dev/apache-maven-3.1.1/boot/plexus-classworlds-2.5.1.jar"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="java.vm.specification.version" value="1.0"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher install jetty:run"/>
+    <property name="java.specification.vendor" value="Sun Microsystems Inc."/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="apple.awt.CToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.6.0_65"/>
+    <property name="java.ext.dirs" value="/Library/Java/Extensions:/System/Library/Java/Extensions:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext"/>
+    <property name="sun.boot.class.path" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsfd.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar:/System/Library/Frameworks/JavaVM.framework/Frameworks/JavaRuntimeSupport.framework/Resources/Java/JavaRuntimeSupport.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/ui.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/laf.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/sunrsasign.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsse.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jce.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/charsets.jar"/>
+    <property name="java.vendor" value="Apple Inc."/>
+    <property name="maven.home" value="/Users/glennbech/dev/apache-maven-3.1.1"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.apple.com/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="mrj.version" value="1070.1.6.0_65-462"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase name="checkFoodGroupsOk" classname="com.glennbech.usda.RestIT" time="0.696"/>
+  <testcase name="checkFoodGroupsWithInvalidPageSize" classname="com.glennbech.usda.RestIT" time="0.111"/>
+  <testcase name="checkFoodGroupsPageTwo" classname="com.glennbech.usda.RestIT" time="0.146"/>
+  <testcase name="checkfoodItem" classname="com.glennbech.usda.RestIT" time="0.21">
+    <error message="JSONObject[&quot;longDescription&quot;] not found." type="org.codehaus.jettison.json.JSONException">org.codehaus.jettison.json.JSONException: JSONObject["longDescription"] not found.
+	at org.codehaus.jettison.json.JSONObject.get(JSONObject.java:360)
+	at com.glennbech.usda.RestIT.checkfoodItem(RestIT.java:56)
+</error>
+  </testcase>
+  <testcase name="searchForApple" classname="com.glennbech.usda.RestIT" time="0.117">
+    <failure message="expected:&lt;66&gt; but was:&lt;83&gt;" type="junit.framework.AssertionFailedError"><![CDATA[junit.framework.AssertionFailedError: expected:<66> but was:<83>
+	at junit.framework.Assert.fail(Assert.java:47)
+	at junit.framework.Assert.failNotEquals(Assert.java:283)
+	at junit.framework.Assert.assertEquals(Assert.java:64)
+	at junit.framework.Assert.assertEquals(Assert.java:195)
+	at junit.framework.Assert.assertEquals(Assert.java:201)
+	at com.glennbech.usda.RestIT.searchForApple(RestIT.java:64)
+]]></failure>
+  </testcase>
+  <testcase name="searchForAppleWithPageSize" classname="com.glennbech.usda.RestIT" time="0.12">
+    <failure message="expected:&lt;66&gt; but was:&lt;83&gt;" type="junit.framework.AssertionFailedError"><![CDATA[junit.framework.AssertionFailedError: expected:<66> but was:<83>
+	at junit.framework.Assert.fail(Assert.java:47)
+	at junit.framework.Assert.failNotEquals(Assert.java:283)
+	at junit.framework.Assert.assertEquals(Assert.java:64)
+	at junit.framework.Assert.assertEquals(Assert.java:195)
+	at junit.framework.Assert.assertEquals(Assert.java:201)
+	at com.glennbech.usda.RestIT.searchForAppleWithPageSize(RestIT.java:72)
+]]></failure>
+  </testcase>
+  <testcase name="searchForAppleWithFoodGroup" classname="com.glennbech.usda.RestIT" time="0.103"/>
+  <testcase name="searchForAppleWithPageSizePageTwo" classname="com.glennbech.usda.RestIT" time="0.081">
+    <failure message="expected:&lt;66&gt; but was:&lt;83&gt;" type="junit.framework.AssertionFailedError"><![CDATA[junit.framework.AssertionFailedError: expected:<66> but was:<83>
+	at junit.framework.Assert.fail(Assert.java:47)
+	at junit.framework.Assert.failNotEquals(Assert.java:283)
+	at junit.framework.Assert.assertEquals(Assert.java:64)
+	at junit.framework.Assert.assertEquals(Assert.java:195)
+	at junit.framework.Assert.assertEquals(Assert.java:201)
+	at com.glennbech.usda.RestIT.searchForAppleWithPageSizePageTwo(RestIT.java:87)
+]]></failure>
+  </testcase>
+  <testcase name="checkfoodItemWithNutrients" classname="com.glennbech.usda.RestIT" time="0.086">
+    <error message="JSONObject[&quot;nutrients&quot;] not found." type="org.codehaus.jettison.json.JSONException">org.codehaus.jettison.json.JSONException: JSONObject["nutrients"] not found.
+	at org.codehaus.jettison.json.JSONObject.get(JSONObject.java:360)
+	at org.codehaus.jettison.json.JSONObject.getJSONArray(JSONObject.java:436)
+	at com.glennbech.usda.RestIT.checkfoodItemWithNutrients(RestIT.java:99)
+</error>
+  </testcase>
+  <testcase name="checkfoodItemWithNutrientsAndWeights" classname="com.glennbech.usda.RestIT" time="0.099">
+    <error message="JSONObject[&quot;nutrients&quot;] not found." type="org.codehaus.jettison.json.JSONException">org.codehaus.jettison.json.JSONException: JSONObject["nutrients"] not found.
+	at org.codehaus.jettison.json.JSONObject.get(JSONObject.java:360)
+	at org.codehaus.jettison.json.JSONObject.getJSONArray(JSONObject.java:436)
+	at com.glennbech.usda.RestIT.checkfoodItemWithNutrientsAndWeights(RestIT.java:108)
+</error>
+  </testcase>
+  <testcase name="checkNutrients" classname="com.glennbech.usda.RestIT" time="0.142">
+    <failure message="expected:&lt;200&gt; but was:&lt;500&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<200> but was:<500>
+	at org.junit.Assert.fail(Assert.java:91)
+	at org.junit.Assert.failNotEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:126)
+	at org.junit.Assert.assertEquals(Assert.java:470)
+	at org.junit.Assert.assertEquals(Assert.java:454)
+	at com.eclipsesource.restfuse.Assert.doCheckStatus(Assert.java:99)
+	at com.eclipsesource.restfuse.Assert.assertOk(Assert.java:23)
+	at com.glennbech.usda.RestIT.checkNutrients(RestIT.java:117)
+]]></failure>
+  </testcase>
+  <testcase name="checkNutrientsTopList" classname="com.glennbech.usda.RestIT" time="0.069"/>
+  <testcase name="getFoodGroupDetails" classname="com.glennbech.usda.RestIT" time="0.074"/>
+  <testcase name="getUnknowFoodItem" classname="com.glennbech.usda.RestIT" time="0.063"/>
+  <testcase name="getInvalidPageSize" classname="com.glennbech.usda.RestIT" time="0.054"/>
+  <testcase name="getInvalidSearchCriteria" classname="com.glennbech.usda.RestIT" time="0.062"/>
+</testsuite>
