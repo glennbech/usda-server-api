@@ -1,186 +1,60 @@
 package com.glennbech.usda.model;
 
+import com.glennbech.usda.model.tables.pojos.VFoodNutrient;
+import com.glennbech.usda.model.tables.pojos.FoodDes;
+import com.glennbech.usda.model.tables.pojos.VFoodLangual;
 import org.codehaus.jackson.annotate.JsonIgnoreProperties;
 import org.codehaus.jackson.map.annotate.JsonSerialize;
 
-import javax.xml.bind.annotation.XmlElement;
 import java.util.List;
 
 /**
+ *
  */
 
-@JsonIgnoreProperties(ignoreUnknown = true )
-@JsonSerialize(include=JsonSerialize.Inclusion.NON_NULL)
-public class FoodItem extends BaseItem  {
+@JsonIgnoreProperties(ignoreUnknown = true)
+@JsonSerialize(include = JsonSerialize.Inclusion.NON_NULL)
+public class FoodItem extends BaseItem {
 
-    private String ndbNumber;
+    private FoodDes foodInfo;
+    private List<VFoodNutrient> nutrition;
+    private List<VFoodLangual> langualMeta;
+    private List<WeightData> weightData;
 
-    private String foodGroupNumber;
-    private String foodGroupName;
-
-    private String longDescription ;
-    private String shortDescription ;
-
-    private String commonName ;
-
-    private String manufacturerName ;
-
-    private boolean survey ;
-
-    private String refuseDescription ;
-
-    private Float refuse;
-
-    private String scientificName ;
-
-    private Float nitrogenFactor ;
-
-    private Float fatFactor ;
-
-    private Float choFactor;
-
-    private Float proteinFactor ;
-
-    private List<NutrientValue> nutrients ;
-
-    private List<FootNote> footNotes ;
-
-    private List<WeightData> weights;
-
-    public String getFoodGroupName() {
-        return foodGroupName;
+    public FoodItem() {
     }
 
-    public void setFoodGroupName(String foodGroupName) {
-        this.foodGroupName = foodGroupName;
+    public FoodDes getFoodInfo() {
+        return foodInfo;
     }
 
-    public List<NutrientValue> getNutrients() {
-        return nutrients;
+    public void setFoodInfo(FoodDes foodInfo) {
+        this.foodInfo = foodInfo;
     }
 
-    public void setNutrients(List<NutrientValue> nutrients) {
-        this.nutrients = nutrients;
+    public List<VFoodNutrient> getNutrition() {
+        return nutrition;
     }
 
-    public String getNdbNumber() {
-        return ndbNumber;
+    public void setNutrition(List<VFoodNutrient> nutrition) {
+        this.nutrition = nutrition;
     }
 
-    public void setNdbNumber(String ndbNumber) {
-        this.ndbNumber = ndbNumber;
+    public List<VFoodLangual> getLangualMeta() {
+        return langualMeta;
     }
 
-    public String getFoodGroupNumber() {
-        return foodGroupNumber;
+    public void setLangualMeta(List<VFoodLangual> langualMeta) {
+        this.langualMeta = langualMeta;
+    }
+
+    public List<WeightData> getWeightData() {
+        return weightData;
+    }
+
+    public void setWeightData(List<WeightData> weightData) {
+        this.weightData = weightData;
     }
 
 
-    public void setFoodGroupNumber(String foodGroupNumber) {
-        this.foodGroupNumber = foodGroupNumber;
-    }
-
-    public String getLongDescription() {
-        return longDescription;
-    }
-
-    public void setLongDescription(String longDescription) {
-        this.longDescription = longDescription;
-    }
-
-    public String getShortDescription() {
-        return shortDescription;
-    }
-
-    public void setShortDescription(String shortDescription) {
-        this.shortDescription = shortDescription;
-    }
-
-    public String getCommonName() {
-        return commonName;
-    }
-
-    public void setCommonName(String commonName) {
-        this.commonName = commonName;
-    }
-
-    public String getManufacturerName() {
-        return manufacturerName;
-    }
-
-    public void setManufacturerName(String manufacturerName) {
-        this.manufacturerName = manufacturerName;
-    }
-
-    public boolean isSurvey() {
-        return survey;
-    }
-
-    public void setSurvey(boolean survey) {
-        this.survey = survey;
-    }
-
-    public String getRefuseDescription() {
-        return refuseDescription;
-    }
-
-    public void setRefuseDescription(String refuseDescription) {
-        this.refuseDescription = refuseDescription;
-    }
-
-    public Float getRefuse() {
-        return refuse;
-    }
-
-    public void setRefuse(Float refuse) {
-        this.refuse = refuse;
-    }
-
-    public String getScientificName() {
-        return scientificName;
-    }
-
-    public void setScientificName(String scientificName) {
-        this.scientificName = scientificName;
-    }
-
-    public Float getNitrogenFactor() {
-        return nitrogenFactor;
-    }
-
-    public void setNitrogenFactor(Float nitrogenFactor) {
-        this.nitrogenFactor = nitrogenFactor;
-    }
-
-    public Float getFatFactor() {
-        return fatFactor;
-    }
-
-    public void setFatFactor(Float fatFactor) {
-        this.fatFactor = fatFactor;
-    }
-
-    public Float getChoFactor() {
-        return choFactor;
-    }
-
-    public void setChoFactor(Float choFactor) {
-        this.choFactor = choFactor;
-    }
-
-    public Float getProteinFactor() {
-        return proteinFactor;
-    }
-
-    public void setProteinFactor(Float proteinFactor) {
-        this.proteinFactor = proteinFactor;
-    }
-
-    public List<WeightData> getWeight() {
-        return weights;
-    }
-
-    public void setWeight(List<WeightData> weights) {
-        this.weights = weights;
-    }
 }

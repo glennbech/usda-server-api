@@ -3,6 +3,9 @@ package com.glennbech.usda.resource;
 
 import com.glennbech.usda.Constants;
 import com.glennbech.usda.model.*;
+import com.glennbech.usda.model.tables.pojos.VFoodLangual;
+import com.glennbech.usda.model.tables.pojos.FoodDes;
+import com.glennbech.usda.model.tables.pojos.VFoodNutrient;
 import org.springframework.jdbc.core.RowMapper;
 
 import javax.ws.rs.*;
@@ -14,6 +17,10 @@ import java.util.List;
 
 import static com.glennbech.usda.Constants.MAX_PAGE_SIZE;
 import static com.glennbech.usda.Constants.MIN_SEARCH_CHARS;
+import static com.glennbech.usda.model.Tables.*;
+
+import static com.glennbech.usda.model.Tables.V_FOOD_LANGUAL;
+
 
 /**
  *
@@ -37,49 +44,47 @@ public class FoodResource extends BaseResource {
     @GET
     @Produces("application/json")
     @Path("/{ndbNumber}")
-    public Response getFoodByIdentifier(@PathParam("ndbNumber") final String ndbNo, @QueryParam(value = "nutrients") boolean nutrients, @QueryParam(value = "weight") boolean weight) throws IOException {
+    public Response getFoodByIdentifier(@PathParam("ndbNumber") final String ndbNo, @QueryParam(value = "nutrients") boolean nutrients, @QueryParam(value = "langual") boolean langual, @QueryParam(value = "weight") boolean weight) throws IOException {
 
         Response response;
 
-        List<FoodItem> items = getJdbcTemplate().query("SELECT * FROM FOOD_DES, FD_GROUP WHERE FOOD_DES.NDB_NO = ? AND FOOD_DES.FDGRP_CD = FD_GROUP.FDGRP_CD", new String[]{ndbNo}, new FoodItemRowMapper());
-        if (items.size() == 0) {
-            response = Response.status(Response.Status.NOT_FOUND).entity("No food item with ndbNumber" + ndbNo + " found").build();
+        FoodItem resultItem = new FoodItem();
 
-        } else {
-            FoodItem item = items.get(0);
-            if (nutrients) {
-                List<NutrientValue> nutrientList = getJdbcTemplate().query("SELECT nutr_desc, nutr_val, units FROM NUT_DATA, NUTR_DEF WHERE NUT_DATA.NUTR_NO = NUTR_DEF.NUTR_NO AND ndb_no = ? ORDER BY sr_order ASC", new String[]{ndbNo}, new RowMapper<NutrientValue>() {
-                    @Override
-                    public NutrientValue mapRow(ResultSet resultSet, int i) throws SQLException {
-                        NutrientValue nutrient = new NutrientValue();
-                        nutrient.setDescription(resultSet.getString("nutr_desc"));
-                        nutrient.setUnits(resultSet.getString("units"));
-                        nutrient.setValue(resultSet.getFloat("nutr_val"));
-                        return nutrient;
-                    }
-                });
-                item.setNutrients(nutrientList);
-            }
 
-            if (weight) {
-                List<WeightData> weightData = getJdbcTemplate().query("SELECT * FROM WEIGHT WHERE NDB_NO = ? ", new String[]{ndbNo}, new RowMapper<WeightData>() {
-                    @Override
-                    public WeightData mapRow(ResultSet resultSet, int i) throws SQLException {
-                        WeightData data = new WeightData();
-                        data.setAmount(resultSet.getFloat("AMOUNT"));
-                        data.setDatapoints(resultSet.getInt("NUM_DATA_PTS"));
-                        data.setGramweight(resultSet.getFloat("GM_WGT"));
-                        data.setMeasureDescription(resultSet.getString("MSRE_DESC"));
-                        data.setSequenceNumber(resultSet.getInt("SEQ"));
-                        data.setStandardDeviation(resultSet.getFloat("STD_DEV"));
-                        return data;
-                    }
-                });
-                item.setWeight(weightData);
-            }
-            response = Response.ok().entity(item).build();
+        FoodDes item = getContext().select().from(FOOD_DES).join(FD_GROUP).on(FD_GROUP.FDGRP_CD.equal(FOOD_DES.FDGRP_CD)).where(FOOD_DES.NDB_NO.eq(ndbNo)).fetchAnyInto(com.glennbech.usda.model.tables.pojos.FoodDes.class);
+        if (item == null) {
+            return Response.status(Response.Status.NOT_FOUND).entity("No food item with ndbNumber" + ndbNo + " found").build();
         }
-        return response;
+        resultItem.setFoodInfo(item);
+
+        if (langual) {
+            List<VFoodLangual> langualMeta =
+                    getContext().select().from(V_FOOD_LANGUAL).where(V_FOOD_LANGUAL.NDB_NO.eq(ndbNo)).fetchInto(VFoodLangual.class);
+
+            resultItem.setLangualMeta(langualMeta);
+        }
+        if (nutrients) {
+            List<VFoodNutrient> foodNutrients = getContext().select().from(V_FOOD_NUTRIENT).where(Tables.V_FOOD_NUTRIENT.NDB_NO.eq(ndbNo)).fetchInto(VFoodNutrient.class);
+            resultItem.setNutrition(foodNutrients);
+        }
+
+
+        if (weight) {
+            List<WeightData> weightData = getJdbcTemplate().query("SELECT * FROM WEIGHT WHERE NDB_NO = ? ", new String[]{ndbNo}, new RowMapper<WeightData>() {
+                @Override
+                public WeightData mapRow(ResultSet resultSet, int i) throws SQLException {
+                    WeightData data = new WeightData();
+                    data.setAmount(resultSet.getFloat("AMOUNT"));
+                    data.setDatapoints(resultSet.getInt("NUM_DATA_PTS"));
+                    data.setGramweight(resultSet.getFloat("GM_WGT"));
+                    data.setMeasureDescription(resultSet.getString("MSRE_DESC"));
+                    data.setSequenceNumber(resultSet.getInt("SEQ"));
+                    data.setStandardDeviation(resultSet.getFloat("STD_DEV"));
+                    return data;
+                }
+            });
+        }
+        return Response.ok().entity(resultItem).build();
     }
 
     @GET
@@ -105,6 +110,7 @@ public class FoodResource extends BaseResource {
         Object[] arguments;
 
         if (foodGroup != null) {
+
             count = getJdbcTemplate().queryForInt("SELECT count(*) FROM FOOD_DES WHERE match (long_desc, shrt_desc, comname, SCINAME, MANUFACNAME) against (?) and fdgrp_cd = ? ", new Object[]{criteria, foodGroup});
             query = "SELECT * FROM FOOD_DES,FD_GROUP WHERE FOOD_DES.FDGRP_CD = FD_GROUP.FDGRP_CD and match (long_desc, shrt_desc, comname, SCINAME, MANUFACNAME) against (?) and FOOD_DES.fdgrp_cd = ?  LIMIT ?,?";
             arguments = new Object[]{criteria, foodGroup, page * pagesize, pagesize};
@@ -115,9 +121,7 @@ public class FoodResource extends BaseResource {
             arguments = new Object[]{criteria, page * pagesize, pagesize};
         }
 
-        List<FoodItem> foodItems = getJdbcTemplate().query(query, arguments, new FoodItemRowMapper());
         SearchResult<FoodItem> result = new SearchResult<FoodItem>();
-        result.setResults(foodItems);
         result.setTotalResults(count);
         result.setCurrentPage(page);
         result.setPageSize(pagesize);
@@ -125,20 +129,4 @@ public class FoodResource extends BaseResource {
         return response;
     }
 
-
-    @GET
-    @Produces("application/json")
-    @Path("/searchWithNutrients/{criteria}")
-    public Response searchWithNutrients(@PathParam("criteria") String criteria) {
-        Response response;
-        String query = "select food_des.ndb_no, nutr_def.nutr_no, nutr_def.nutr_desc, nut_data.nutr_val, nutr_def.units \n" +
-                "          from food_des,nutr_def, nut_data \n" +
-                "          where food_des.ndb_no = nut_data.ndb_no and \n" +
-                "                nutr_def.nutr_no = nut_data.nutr_no and food_des.ndb_no and \n" +
-                "                food_des.ndb_no IN (SELECT NDB_NO FROM FOOD_DES WHERE match (long_desc, shrt_desc, comname, SCINAME, MANUFACNAME) against ('?')) ";
-
-        List<FoodItem> foodItems = getJdbcTemplate().query(query, new String[] {criteria},  new FoodItemResultExtractor());
-        response = Response.ok(foodItems).build();
-        return response;
-    }
 }

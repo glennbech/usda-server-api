@@ -9,17 +9,18 @@
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
+    <parent>
+        <groupId>rs22-server</groupId>
+        <version>1.0-SNAPSHOT</version>
+        <artifactId>rs22-parent</artifactId>
+    </parent>
+
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <compilerPluginVersion>2.3.2</compilerPluginVersion>
     </properties>
 
     <dependencies>
-        <dependency>
-            <groupId>org.jooq</groupId>
-            <artifactId>jooq</artifactId>
-            <version>3.4.2</version>
-        </dependency>
 
         <dependency>
             <groupId>org.hibernate</groupId>

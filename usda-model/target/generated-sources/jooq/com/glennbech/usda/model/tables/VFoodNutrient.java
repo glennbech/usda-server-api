@@ -13,7 +13,7 @@ package com.glennbech.usda.model.tables;
 @java.lang.SuppressWarnings({ "all", "unchecked", "rawtypes" })
 public class VFoodNutrient extends org.jooq.impl.TableImpl<com.glennbech.usda.model.tables.records.VFoodNutrientRecord> {
 
-	private static final long serialVersionUID = -1557287465;
+	private static final long serialVersionUID = -375403906;
 
 	/**
 	 * The singleton instance of <code>usda.v_food_nutrient</code>
@@ -37,6 +37,11 @@ public class VFoodNutrient extends org.jooq.impl.TableImpl<com.glennbech.usda.mo
 	 * The column <code>usda.v_food_nutrient.NUTRDESC</code>.
 	 */
 	public final org.jooq.TableField<com.glennbech.usda.model.tables.records.VFoodNutrientRecord, java.lang.String> NUTRDESC = createField("NUTRDESC", org.jooq.impl.SQLDataType.VARCHAR.length(60), this, "");
+
+	/**
+	 * The column <code>usda.v_food_nutrient.NUTR_NO</code>.
+	 */
+	public final org.jooq.TableField<com.glennbech.usda.model.tables.records.VFoodNutrientRecord, java.lang.String> NUTR_NO = createField("NUTR_NO", org.jooq.impl.SQLDataType.VARCHAR.length(3), this, "");
 
 	/**
 	 * The column <code>usda.v_food_nutrient.NUTR_VAL</code>.

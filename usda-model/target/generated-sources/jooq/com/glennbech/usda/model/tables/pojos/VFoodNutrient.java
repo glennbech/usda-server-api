@@ -15,10 +15,11 @@ package com.glennbech.usda.model.tables.pojos;
 @javax.persistence.Table(name = "v_food_nutrient", schema = "usda")
 public class VFoodNutrient implements java.io.Serializable {
 
-	private static final long serialVersionUID = 2113948842;
+	private static final long serialVersionUID = -615107902;
 
 	private java.lang.String ndbNo;
 	private java.lang.String nutrdesc;
+	private java.lang.String nutrNo;
 	private java.lang.Double nutrVal;
 	private java.lang.String units;
 
@@ -27,11 +28,13 @@ public class VFoodNutrient implements java.io.Serializable {
 	public VFoodNutrient(
 		java.lang.String ndbNo,
 		java.lang.String nutrdesc,
+		java.lang.String nutrNo,
 		java.lang.Double nutrVal,
 		java.lang.String units
 	) {
 		this.ndbNo = ndbNo;
 		this.nutrdesc = nutrdesc;
+		this.nutrNo = nutrNo;
 		this.nutrVal = nutrVal;
 		this.units = units;
 	}
@@ -52,6 +55,15 @@ public class VFoodNutrient implements java.io.Serializable {
 
 	public void setNutrdesc(java.lang.String nutrdesc) {
 		this.nutrdesc = nutrdesc;
+	}
+
+	@javax.persistence.Column(name = "NUTR_NO", length = 3)
+	public java.lang.String getNutrNo() {
+		return this.nutrNo;
+	}
+
+	public void setNutrNo(java.lang.String nutrNo) {
+		this.nutrNo = nutrNo;
 	}
 
 	@javax.persistence.Column(name = "NUTR_VAL", precision = 22)

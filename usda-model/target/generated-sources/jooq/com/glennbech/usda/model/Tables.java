@@ -71,6 +71,11 @@ public class Tables {
 	/**
 	 * VIEW
 	 */
+	public static final com.glennbech.usda.model.tables.VFoodLangual V_FOOD_LANGUAL = com.glennbech.usda.model.tables.VFoodLangual.V_FOOD_LANGUAL;
+
+	/**
+	 * VIEW
+	 */
 	public static final com.glennbech.usda.model.tables.VFoodNutrient V_FOOD_NUTRIENT = com.glennbech.usda.model.tables.VFoodNutrient.V_FOOD_NUTRIENT;
 
 	/**

@@ -13,9 +13,9 @@ package com.glennbech.usda.model.tables.records;
 @java.lang.SuppressWarnings({ "all", "unchecked", "rawtypes" })
 @javax.persistence.Entity
 @javax.persistence.Table(name = "v_food_nutrient", schema = "usda")
-public class VFoodNutrientRecord extends org.jooq.impl.TableRecordImpl<com.glennbech.usda.model.tables.records.VFoodNutrientRecord> implements org.jooq.Record4<java.lang.String, java.lang.String, java.lang.Double, java.lang.String> {
+public class VFoodNutrientRecord extends org.jooq.impl.TableRecordImpl<com.glennbech.usda.model.tables.records.VFoodNutrientRecord> implements org.jooq.Record5<java.lang.String, java.lang.String, java.lang.String, java.lang.Double, java.lang.String> {
 
-	private static final long serialVersionUID = 727514639;
+	private static final long serialVersionUID = 1376292714;
 
 	/**
 	 * Setter for <code>usda.v_food_nutrient.NDB_NO</code>.
@@ -48,10 +48,25 @@ public class VFoodNutrientRecord extends org.jooq.impl.TableRecordImpl<com.glenn
 	}
 
 	/**
+	 * Setter for <code>usda.v_food_nutrient.NUTR_NO</code>.
+	 */
+	public void setNutrNo(java.lang.String value) {
+		setValue(2, value);
+	}
+
+	/**
+	 * Getter for <code>usda.v_food_nutrient.NUTR_NO</code>.
+	 */
+	@javax.persistence.Column(name = "NUTR_NO", length = 3)
+	public java.lang.String getNutrNo() {
+		return (java.lang.String) getValue(2);
+	}
+
+	/**
 	 * Setter for <code>usda.v_food_nutrient.NUTR_VAL</code>.
 	 */
 	public void setNutrVal(java.lang.Double value) {
-		setValue(2, value);
+		setValue(3, value);
 	}
 
 	/**
@@ -59,14 +74,14 @@ public class VFoodNutrientRecord extends org.jooq.impl.TableRecordImpl<com.glenn
 	 */
 	@javax.persistence.Column(name = "NUTR_VAL", precision = 22)
 	public java.lang.Double getNutrVal() {
-		return (java.lang.Double) getValue(2);
+		return (java.lang.Double) getValue(3);
 	}
 
 	/**
 	 * Setter for <code>usda.v_food_nutrient.UNITS</code>.
 	 */
 	public void setUnits(java.lang.String value) {
-		setValue(3, value);
+		setValue(4, value);
 	}
 
 	/**
@@ -74,27 +89,27 @@ public class VFoodNutrientRecord extends org.jooq.impl.TableRecordImpl<com.glenn
 	 */
 	@javax.persistence.Column(name = "UNITS", length = 7)
 	public java.lang.String getUnits() {
-		return (java.lang.String) getValue(3);
+		return (java.lang.String) getValue(4);
 	}
 
 	// -------------------------------------------------------------------------
-	// Record4 type implementation
+	// Record5 type implementation
 	// -------------------------------------------------------------------------
 
 	/**
 	 * {@inheritDoc}
 	 */
 	@Override
-	public org.jooq.Row4<java.lang.String, java.lang.String, java.lang.Double, java.lang.String> fieldsRow() {
-		return (org.jooq.Row4) super.fieldsRow();
+	public org.jooq.Row5<java.lang.String, java.lang.String, java.lang.String, java.lang.Double, java.lang.String> fieldsRow() {
+		return (org.jooq.Row5) super.fieldsRow();
 	}
 
 	/**
 	 * {@inheritDoc}
 	 */
 	@Override
-	public org.jooq.Row4<java.lang.String, java.lang.String, java.lang.Double, java.lang.String> valuesRow() {
-		return (org.jooq.Row4) super.valuesRow();
+	public org.jooq.Row5<java.lang.String, java.lang.String, java.lang.String, java.lang.Double, java.lang.String> valuesRow() {
+		return (org.jooq.Row5) super.valuesRow();
 	}
 
 	/**
@@ -117,7 +132,15 @@ public class VFoodNutrientRecord extends org.jooq.impl.TableRecordImpl<com.glenn
 	 * {@inheritDoc}
 	 */
 	@Override
-	public org.jooq.Field<java.lang.Double> field3() {
+	public org.jooq.Field<java.lang.String> field3() {
+		return com.glennbech.usda.model.tables.VFoodNutrient.V_FOOD_NUTRIENT.NUTR_NO;
+	}
+
+	/**
+	 * {@inheritDoc}
+	 */
+	@Override
+	public org.jooq.Field<java.lang.Double> field4() {
 		return com.glennbech.usda.model.tables.VFoodNutrient.V_FOOD_NUTRIENT.NUTR_VAL;
 	}
 
@@ -125,7 +148,7 @@ public class VFoodNutrientRecord extends org.jooq.impl.TableRecordImpl<com.glenn
 	 * {@inheritDoc}
 	 */
 	@Override
-	public org.jooq.Field<java.lang.String> field4() {
+	public org.jooq.Field<java.lang.String> field5() {
 		return com.glennbech.usda.model.tables.VFoodNutrient.V_FOOD_NUTRIENT.UNITS;
 	}
 
@@ -149,7 +172,15 @@ public class VFoodNutrientRecord extends org.jooq.impl.TableRecordImpl<com.glenn
 	 * {@inheritDoc}
 	 */
 	@Override
-	public java.lang.Double value3() {
+	public java.lang.String value3() {
+		return getNutrNo();
+	}
+
+	/**
+	 * {@inheritDoc}
+	 */
+	@Override
+	public java.lang.Double value4() {
 		return getNutrVal();
 	}
 
@@ -157,7 +188,7 @@ public class VFoodNutrientRecord extends org.jooq.impl.TableRecordImpl<com.glenn
 	 * {@inheritDoc}
 	 */
 	@Override
-	public java.lang.String value4() {
+	public java.lang.String value5() {
 		return getUnits();
 	}
 
@@ -183,7 +214,16 @@ public class VFoodNutrientRecord extends org.jooq.impl.TableRecordImpl<com.glenn
 	 * {@inheritDoc}
 	 */
 	@Override
-	public VFoodNutrientRecord value3(java.lang.Double value) {
+	public VFoodNutrientRecord value3(java.lang.String value) {
+		setNutrNo(value);
+		return this;
+	}
+
+	/**
+	 * {@inheritDoc}
+	 */
+	@Override
+	public VFoodNutrientRecord value4(java.lang.Double value) {
 		setNutrVal(value);
 		return this;
 	}
@@ -192,7 +232,7 @@ public class VFoodNutrientRecord extends org.jooq.impl.TableRecordImpl<com.glenn
 	 * {@inheritDoc}
 	 */
 	@Override
-	public VFoodNutrientRecord value4(java.lang.String value) {
+	public VFoodNutrientRecord value5(java.lang.String value) {
 		setUnits(value);
 		return this;
 	}
@@ -201,7 +241,7 @@ public class VFoodNutrientRecord extends org.jooq.impl.TableRecordImpl<com.glenn
 	 * {@inheritDoc}
 	 */
 	@Override
-	public VFoodNutrientRecord values(java.lang.String value1, java.lang.String value2, java.lang.Double value3, java.lang.String value4) {
+	public VFoodNutrientRecord values(java.lang.String value1, java.lang.String value2, java.lang.String value3, java.lang.Double value4, java.lang.String value5) {
 		return this;
 	}
 
@@ -219,12 +259,13 @@ public class VFoodNutrientRecord extends org.jooq.impl.TableRecordImpl<com.glenn
 	/**
 	 * Create a detached, initialised VFoodNutrientRecord
 	 */
-	public VFoodNutrientRecord(java.lang.String ndbNo, java.lang.String nutrdesc, java.lang.Double nutrVal, java.lang.String units) {
+	public VFoodNutrientRecord(java.lang.String ndbNo, java.lang.String nutrdesc, java.lang.String nutrNo, java.lang.Double nutrVal, java.lang.String units) {
 		super(com.glennbech.usda.model.tables.VFoodNutrient.V_FOOD_NUTRIENT);
 
 		setValue(0, ndbNo);
 		setValue(1, nutrdesc);
-		setValue(2, nutrVal);
-		setValue(3, units);
+		setValue(2, nutrNo);
+		setValue(3, nutrVal);
+		setValue(4, units);
 	}
 }

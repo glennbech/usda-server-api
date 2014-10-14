@@ -1,5 +1,6 @@
 package com.glennbech.usda.resource;
 
+import org.jooq.DSLContext;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationContext;
 import org.springframework.jdbc.core.JdbcTemplate;
@@ -16,9 +17,10 @@ import javax.sql.DataSource;
 public class BaseResource {
 
     @Autowired
-    private DataSource dataSource ;
+    private DataSource dataSource;
 
-    private static JdbcTemplate jdbcTemplate ;
+    private static JdbcTemplate jdbcTemplate;
+    private DSLContext dslContext;
 
     JdbcTemplate getJdbcTemplate() {
         if (jdbcTemplate == null) {
@@ -28,4 +30,13 @@ public class BaseResource {
         }
         return jdbcTemplate;
     }
+
+    DSLContext getContext() {
+        if (dslContext == null) {
+            ApplicationContext context = ContextLoader.getCurrentWebApplicationContext();
+            return (DSLContext) context.getBean("dsl");
+        }
+        return dslContext;
+    }
+
 }

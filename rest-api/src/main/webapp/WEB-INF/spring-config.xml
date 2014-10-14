@@ -26,6 +26,30 @@
         </property>
         <property name="ignoreResourceNotFound" value="true"/>
     </bean>
+    <bean class="org.jooq.impl.DataSourceConnectionProvider" name="connectionProvider">
+        <constructor-arg ref="dataSource" />
+    </bean>
+
+    <!-- Configure the DSL object, optionally overriding jOOQ Exceptions with Spring Exceptions -->
+    <bean id="dsl" class="org.jooq.impl.DefaultDSLContext">
+        <constructor-arg ref="config" />
+    </bean>
+
+
+    <!-- Invoking an internal, package-private constructor for the example
+         Implement your own Configuration for more reliable behaviour -->
+    <bean class="org.jooq.impl.DefaultConfiguration" name="config">
+        <constructor-arg index="0" ref="connectionProvider" />
+        <!-- Pass in your jOOQ TransactionProvider if you want to use jOOQ's transaction API -->
+        <constructor-arg index="1"><null /></constructor-arg>
+        <constructor-arg index="2"><null /></constructor-arg>
+        <constructor-arg index="3"><null /></constructor-arg>
+        <constructor-arg index="4"><null /></constructor-arg>
+        <constructor-arg index="5"><null /></constructor-arg>
+        <constructor-arg index="6"><value type="org.jooq.SQLDialect">MYSQL</value></constructor-arg>
+        <constructor-arg index="7"><null /></constructor-arg>
+        <constructor-arg index="8"><null /></constructor-arg>
+    </bean>
 
 </beans>
 

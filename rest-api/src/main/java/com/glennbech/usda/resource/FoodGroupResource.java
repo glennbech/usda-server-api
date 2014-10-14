@@ -3,8 +3,6 @@ package com.glennbech.usda.resource;
 
 import com.glennbech.usda.Constants;
 import com.glennbech.usda.model.FoodGroup;
-import com.glennbech.usda.model.FoodItem;
-import com.glennbech.usda.model.SearchResult;
 import org.springframework.jdbc.core.RowMapper;
 
 import javax.ws.rs.*;
@@ -50,14 +48,8 @@ public class FoodGroupResource extends BaseResource {
             return Response.status(Response.Status.BAD_REQUEST).entity("Please use a pagesize of 50 or below").build();
         }
 
-        final String countSQL= "select count(*) from FOOD_DES where FOOD_DES.FDGRP_CD = ?" ;
-        final String[] countArguments = new String[] {foodGroupNumber} ;
-        final String querySQL = "select * FROM FOOD_DES, FD_GROUP where FOOD_DES.FDGRP_CD = ? AND FOOD_DES.FDGRP_CD = FD_GROUP.FDGRP_CD LIMIT ?,?";
-        final Object[] quryArguments = new Object[] {foodGroupNumber, page * pageSize, pageSize} ;
-
-        PagedQuery <FoodItem> foodItemsQuery = new PagedQuery<FoodItem>(getJdbcTemplate());
-        SearchResult<FoodItem> items = foodItemsQuery.query(countSQL, countArguments, querySQL, quryArguments, new FoodItemRowMapper(), pageSize, page);
-        return Response.ok().entity(items).build();
+        //todo put in
+        return Response.ok().build();
     }
 
 }

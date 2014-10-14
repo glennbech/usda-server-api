@@ -11,7 +11,7 @@ package com.glennbech.usda.model;
 @java.lang.SuppressWarnings({ "all", "unchecked", "rawtypes" })
 public class Usda extends org.jooq.impl.SchemaImpl {
 
-	private static final long serialVersionUID = 71281151;
+	private static final long serialVersionUID = 1277870394;
 
 	/**
 	 * The singleton instance of <code>usda</code>
@@ -45,6 +45,7 @@ public class Usda extends org.jooq.impl.SchemaImpl {
 			com.glennbech.usda.model.tables.NutrDef.NUTR_DEF,
 			com.glennbech.usda.model.tables.NutData.NUT_DATA,
 			com.glennbech.usda.model.tables.SrcCd.SRC_CD,
+			com.glennbech.usda.model.tables.VFoodLangual.V_FOOD_LANGUAL,
 			com.glennbech.usda.model.tables.VFoodNutrient.V_FOOD_NUTRIENT,
 			com.glennbech.usda.model.tables.Weight.WEIGHT);
 	}
